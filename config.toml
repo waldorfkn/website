@@ -1,7 +1,7 @@
 baseURL = "https://waldorfkindergartern-konstanz.de"
 title = "Waldorfkindergarten Konstanz"
 
-theme = "waldorfkn"
+theme = ["waldorfkn", "hugomods-images", "hugo-cloak-email"]
 # Site languages. Available translations in the theme's `/i18n` directory.
 languageCode = "de"
 defaultContentLanguage = "de"
