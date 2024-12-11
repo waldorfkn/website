@@ -1,15 +1,15 @@
 name = "Waldorfkindergarten Konstanz"
 license = "MIT"
-licenselink = "https://github.com/devcows/hugo-universal-theme/blob/master/LICENSE"
+licenselink = "https://github.com/waldorfkn/website/blob/main/themes/waldorfkn/LICENSE"
 description = "A fork of the Universal Hugo theme"
-homepage = "https://github.com/devcows/hugo-universal-theme"
+homepage = "https://github.com/waldorfkn/website/tree/main/themes/waldorfkn"
 tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive"]
 features = ["blog", "themes", "disqus", "minimal", "responsive"]
-min_version = 0.15
+min_version = 0.139
 
 [author]
-    name = "devcows"
-    homepage = "https://github.com/devcows"
+    name = "mxmehl"
+    homepage = "https://github.com/mxmehl"
 
 # If Porting existing theme
 [original]
