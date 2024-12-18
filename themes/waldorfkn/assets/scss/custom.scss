@@ -8,3 +8,8 @@
 .navbar ul.nav > li > a {
   text-decoration: none;
 }
+
+// Limit max width of carousel, which previously went crazy in small screens
+.owl-wrapper {
+  width: calc(100vw - 180px) !important;
+}
