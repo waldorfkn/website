@@ -2,7 +2,8 @@
 {{ if isset .Site.Data "carousel" }}
 {{ if gt (len .Site.Data.carousel) 0 }}
 <section>
-    <div class="home-carousel">
+    {{- $carouselimg := (resources.Get .Site.Params.CarouselHomepage.background_image).Crop "1900x500 Top" }}
+    <div class="home-carousel" style="--background-image: url({{ $carouselimg.RelPermalink }});">
         <div class="dark-mask"></div>
         <div class="container">
             <div class="homepage owl-carousel"
@@ -15,12 +16,9 @@
                     <a href="{{ .href }}" target="_blank" title="{{ .title | safeHTML }}">
                     {{ end }}
                         <div class="row">
-                            <div class="col-sm-5 right">
+                            <div class="col-sm-12">
                                 <h1>{{ .title | safeHTML }}</h1>
                                 {{ .description | safeHTML }}
-                            </div>
-                            <div class="col-sm-7">
-                                <img class="img-responsive" src="{{ .image }}" alt="">
                             </div>
                         </div>
                     {{ if .href }}

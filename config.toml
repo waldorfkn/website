@@ -159,6 +159,7 @@ pagerSize = 10
     auto_play = true
     slide_speed = 2000
     pagination_speed = 1000
+    background_image = "images/stock/blaetter.jpg"
 
 [params.features]
     enable = true
