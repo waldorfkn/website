@@ -4,3 +4,7 @@
     max-width: calc(100vw - 70px); // In xs screens, the logo makes place for the navbar menu
   }
 }
+
+.navbar ul.nav > li > a {
+  text-decoration: none;
+}

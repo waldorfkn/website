@@ -1,7 +1,9 @@
-+++
-title = "Contact"
-id = "contact"
-+++
+---
+title: Kontakt
+menus:
+  main:
+    weight: 6
+---
 
 # We are here to help you
 
