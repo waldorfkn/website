@@ -1,8 +1,24 @@
 .carousel {
   position: relative;
 
-  .c_slide {
-    padding-bottom: 25%;
+  .c-slide {
+    padding-bottom: clamp(200px, 25%, 400px);
+  }
+
+  .c-text {
+    padding: 0 50px;
+  }
+
+  .c-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-accent);
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    z-index: 2;
   }
 
   ul {
@@ -38,10 +54,12 @@
       }
 
       >img {
+        z-index: 1;
         object-fit: cover;
       }
 
       >div {
+        z-index: 3;
         display: flex;
         justify-content: center;
         align-items: center;
