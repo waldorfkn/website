@@ -1,36 +1,24 @@
-{{ if default true .Site.Params.CarouselHomepage.enable }}
-{{ if isset .Site.Data "carousel" }}
-{{ if gt (len .Site.Data.carousel) 0 }}
-<section>
-    {{- $carouselimg := (resources.Get .Site.Params.CarouselHomepage.background_image).Crop "1900x500 Top" }}
-    <div class="home-carousel" style="--background-image: url({{ $carouselimg.RelPermalink }});">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel"
-                data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
-                data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
-                data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
-                {{ range sort .Site.Data.carousel "weight" }}
-                <div class="item">
-                    {{ if .href }}
-                    <a href="{{ .href }}" target="_blank" title="{{ .title | safeHTML }}">
-                    {{ end }}
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <p class="carousel-title">{{ .title | safeHTML }}</p>
-                                <p>{{ .description | markdownify }}</p>
-                            </div>
-                        </div>
-                    {{ if .href }}
-                    </a>
-                    {{ end }}
-                </div>
-                {{ end }}
-            </div>
-            <!-- /.project owl-slider -->
-        </div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
+{{ .context.Scratch.Set "height" .height }}
+{{ .context.Scratch.Set "unit" .unit }}
+{{ .context.Scratch.Set "items" .items }}
+<div id="carousel" class="carousel" duration="{{ .duration }}" items="{{ .items }}">
+  <ul>
+    {{ range $index, $slide := .context.Site.Data.carousel.images }}
+    <li id="c_slide{{ add $index 1}}" style="min-width: calc(100%/{{ $.context.Scratch.Get " items" }}); padding-bottom: {{ $.context.Scratch.Get "height" }}{{ $.context.Scratch.Get "unit" }};">
+      {{- $carouselimg := (resources.Get $slide.image).Crop "1900x500 Top" }}
+      {{/*  <div class="home-carousel" style="--background-image: url({{ $carouselimg.RelPermalink }});">  */}}
+      <img src="{{ $carouselimg.RelPermalink }}" alt="" />
+      <div>
+        <div>{{ $slide.content_html }}</div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+  <ol>
+    {{ range $index, $page := .context.Site.Data.carousel.images }}
+    <li><a href="#c_slide{{ add $index 1 }}"></a></li>
+    {{ end }}
+  </ol>
+  <div class="prev">&lsaquo;</div>
+  <div class="next">&rsaquo;</div>
+</div>
