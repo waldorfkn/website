@@ -1,13 +1,6 @@
-.box-image-text .image {
-  min-height: 190px;
-  max-height: 190px;
-}
-
-.box-image-text .image img {
-  max-height: 190px;
-  margin: auto;
-}
-
-.box-simple {
-  min-height: 230px;
+.navbar-brand {
+  img {
+    max-height: 50px; // larger than the default 42px
+    max-width: calc(100vw - 70px); // In xs screens, the logo makes place for the navbar menu
+  }
 }

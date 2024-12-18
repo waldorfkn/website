@@ -16,14 +16,6 @@ pluralizelisttitles = false
 [pagination]
 pagerSize = 10
 
-[services]
-[services.disqus]
-# Enable comments by entering your Disqus shortname
-Shortname = "devcows"
-[services.googleAnalytics]
-# Enable Google Analytics by entering your tracking code
-id = ""
-
 [menu]
 
 # Main menu
@@ -357,39 +349,6 @@ id = ""
     url        = "/contact/"
     weight     = 7
 
-
-# Top bar social links menu
-
-[[menu.topbar]]
-    weight = 1
-    name = "Phone"
-    url = "tel:+12 34 567 89 01"
-    pre = "<i class='fas fa-2x fa-phone'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 5
-    name = "Email"
-    url = "mailto:hello@universal.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
-
 [params]
     viewMorePostLink = "/blog/"
     author = "DevCows"
@@ -410,7 +369,7 @@ id = ""
     longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "red"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -457,8 +416,10 @@ id = ""
     disabled_logo = false
     logo_text = "Universal"
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo_xs = "images/logo-long.png"
+    logo_sm = "images/logo-long.png"
+    logo_md = "images/logo.png"
+    logo_lg = "images/logo-long.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
@@ -475,12 +436,8 @@ id = ""
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
+    enable = false
+    text = ""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -553,3 +510,9 @@ id = ""
   category = "categories"
   tag = "tags"
   author = "authors"
+
+# Modules
+[module]
+    [[module.mounts]]
+        source = "static/img"
+        target = "assets/images"
