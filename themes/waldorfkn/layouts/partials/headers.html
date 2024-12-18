@@ -26,9 +26,9 @@
 <!-- CSS animations  -->
 <link href="{{ "css/animate.css" | relURL }}" rel="stylesheet">
 
-<!-- Theme stylesheet, combination of all in assets/sass -->
-{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "enableSourceMap" false) }}
-<link rel="stylesheet" href="{{ ($style).RelPermalink }}?v={{ md5 hugo.BuildDate }}">
+<!-- Theme stylesheet, combination of all in assets/scss -->
+{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "enableSourceMap" false) }}
+<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
 
 <!-- Responsivity for older IE -->
 {{ `

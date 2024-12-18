@@ -210,3 +210,8 @@ pagerSize = 10
     [[module.mounts]]
         source = "static/img"
         target = "assets/images"
+
+[build]
+[[build.cacheBusters]]
+source = 'assets/scss/.*\.scss'
+target = 'css'
