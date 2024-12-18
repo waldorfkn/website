@@ -53,11 +53,13 @@
         height: 100%;
       }
 
+      // Image
       >img {
         z-index: 1;
         object-fit: cover;
       }
 
+      // Text
       >div {
         z-index: 3;
         display: flex;
@@ -65,7 +67,12 @@
         align-items: center;
         color: white;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 40px;
+        text-shadow: 0px 0px 15px black;
+
+        @media (max-width: 767px) {
+          font-size: 28px;
+        }
       }
     }
   }
