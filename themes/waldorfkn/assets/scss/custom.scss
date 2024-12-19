@@ -5,11 +5,35 @@
   }
 }
 
-.navbar ul.nav > li > a {
+.navbar ul.nav>li>a {
   text-decoration: none;
 }
 
-// Limit max width of carousel, which previously went crazy in small screens
-.owl-wrapper {
-  width: calc(100vw - 180px) !important;
+// Features
+section.features {
+  .icon {
+    font-size: 35px;
+  }
+
+  .box-simple {
+    mark {
+      $focus: 10%;
+      margin: 0 -0.4em;
+      padding: 0.1em 0.4em;
+      border-radius: 0.8em 0.3em;
+      background: transparent;
+      background-image: linear-gradient(to right,
+          /* Gradient direction: left to right */
+          rgba(255, 217, 146, 0.1),
+          /* Start with very transparent #ffd992 (soft yellow) */
+          rgba(255, 153, 36, 0.4) var(--focus),
+          /* Transition to a gentle #ff9924 (friendly orange) */
+          rgba(255, 217, 146, 0.3)
+          /* End with slightly transparent #ffd992 again */
+        );
+
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+    }
+  }
 }
