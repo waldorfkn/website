@@ -1,0 +1,59 @@
+name: Website build and deploy
+
+on:
+  push:
+    branches:
+      - main # Deploy branch
+
+  # Run on PRs, but only build
+  pull_request:
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout with submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive # Get submdules
+          fetch-depth: 1 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build website with Hugo
+        run: hugo
+
+      - name: Copy website to host
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: waldorfkindergarten-konstanz.de
+          username: waldorfk
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          timeout: 1m
+          command_timeout: 2m
+          # TODO: change to prod once ready
+          target: "/var/www/virtual/waldorfk/neu.waldorfkindergarten-konstanz.de/"
+          source: "public/*"
+          rm: true
+          strip_components: 1
+        if: github.ref == 'refs/heads/main'
