@@ -45,9 +45,10 @@ pagerSize = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
+    author = "Waldorfkindergarten Konstanz"
+    defaultKeywords = []
+    mainSections = ["news"]
+    eventSections = ["events"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
@@ -151,7 +152,8 @@ pagerSize = 10
     enable = true
     title = "Veranstaltungen"
     subtitle = "Große und kleine Veranstaltungen und Feste sind fester Bestandteil des Kindergartenjahres. Sie sind eine hervorragende Möglichkeit für Kinder, Eltern und Erzieher:innen, sich besser kennenzulernen und gemeinsam Zeit zu verbringen. Darüber hinaus verbinden sie uns mit der Nachbarschaft und bieten Interessierten einen tollen Einblick."
-    hide_summary = false
+    hide_summary = true
+    limit = 5
 
 [params.footer.recent_posts]
     enable = true

@@ -15,52 +15,56 @@
             <!-- *** BLOG HOMEPAGE *** -->
 
             <div class="row">
-                {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-                {{ range first 4 $posts.Pages }}
-                <div class="col-md-3 col-sm-6">
-                    <div class="box-image-text blog">
-                        <div class="top">
-                            <div class="image" style="overflow:hidden">
-                                {{ if isset .Params "banner" }}
-                                <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" />
-                                {{ else }}
-                                <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="" />
-                                {{ end }}
+                {{/* Sort events by event date and limit the number of events to show on the homepage */}}
+                {{- $events := sort (where .Site.RegularPages "Type" "in" .Site.Params.eventSections) ".Params.event_date" }}
+                {{- $limit := (.Site.Params.events.limit | default 3) }}
+                {{- range first $limit $events }}
+                    {{- if ge (time .Params.event_date).Unix now.Unix }}
+                    <div class="col-md-3 col-sm-6">
+                        <div class="box-image-text blog">
+                            <div class="top">
+                                <div class="image" style="overflow:hidden">
+                                    {{ if isset .Params "banner" }}
+                                    <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" />
+                                    {{ else }}
+                                    <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="" />
+                                    {{ end }}
+                                </div>
+                                <div class="bg"></div>
+                                <div class="text">
+                                    <p class="buttons">
+                                        <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="bg"></div>
-                            <div class="text">
-                                <p class="buttons">
-                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
+
+                            <div class="content">
+                                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                                <p class="author-category">
+                                {{ if isset .Params "authors" }}
+                                    {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                                {{ end }}
+                                {{ if .Params.date }}
+                                    {{ $createdAt := .Date.Format .Site.Params.date_format }}
+                                    {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                        {{ $createdAt = replace $createdAt $month (i18n $month) }}
+                                    {{ end }}
+                                    {{ i18n "publishedOn" }} {{ $createdAt }}
+                                {{ end }}
                                 </p>
+                                {{ if not .Site.Params.events.hide_summary }}
+                                <p class="intro">{{ .Summary }}</p>
+                                <p class="read-more">
+                                <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                </p>
+                                {{ end }}
                             </div>
                         </div>
+                        <!-- /.box-image-text -->
 
-                        <div class="content">
-                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                            <p class="author-category">
-			    {{ if isset .Params "authors" }}
-			      {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
-                            {{ end }}
-                            {{ if .Params.date }}
-                                {{ $createdAt := .Date.Format .Site.Params.date_format }}
-                                {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
-                                    {{ $createdAt = replace $createdAt $month (i18n $month) }}
-                                {{ end }}
-                                {{ i18n "publishedOn" }} {{ $createdAt }}
-                            {{ end }}
-                            </p>
-                            {{ if not .Site.Params.events.hide_summary }}
-                            <p class="intro">{{ .Summary }}</p>
-                            <p class="read-more">
-                              <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
-                            </p>
-                            {{ end }}
-                        </div>
-                    </div>
-                    <!-- /.box-image-text -->
-
-                </div>
-                {{ end }}
+                    </div> <!-- /event -->
+                    {{- end }}
+                {{- end }}
 
             </div>
             <!-- /.row -->
