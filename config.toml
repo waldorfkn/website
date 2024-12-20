@@ -147,10 +147,10 @@ pagerSize = 10
     title = "Our Clients"
     subtitle = ""
 
-[params.recent_posts]
+[params.events]
     enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    title = "Veranstaltungen"
+    subtitle = "Große und kleine Veranstaltungen und Feste sind fester Bestandteil des Kindergartenjahres. Sie sind eine hervorragende Möglichkeit für Kinder, Eltern und Erzieher:innen, sich besser kennenzulernen und gemeinsam Zeit zu verbringen. Darüber hinaus verbinden sie uns mit der Nachbarschaft und bieten Interessierten einen tollen Einblick."
     hide_summary = false
 
 [params.footer.recent_posts]
