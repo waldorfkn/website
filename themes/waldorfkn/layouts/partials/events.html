@@ -30,12 +30,14 @@
                                     <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="" />
                                     {{ end }}
                                 </div>
-                                <div class="bg"></div>
-                                <div class="text">
+                                <a href="{{ .Permalink }}" title="{{ i18n "readMore" }}">
+                                    <div class="bg"></div>
+                                </a>
+                                {{/*  <div class="text">
                                     <p class="buttons">
                                         <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
                                     </p>
-                                </div>
+                                </div>  */}}
                             </div>
 
                             <div class="content">
