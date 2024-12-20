@@ -199,7 +199,7 @@ ul.list-style-none {
 #text-page h1,
 #text-page h2,
 #text-page h3 {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #error-page {
@@ -354,7 +354,7 @@ ul.list-style-none {
   margin-right: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.10em;
 }
 
@@ -381,7 +381,8 @@ ul.list-style-none {
 .navbar ul.nav>li>a {
   text-transform: uppercase;
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 15px;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
 }
@@ -628,8 +629,8 @@ ul.list-style-none {
 
 /* buttons  */
 .btn {
-  font-weight: 700;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
@@ -883,7 +884,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #intro .item {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   height: 100%;
 }
 
@@ -1036,12 +1037,12 @@ fieldset[disabled] .btn-template-primary.active {
 .panel.sidebar-menu ul.nav.category-menu {
   margin-bottom: 20px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.08em;
 }
 
 .panel.sidebar-menu ul.nav.category-menu li a {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
 }
 
 .panel.sidebar-menu ul.nav ul {
@@ -1089,7 +1090,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 5px 5px 5px 0;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
   text-decoration: none;
 }
@@ -1193,7 +1194,7 @@ fieldset[disabled] .btn-template-primary.active {
   position: absolute;
   top: 50px;
   padding-left: 51px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.08em;
 }
 
@@ -1210,7 +1211,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 30px 10px 10px -71px;
   color: #fff;
   background-color: var(--primary-accent);
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
 }
 
 .ribbon .theribbon:before,
@@ -1523,7 +1524,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 0.08em;
 }
 
@@ -1532,7 +1533,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .box-simple p {
-  color: #999999;
+  color: #707070;
 }
 
 .box-simple:hover .icon {
@@ -1739,7 +1740,7 @@ fieldset[disabled] .btn-template-primary.active {
       text-transform: uppercase;
       line-height: 1.5;
       color: #555555;
-      font-weight: 800;
+      font-weight: 600;
       letter-spacing: 0.08em;
     }
 
@@ -1879,7 +1880,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #333333;
   text-transform: uppercase;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.08em;
 }
 
@@ -2412,7 +2413,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #blog-post .comment .reply {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
 }
 
 #blog-post .comment.last {
@@ -2494,7 +2495,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .product .text h3 {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   height: 39.6px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -2577,7 +2578,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #productMain .sizes h3 {
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -2593,7 +2594,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #555555;
   text-align: center;
   text-decoration: none;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
 }
 
 #productMain .sizes a.active,
@@ -2708,7 +2709,7 @@ fieldset[disabled] .btn-template-primary.active {
 #order-summary table tr.total th {
   font-size: 18px;
   color: #555555;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #checkout .table tbody tr td,
@@ -2805,8 +2806,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #footer h4 {
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 1em;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -2962,7 +2963,7 @@ fieldset[disabled] .btn-template-primary.active {
 /* Original Boostrap template overwrite */
 /* breadcrumbs */
 .breadcrumb {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   background-color: none;
   letter-spacing: 0.08em;
@@ -3576,8 +3577,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #555555;
 }
@@ -3668,7 +3669,7 @@ hr {
 
 /* labels */
 .label {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -3703,7 +3704,7 @@ label {
   padding-top: 20px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
 }
 
 .pager li {
@@ -3736,7 +3737,7 @@ label {
 /* pagination */
 .pagination {
   margin: 20px 0;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
   border-radius: 0;
 }
 
@@ -3820,8 +3821,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 900;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   line-height: 1.1;
   color: #333333;
 }

@@ -1,3 +1,8 @@
+/* font fix */
+strong {
+  font-weight: 600;
+}
+
 .navbar-brand {
   img {
     max-height: 50px; // larger than the default 42px
