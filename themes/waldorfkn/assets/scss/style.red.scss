@@ -1678,6 +1678,16 @@ fieldset[disabled] .btn-template-primary.active {
     position: relative;
     margin-bottom: 10px;
 
+    .date {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: var(--primary-accent);
+      padding: 3px 5px;
+      color: #fff;
+      z-index: 1;
+    }
+
     .bg {
       position: absolute;
       top: auto;
