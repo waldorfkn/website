@@ -1673,101 +1673,108 @@ fieldset[disabled] .btn-template-primary.active {
   overflow: hidden;
   text-align: center;
   margin: 15px 0;
+
+  .top {
+    position: relative;
+    margin-bottom: 10px;
+
+    .bg {
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      background: var(--primary-accent);
+    }
+
+    .name {
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      bottom: 0;
+      transform: translate(0, 100%);
+      transition: all 0.2s ease-out;
+      color: #fff;
+      padding: 0 20px;
+
+      h3 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 0.08em;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .text {
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      top: 0;
+      transform: translate(0, -150%);
+      transition: all 0.2s ease-out;
+      color: #fff;
+      padding: 0 20px;
+    }
+  }
+
+  .content {
+    h3, h4 {
+      text-transform: uppercase;
+      line-height: 1.5;
+      color: #555555;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+    }
+
+    p {
+      color: #999999;
+    }
+  }
+
+  &:hover {
+    .bg {
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+    }
+
+    .name {
+      position: absolute;
+      transform: translate(0, -75%);
+    }
+
+    .text {
+      position: absolute;
+      transform: translate(0, 100%);
+    }
+  }
+
+  &.blog {
+    .author-category {
+      color: #999999;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 300;
+      font-size: 12px;
+
+      a {
+        font-weight: 500;
+      }
+    }
+
+    .intro {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+  }
 }
 
-.box-image-text .top {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.box-image-text .top .bg {
-  position: absolute;
-  top: auto;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  background: var(--primary-accent);
-}
-
-.box-image-text .top .name {
-  position: absolute;
-  width: 100%;
-  height: 50%;
-  bottom: 0;
-  -webkit-transform: translate(0, 100%);
-  -ms-transform: translate(0, 100%);
-  -o-transform: translate(0, 100%);
-  transform: translate(0, 100%);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  color: #fff;
-  padding: 0 20px;
-}
-
-.box-image-text .top .name h3 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 0.08em;
-}
-
-.box-image-text .top .name h3 a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.box-image-text .top .text {
-  position: absolute;
-  width: 100%;
-  height: 50%;
-  top: 0;
-  -webkit-transform: translate(0, -150%);
-  -ms-transform: translate(0, -150%);
-  -o-transform: translate(0, -150%);
-  transform: translate(0, -150%);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  color: #fff;
-  padding: 0 20px;
-}
-
-.box-image-text .content h3,
-.box-image-text .content h4 {
-  text-transform: uppercase;
-  line-height: 1.5;
-  color: #555555;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-}
-
-.box-image-text .content p {
-  color: #999999;
-}
-
-.box-image-text:hover .bg {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-
-.box-image-text:hover .name {
-  position: absolute;
-  -webkit-transform: translate(0, -75%);
-  -ms-transform: translate(0, -75%);
-  -o-transform: translate(0, -75%);
-  transform: translate(0, -75%);
-}
-
-.box-image-text:hover .text {
-  position: absolute;
-  -webkit-transform: translate(0, 100%);
-  -ms-transform: translate(0, 100%);
-  -o-transform: translate(0, 100%);
-  transform: translate(0, 100%);
-}
 
 /* universal box */
 .box {
@@ -2337,23 +2344,6 @@ fieldset[disabled] .btn-template-primary.active {
 
 #blog-listing-medium .post .read-more {
   text-align: right;
-}
-
-.box-image-text.blog .author-category {
-  color: #999999;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 300;
-  font-size: 12px;
-}
-
-.box-image-text.blog .author-category a {
-  font-weight: 500;
-}
-
-.box-image-text.blog .intro {
-  text-align: left;
-  margin-bottom: 20px;
 }
 
 #blog-homepage .post {
