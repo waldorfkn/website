@@ -12,7 +12,7 @@ summaryLength = 70
 # not pluralize title pages by default
 pluralizelisttitles = false
 
-disableKinds = ["categories", "taxonomy"]
+disableKinds = ["taxonomy"]
 
 # Define the number of posts per page
 [pagination]
@@ -87,21 +87,9 @@ pagerSize = 10
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
+    categories = false
+    tags = false
     search = false
-
-[params.carouselCustomers]
-    items = 6
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
-
-[params.carouselTestimonials]
-    items = 4
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
 
 [params.carouselHomepage]
     # All carousel items are defined in their own files. You can find example items
@@ -120,28 +108,12 @@ pagerSize = 10
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
 
-[params.testimonials]
-    enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
 [params.parallax1]
     enable = true
     background_image = "images/stock/pinsel-hand.jpg"
     image_crop = "1900x1000 Bottom"
     title = "\"Die Kinder schulden uns keine Dankbarkeit dafür, dass wir sie erziehen. Vielmehr haben wir ihnen dankbar dafür zu sein, dass sie sich uns anvertrauen und unser Leben mit Licht erfüllen.\""
     subtitle = "*-- Janusz Korczak*"
-
-[params.clients]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more information take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
 
 [params.events]
     enable = true
