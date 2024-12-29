@@ -4,6 +4,7 @@ menus:
   main:
     parent: angebot
     weight: 6
+  footer1:
 header_image:
   image: images/stock/handschlag.jpg
   fill: "1900x600"

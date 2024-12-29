@@ -2790,9 +2790,11 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #footer {
-  background: #555555;
+  --footer-color: #555;
+  --footer-bg-color: #ccc;
+  background: var(--footer-bg-color);
   padding: 50px 0;
-  color: #999999;
+  color: var(--footer-color);
 
   h1,
   h2,
@@ -2800,7 +2802,7 @@ fieldset[disabled] .btn-template-primary.active {
   h4,
   h5,
   h6 {
-    color: #eeeeee;
+    color: var(--footer-color);;
   }
 
   h4 {
@@ -2815,10 +2817,10 @@ fieldset[disabled] .btn-template-primary.active {
     list-style: none;
 
     a {
-      color: #999999;
+      color: var(--footer-color);;
 
       &:hover {
-        color: var(--primary-accent);
+        color: var(--link-hover-bg);
         text-decoration: none;
       }
     }
