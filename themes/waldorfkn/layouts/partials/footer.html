@@ -64,15 +64,12 @@ _________________________________________________________ -->
 <div id="copyright">
     <div class="container">
         <div class="col-md-12">
-            {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            {{ with .Site.Params.footer.copyright }}
+            <p class="pull-left">{{ . | markdownify }}</p>
             {{ end }}
-            <p class="pull-right">
-              {{ i18n "templateBy" | markdownify }} <a href="https://bootstrapious.com/universal-business-e-commerce-template">Bootstrapious</a>.
-              <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
-
-              {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
-            </p>
+            {{ with .Site.Params.footer.links }}
+            <p class="pull-right">{{ . | markdownify }}</p>
+            {{ end }}
         </div>
     </div>
 </div>

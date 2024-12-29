@@ -49,3 +49,8 @@ section.events {
     max-width: 400px;
   }
 }
+
+// Content div, making it high enough for footer to be at bottom
+#content {
+  min-height: calc(100vh - 650px);
+}

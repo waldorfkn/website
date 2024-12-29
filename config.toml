@@ -12,6 +12,8 @@ summaryLength = 70
 # not pluralize title pages by default
 pluralizelisttitles = false
 
+disableKinds = ["categories", "taxonomy"]
+
 # Define the number of posts per page
 [pagination]
 pagerSize = 10
@@ -55,8 +57,6 @@ pagerSize = 10
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
-
-    copyright = "© Verein zur Förderung der Waldorf Pädagogik e.V. seit 1989"
 
     # Format dates with Go's time formatting
     date_format = "02 January 2006"
@@ -159,7 +159,11 @@ pagerSize = 10
     headline = "Organisatorisches"
 
 [params.footer.recent_posts]
-    enable = true
+    enable = false
+
+[params.footer]
+    copyright = "© Verein zur Förderung der Waldorf Pädagogik e.V. seit 1989"
+    links = "[Impressum und Datenschutz](/impressum/) | [Credits](/credits/)"
 
 [taxonomies]
   category = "categories"
