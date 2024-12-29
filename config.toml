@@ -56,31 +56,26 @@ pagerSize = 10
     twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "© Verein zur Förderung der Waldorf Pädagogik e.V. seit 1989"
 
     # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    date_format = "02 January 2006"
 
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Universal"
+    logo_text = "Waldorfkindergarten Konstanz"
 
     logo_xs = "images/logo-long.png"
     logo_sm = "images/logo-long.png"
     logo_md = "images/logo.png"
     logo_lg = "images/logo-long.png"
-    contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
+    contact_url = "/kontakt/"
+    address = """<p>Freier Waldorfkindergarten Konstanz <br />
+    Mannheimerstraße 2 <br />
+    78467 Konstanz <br />
+    Telefon: +49 7531 929796
+    </p>"""
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -154,6 +149,14 @@ pagerSize = 10
     subtitle = "Große und kleine Veranstaltungen und Feste sind fester Bestandteil des Kindergartenjahres. Sie sind eine hervorragende Möglichkeit für Kinder, Eltern und Erzieher:innen, sich besser kennenzulernen und gemeinsam Zeit zu verbringen. Darüber hinaus verbinden sie uns mit der Nachbarschaft und bieten Interessierten einen tollen Einblick."
     hide_summary = true
     limit = 5
+
+[params.footer.menu1]
+    enable = true
+    headline = "Service"
+
+[params.footer.menu2]
+    enable = true
+    headline = "Organisatorisches"
 
 [params.footer.recent_posts]
     enable = true
