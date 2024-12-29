@@ -29,7 +29,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
-                                      <a href="{{ .Permalink }}">
+                                      <a href="{{ .RelPermalink }}">
                                           {{ if .Params.banner }}
                                           <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" />
                                           {{ else }}
@@ -39,7 +39,7 @@
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           {{ if isset .Params "authors" }}
@@ -47,7 +47,7 @@
                                           {{ end }}
                                           {{ if isset .Params "categories" }}
                                           {{ if gt (len .Params.categories) 0 }}
-                                          in 
+                                          in
                                           {{ range $index, $category := .Params.categories }}{{ if $index }}, {{ end }}
                                               <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}">{{ $category }}</a>{{ end }}
                                           {{ end }}
@@ -62,13 +62,13 @@
                                         {{ end }}
 
                                         <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ $createdAt }}</a>
+                                            <a href="{{ .RelPermalink }}"><i class="far fa-calendar"></i> {{ $createdAt }}</a>
                                         </p>
                                         {{ end }}
                                     </div>
                                     {{ if not .Site.Params.recent_posts.hide_summary }}
                                     <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                    <p class="read-more"><a href="{{ .RelPermalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                     </p>
                                     {{ end }}
                                 </div>

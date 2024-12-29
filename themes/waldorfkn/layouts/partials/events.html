@@ -29,19 +29,19 @@
                                 <div class="image" style="overflow:hidden">
                                     <img src="{{ $img.RelPermalink }}" class="img-responsive" alt="" />
                                 </div>
-                                <a href="{{ .Permalink }}" title="{{ i18n "readMore" }}">
+                                <a href="{{ .RelPermalink }}" title="{{ i18n "readMore" }}">
                                     <div class="date">{{ time.Format "2. January 2006" .Params.event_date }} </div>
                                     <div class="bg"></div>
                                 </a>
                                 {{/*  <div class="text">
                                     <p class="buttons">
-                                        <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
+                                        <a href="{{ .RelPermalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
                                     </p>
                                 </div>  */}}
                             </div>
 
                             <div class="content">
-                                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                                <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
                                 <p class="author-category">
                                 {{ if isset .Params "authors" }}
                                     {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
@@ -57,7 +57,7 @@
                                 {{ if not .Site.Params.events.hide_summary }}
                                 <p class="intro">{{ .Summary }}</p>
                                 <p class="read-more">
-                                <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                <a href="{{ .RelPermalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                 </p>
                                 {{ end }}
                             </div>
