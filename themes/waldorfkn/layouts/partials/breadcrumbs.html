@@ -1,4 +1,15 @@
-<div id="heading-breadcrumbs">
+{{ $image := "../img/texture-bw.png" }}
+{{- with .Params.header_image }}
+    {{- $image = (resources.Get .image) }}
+    {{- with .fill }}
+        {{- $image = $image.Fill . }}
+    {{- end }}
+    {{- with .crop }}
+        {{- $image = $image.Crop . }}
+    {{- end }}
+{{- $image = $image.RelPermalink }}
+{{- end }}
+<div id="heading-breadcrumbs" style="--bg-image: url({{ $image }})">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
