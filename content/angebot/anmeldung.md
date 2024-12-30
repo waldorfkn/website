@@ -1,9 +1,9 @@
 ---
-title: "Platz erhalten"
+title: "Anmeldung für Kinder"
 menus:
   main:
     parent: angebot
-    weight: 6
+    weight: 2
   footer1:
 header_image:
   image: images/stock/handschlag.jpg
