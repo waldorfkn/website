@@ -10,7 +10,7 @@
 <ul class="angle-right">
   {{- range $pages.ByParam "menus.main.weight" }}
   {{- if and (ne .Permalink $currentPage.Permalink) (.Content) }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a>: {{ .Summary | plainify | truncate 150 }}</li>
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Summary | plainify | truncate 150 }}</li>
   {{- end }}
   {{- end }}
 </ul>
