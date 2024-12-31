@@ -114,3 +114,6 @@
 
 - id: December
   translation: December
+
+- id: relatedPages
+  translation: "Related pages"

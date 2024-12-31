@@ -114,3 +114,6 @@
 
 - id: December
   translation: Dezember
+
+- id: relatedPages
+  translation: "Verwandte Seiten"

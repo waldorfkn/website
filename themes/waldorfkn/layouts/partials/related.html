@@ -1,0 +1,17 @@
+{{- $currentPage := . }}
+{{- if not .Params.hide_related_pages }}
+
+{{- $section := .Section }}
+{{- $pages := where .Site.Pages "Section" $section }}
+
+<hr />
+<h2>{{ i18n "relatedPages" }}</h2>
+
+<ul>
+  {{- range $pages.ByParam "menus.main.weight" }}
+  {{- if and (ne .Permalink $currentPage.Permalink) (.Content) }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a>: {{ .Summary | plainify | truncate 150 }}</li>
+  {{- end }}
+  {{- end }}
+</ul>
+{{- end }}
