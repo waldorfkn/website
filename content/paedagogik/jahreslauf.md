@@ -54,7 +54,7 @@ Nach Ostern hält der Frühling richtig Einzug. Es wird wärmer und das nächste
 
 ## Sommer
 
-Bald nun wird es sommerlich warm, wodurch die Gartenzeit am schönsten wird. Das Leben findet immer mehr draußen statt, der Garten wird zum Wohnraum. Die Natur befindet sich dann im Juni auf dem Höhepunkt des Wachsens - es ist **Johannizeit**. Um den 21. Juni herum zünden wir mit den Kindern ein großes Johannifeuer an. Wir singen gemeinsam, wir feiern den Sommer und die Natur auf ihrem Wachstumshöhepunkt, bevor das Wachsen schon wieder in ein Reifen übergeht.
+Bald nun wird es sommerlich warm, wodurch die Gartenzeit am schönsten wird. Das Leben findet immer mehr draußen statt, der Garten wird zum Wohnraum. Die Natur befindet sich dann im Juni auf dem Höhepunkt des Wachsens -- es ist **Johannizeit**. Um den 21. Juni herum zünden wir mit den Kindern ein großes Johannifeuer an. Wir singen gemeinsam, wir feiern den Sommer und die Natur auf ihrem Wachstumshöhepunkt, bevor das Wachsen schon wieder in ein Reifen übergeht.
 
 ## ...und dann wieder von vorne!
 

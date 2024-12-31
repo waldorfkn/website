@@ -3,7 +3,7 @@ title: "Stellenangebote"
 menus:
   main:
     parent: organisatorisches
-    weight: 2
+    weight: 6
 #   footer1:
 # header_image:
 #   image: images/

@@ -19,7 +19,7 @@ Das *Stübchen* ist für unsere Kleinsten. Der Name ist Programm, denn wir legen
 
 ## Kindergarten
 
-Die drei Kindergartengruppen - *Sonnengruppe*, *Sternengruppe* und *Mondgruppe* - bestehen aus je maximal 20 Kindern gemischten Alters. Eine jede verfügt über ihren eigenen Raum, der ganz individuell geschnitten und eingerichtet ist. Die Gruppen haben jeweils unterschiedliche Öffnungszeiten, damit zum einen auf die jeweiligen Bedürfnisse der Familien eingegangen werden kann, aber die Kinder innerhalb der Gruppe auch im Laufe des Tages beisammen bleiben.
+Die drei Kindergartengruppen -- *Sonnengruppe*, *Sternengruppe* und *Mondgruppe* -- bestehen aus je maximal 20 Kindern gemischten Alters. Eine jede verfügt über ihren eigenen Raum, der ganz individuell geschnitten und eingerichtet ist. Die Gruppen haben jeweils unterschiedliche Öffnungszeiten, damit zum einen auf die jeweiligen Bedürfnisse der Familien eingegangen werden kann, aber die Kinder innerhalb der Gruppe auch im Laufe des Tages beisammen bleiben.
 
 Die Kindergartengruppen haben außerdem eine gemeinsame Spielzeit im großen Garten, der unter anderem mit Schaukel, Sandkasten, Klettergerüst, Rutsche, Brunnen und Wasserlauf ausgestattet ist.
 
