@@ -76,11 +76,10 @@ pagerSize = 10
     logo_md = "images/logo.png"
     logo_lg = "images/logo-long.png"
     contact_url = "/kontakt/"
-    address = """<p>Freier Waldorfkindergarten Konstanz <br />
-    Mannheimer Straße 2 <br />
-    78467 Konstanz <br />
-    Telefon: +49 7531 929796
-    </p>"""
+    contact_address = """Freier Waldorfkindergarten Konstanz\\
+    Mannheimer Straße 2, 78467 Konstanz"""
+    contact_phone = "+49 7531 929796"
+    contact_email = "info@waldorfkindergarten-konstanz.de"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"

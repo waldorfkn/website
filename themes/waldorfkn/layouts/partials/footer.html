@@ -35,12 +35,19 @@
         </div>
         <!-- /.col-md-4 -->
 
-        {{ if isset .Site.Params "address" }}
+        {{ if isset .Site.Params "contact_address" }}
         <div class="col-md-4 col-sm-6">
 
             <h4>{{ i18n "contactTitle" }}</h4>
-
-            {{ .Site.Params.address | safeHTML }}
+            <p>
+            {{ .Site.Params.contact_address | markdownify }}
+            {{- with .Site.Params.contact_phone }}
+            <br /><i class="fa-solid fa-phone" aria-hidden="true"></i> {{ partial "cloakemail" (dict "address" . "protocol" "tel") }}
+            {{- end }}
+            {{- with .Site.Params.contact_email }}
+            <br /><i class="fa-regular fa-envelope" aria-hidden="true"></i> {{ partial "cloakemail" (dict "address" .) }}
+            {{- end }}
+            </p>
 
             <a href="{{ default " /contact" .Site.Params.contact_url | relURL }}" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
 

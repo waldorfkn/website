@@ -2818,19 +2818,18 @@ fieldset[disabled] .btn-template-primary.active {
     letter-spacing: 0.08em;
   }
 
-  ul {
-    a {
-      color: var(--footer-color);
+  // Footer links in gray, hover in orange. Exception for buttons
+  a:not(.btn) {
+    color: var(--footer-color);
 
-      &:hover {
-        color: var(--link-hover-bg);
-        text-decoration: none;
-      }
+    &:hover {
+      color: var(--link-hover-bg);
+      text-decoration: none;
     }
+  }
 
-    li+li {
-      margin-top: 5px;
-    }
+  ul li+li {
+    margin-top: 5px;
   }
 
   .photostream {

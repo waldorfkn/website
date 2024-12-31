@@ -81,3 +81,10 @@ iframe#directions-map {
   aspect-ratio: 16 / 10;
   border: 0;
 }
+
+// Footer FontAwesome contact
+#footer {
+  .fa-solid, .fa-regular {
+    margin-right: .4em;
+  }
+}
