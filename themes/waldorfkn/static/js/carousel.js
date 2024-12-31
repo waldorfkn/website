@@ -73,8 +73,14 @@ document.addEventListener('DOMContentLoaded', function () {
       if (e.key == 'ArrowRight') ele.classList.add('interacted');
     });
 
-    nextarrow.addEventListener("click", nextSlide);
-    nextarrow.addEventListener("mousedown", setInteracted);
+    nextarrow.addEventListener("click", function (event) {
+      event.stopPropagation();
+      nextSlide();
+    });
+    prevarrow.addEventListener("click", function (event) {
+      event.stopPropagation();
+      prevSlide();
+    });
     nextarrow.addEventListener("touchstart", setInteracted);
 
     prevarrow.addEventListener("click", prevSlide);
@@ -82,9 +88,10 @@ document.addEventListener('DOMContentLoaded', function () {
     prevarrow.addEventListener("touchstart", setInteracted);
 
     bullets.forEach(function (bullet) {
-      bullet.querySelector('a').addEventListener('click', scrollTo);
-      bullet.addEventListener("mousedown", setInteracted);
-      bullet.addEventListener("touchstart", setInteracted);
+      bullet.querySelector('a').addEventListener('click', function (event) {
+        event.stopPropagation();
+        scrollTo.apply(this, [event]);
+      });
     });
 
     //setInterval for autoplay
