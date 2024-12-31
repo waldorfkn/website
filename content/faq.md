@@ -5,40 +5,46 @@ menus:
     weight: 5
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Uns erreichen oft dieselben Fragen per E-Mail und Telefon. Die meisten Antworten darauf finden sich auf dieser Webseite, doch hier sammeln wir die häufigsten Fragen und kurze Antworten darauf.
 
-## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?
+**TODO: put all answers in details shortcode for Hugo 0.140**
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## Zum Angebot
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+### Wie kann mein Kind einen Platz erhalten?
 
-## 2. WHAT ARE THE POSTAL RATES?
+### Wie viele Gruppen und Betreuungsplätze gibt es?
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+### Für welches Alter gibt es ein Angebot?
 
-## 3. DO YOU SEND OVERSEAS?
+### Gibt es auch eine Krippe?
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+### Gibt es Ganztages-Plätze? Wenn ja, wie lange?
 
-## 4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?
+## Zur Pädagogik und Waldorf
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+### Was ist das Besondere an einem Waldorfkindergarten?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+### Müssen die Eltern sich einbringen?
 
-## 5. ANOTHER IMPORTANT QUESTION
+## Zu organisatorischen Fragen
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+### Wann ist der Kindergarten für Ferien o.ä. geschlossen?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+### Mein Kind ist krank. Was soll ich tun?
 
----
+### Wie viel kostet der Kindergarten?
 
-> In case you haven't found the answer for your question please feel free to contact us, our customer support will be happy to help you.
+### Wie kann ich den Kindergartenplatz kündigen?
+
+### Wer hat die Aufsicht über mein Kind?
+
+### Wer steckt hinter dem Kindergarten?
+
+### Was hat es mit dem Träger-Verein auf sich?
+
+### Gibt es offene Stellen? Wo kann ich mich bewerben?
+
+## Zu sonstigen Themen
+
+### Wie kann ich den Kindergarten erreichen?
