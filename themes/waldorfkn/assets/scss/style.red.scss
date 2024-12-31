@@ -1922,6 +1922,10 @@ fieldset[disabled] .btn-template-primary.active {
     background: var(--background-image) center top no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+    h3, p {
+      text-shadow: 0px 0px 15px black;
+    }
   }
 
   &.color-white {
