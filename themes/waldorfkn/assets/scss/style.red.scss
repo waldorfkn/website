@@ -2808,7 +2808,7 @@ fieldset[disabled] .btn-template-primary.active {
   h4,
   h5,
   h6 {
-    color: var(--footer-color);;
+    color: var(--footer-color);
   }
 
   h4 {
@@ -2819,11 +2819,8 @@ fieldset[disabled] .btn-template-primary.active {
   }
 
   ul {
-    padding-left: 0;
-    list-style: none;
-
     a {
-      color: var(--footer-color);;
+      color: var(--footer-color);
 
       &:hover {
         color: var(--link-hover-bg);
@@ -2831,17 +2828,8 @@ fieldset[disabled] .btn-template-primary.active {
       }
     }
 
-    li {
-      &+li {
-        margin-top: 5px;
-      }
-
-      &::before {
-        content: "\f105";
-        font-family: FontAwesome;
-        font-size: 0.8em;
-        margin-right: 5px;
-      }
+    li+li {
+      margin-top: 5px;
     }
   }
 

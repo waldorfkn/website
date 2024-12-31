@@ -3,46 +3,46 @@
 
         <!-- Footer Menu 1 -->
         <div class="col-md-4 col-sm-6">
-        {{ if isset .Site.Params.footer "menu1" }}
+            {{ if isset .Site.Params.footer "menu1" }}
             <h4>{{ .Site.Params.footer.menu1.headline }}</h4>
 
-            <ul>
-            {{ range .Site.Menus.footer1.ByWeight }}
+            <ul class="angle-right">
+                {{ range .Site.Menus.footer1.ByWeight }}
                 <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
+                {{ end }}
             </ul>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
-        {{ end }}
+            {{ end }}
         </div>
         <!-- /.col-md-4 -->
 
         <!-- Footer Menu 2 -->
         <div class="col-md-4 col-sm-6">
-        {{ if isset .Site.Params.footer "menu2" }}
+            {{ if isset .Site.Params.footer "menu2" }}
             <h4>{{ .Site.Params.footer.menu2.headline }}</h4>
 
-            <ul>
-            {{ range .Site.Menus.footer2.ByWeight }}
+            <ul class="angle-right">
+                {{ range .Site.Menus.footer2.ByWeight }}
                 <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
+                {{ end }}
             </ul>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
-        {{ end }}
+            {{ end }}
         </div>
         <!-- /.col-md-4 -->
 
         {{ if isset .Site.Params "address" }}
         <div class="col-md-4 col-sm-6">
 
-          <h4>{{ i18n "contactTitle" }}</h4>
+            <h4>{{ i18n "contactTitle" }}</h4>
 
             {{ .Site.Params.address | safeHTML }}
 
-	    <a href="{{ default "/contact" .Site.Params.contact_url | relURL }}" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
+            <a href="{{ default " /contact" .Site.Params.contact_url | relURL }}" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 

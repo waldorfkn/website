@@ -55,3 +55,20 @@ section.events {
   min-height: calc(100vh - 650px);
   margin-bottom: 100px;
 }
+
+// Angle-right icon for lists
+ul.angle-right {
+  --icon-size: .8em;
+  --gutter: .5em;
+  padding: 0 0 0 var(--gutter);
+
+  li {
+    padding-left: var(--gutter);
+
+    &::marker {
+      content: "\f105";
+      font-family: FontAwesome;
+      font-size: var(--icon-size);
+    }
+  }
+}

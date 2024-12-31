@@ -7,7 +7,7 @@
 <hr />
 <h2>{{ i18n "relatedPages" }}</h2>
 
-<ul>
+<ul class="angle-right">
   {{- range $pages.ByParam "menus.main.weight" }}
   {{- if and (ne .Permalink $currentPage.Permalink) (.Content) }}
   <li><a href="{{ .Permalink }}">{{ .Title }}</a>: {{ .Summary | plainify | truncate 150 }}</li>
