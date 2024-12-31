@@ -1,9 +1,9 @@
 ---
-title: "Mitarbeit der Eltern"
+title: "Freispiel"
 menus:
   main:
     parent: pädagogik
-    weight: 5
+    weight: 4
 #   footer1:
 # header_image:
 #   image: images/
