@@ -1,12 +1,32 @@
 ---
-title: Kontakt
+title: Kontakt und Anfahrt
 menus:
   main:
+    name: Kontakt
     weight: 6
 ---
 
-# We are here to help you
+Für Eltern, deren Kinder bereits im Kindergarten sind, sind die jeweiligen Erzieher:innen und die Elternbeiräte der jeweiligen Gruppen die besten Ansprechpersonen.
 
-Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+Für alle anderen sowie administrative Fragen stehen die Kindergartenleitung sowie die Vorstände gerne zur Verfügung.
 
-Please feel free to contact us, our customer service center is working for you 24/7.
+## Kontaktdaten
+
+Freier Waldorfkindergarten Konstanz\
+Mannheimer Straße 2\
+78467 Konstanz
+
+**{{< rawhtml >}}<i class="fa-solid fa-phone" aria-hidden="true"></i>{{< /rawhtml >}} Telefon**: {{< cloakemail address="+49 7531 929796" protocol="tel" >}}\
+**{{< rawhtml >}}<i class="fa-solid fa-envelope" aria-hidden="true"></i>{{< /rawhtml >}} E-Mail**: {{< cloakemail "info@waldorfkindergarten-konstanz.de" >}}
+
+Da das Büro nicht durchgehend besetzt ist, bitte kurzfristige Anliegen mit uns persönlich besprechen.\
+Für **Meldungen von Krankheit und Abwesenheit** sind wir von 07:30 bis 08:30 Uhr telefonisch erreichbar.
+
+## Leitungspersonen
+
+Kindergartenleitung: Sarah Ostergaard\
+Vorstandsvorsitzende: Ronja Berger
+
+## Lage und Anfahrt
+
+{{< openstreetmap >}}
