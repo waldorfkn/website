@@ -18,6 +18,6 @@ Der Tag beginnt bei uns im Waldorfkindergarten um 07:30 Uhr. Die ersten Kinder w
 
 Gleichzeitig fängt die andere Erzieherin oder eine Praktikantin mit der Frühstückszubereitung an. Auch bei dieser Tätigkeit sollen und dürfen die Kinder mitarbeiten. An mindestens zwei Tagen in der Woche wird Teig geknetet und dann Brötchen gebacken. An den anderen Wochentagen gibt es entweder Müsli, dann wird Obst mit den Kindern geschnitten, oder es wird Gemüse für eine Suppe geschnitten. Der Speiseplan für das zweite Frühstück variiert in den verschiedenen Gruppen.
 
-Währenddessen ist die andere Erzieherin mit dem Anleiten des [Freispiels]({{% ref "/paedagogik/freispiel" %}}) beschäftigt. Sie gibt Anregungen, schlichtet Streit, baut Häuser, trocknet Tränen, liest vor, bastelt etc.
+Währenddessen ist die andere Erzieherin mit dem Anleiten des [Freispiels]({{% relref "/paedagogik/freispiel" %}}) beschäftigt. Sie gibt Anregungen, schlichtet Streit, baut Häuser, trocknet Tränen, liest vor, bastelt etc.
 
 **TODO: Hier fehlen Stuhlkreis, Garten, Mittagessen, ggf. Schlafen**

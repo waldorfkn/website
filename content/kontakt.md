@@ -6,9 +6,9 @@ menus:
     weight: 6
 ---
 
-Für Eltern, deren Kinder bereits im Kindergarten sind, sind die jeweiligen Erzieher:innen und die Elternbeiräte der jeweiligen Gruppen die besten Ansprechpersonen.
+Für Eltern, deren Kinder bereits im Kindergarten sind, sind die jeweiligen Erzieher:innen und die Elternbeiräte der jeweiligen Gruppen die besten Ansprechpersonen. Für alle anderen sowie administrative Fragen stehen die Kindergartenleitung sowie die Vorstände gerne zur Verfügung.
 
-Für alle anderen sowie administrative Fragen stehen die Kindergartenleitung sowie die Vorstände gerne zur Verfügung.
+Bitte auch in die [Häufigen Fragen]({{% relref "faq" %}}) schauen. Das bringt oft eine schnelle Antwort und spart auch uns viel Zeit. Danke!
 
 ## Kontaktdaten
 
