@@ -116,4 +116,4 @@
   translation: December
 
 - id: relatedPages
-  translation: "Related pages"
+  translation: "More Pages on \"{{ . }}\""

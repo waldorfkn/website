@@ -18,6 +18,11 @@ disableKinds = ["taxonomy"]
 [pagination]
 pagerSize = 10
 
+# German quotation marks
+[markup.goldmark.extensions.typographer]
+    leftDoubleQuote = '„'
+    rightDoubleQuote = '“'
+
 [menu]
 
 # Main menu

@@ -2,13 +2,14 @@
 {{- if not .Params.hide_related_pages }}
 
 {{- $section := .Section }}
-{{- $pages := where .Site.Pages "Section" $section }}
+{{- $section_title := $currentPage.Parent.Title }}
+{{- $pages_in_section := where .Site.Pages "Section" $section }}
 
 <hr />
-<h2>{{ i18n "relatedPages" }}</h2>
+<h2>{{ i18n "relatedPages" $section_title | markdownify }}</h2>
 
 <ul class="angle-right">
-  {{- range $pages.ByParam "menus.main.weight" }}
+  {{- range $pages_in_section.ByParam "menus.main.weight" }}
   {{- if and (ne .Permalink $currentPage.Permalink) (.Content) }}
   <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Summary | plainify | truncate 150 }}</li>
   {{- end }}
