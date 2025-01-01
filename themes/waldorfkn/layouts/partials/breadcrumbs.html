@@ -7,6 +7,21 @@
     {{- with .crop }}
         {{- $image = $image.Crop . }}
     {{- end }}
+    {{- with .filter }}
+        {{/*  {{ with .GaussianBlur }}
+        {{ $image = $image.Filter (images.GaussianBlur .) }}
+        {{ end }}  */}}
+        {{ range . }}
+            {{ range $method, $args := . }}
+                {{ if eq $method "GaussianBlur" }}
+                    {{ $image = $image.Filter (images.GaussianBlur $args) }}
+                {{ end }}
+                {{ if eq $method "Brightness" }}
+                    {{ $image = $image.Filter (images.Brightness $args) }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{- end }}
 {{- $image = $image.RelPermalink }}
 {{- end }}
 <div id="heading-breadcrumbs" style="--bg-image: url({{ $image }})">

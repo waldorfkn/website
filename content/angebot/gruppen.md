@@ -4,6 +4,12 @@ menus:
   main:
     parent: angebot
     weight: 1
+header_image:
+  image: images/stock/kindergruppe.jpg
+  fill: "1600x400"
+  filter:
+    - GaussianBlur: 3
+    - Brightness: 0
 ---
 
 Unser Waldorfkindergarten besteht aus vier Gruppen. Drei davon sind für Kindergartenkinder ab einem Alter von etwa 3 Jahren, die Krippe für Kinder ab etwa 1 Jahr. Um möglichst vielen Lebensmodellen gerecht zu werden, bieten wir unterschiedliche Betreuungszeiten an.
