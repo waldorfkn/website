@@ -8,19 +8,17 @@
         {{- $image = $image.Crop . }}
     {{- end }}
     {{- with .filter }}
-        {{/*  {{ with .GaussianBlur }}
-        {{ $image = $image.Filter (images.GaussianBlur .) }}
-        {{ end }}  */}}
-        {{ range . }}
-            {{ range $method, $args := . }}
-                {{ if eq $method "GaussianBlur" }}
-                    {{ $image = $image.Filter (images.GaussianBlur $args) }}
-                {{ end }}
-                {{ if eq $method "Brightness" }}
-                    {{ $image = $image.Filter (images.Brightness $args) }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
+        {{- range . }}
+            {{- range $method, $args := . }}
+                {{- if eq $method "GaussianBlur" }}
+                    {{- $image = $image.Filter (images.GaussianBlur $args) }}
+                {{- else if eq $method "Brightness" }}
+                    {{- $image = $image.Filter (images.Brightness $args) }}
+                {{- else }}
+                    {{ warnf "Unsupported filter: %s" $method }}
+                {{- end }}
+            {{- end }}
+        {{- end }}
     {{- end }}
 {{- $image = $image.RelPermalink }}
 {{- end }}
