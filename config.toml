@@ -56,7 +56,7 @@ pagerSize = 10
     defaultKeywords = []
     mainSections = ["news"]
     eventSections = ["events"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    defaultDescription = "Mit Herz und Verstand: Waldorfpädagogik von der Krippe bis zum Kindergarten – ganzheitlich, naturverbunden und familiär."
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
