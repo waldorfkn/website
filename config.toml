@@ -81,6 +81,8 @@ pagerSize = 10
     contact_phone = "+49 7531 929796"
     contact_email = "info@waldorfkindergarten-konstanz.de"
 
+    matomo_siteid = 16
+
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
@@ -140,10 +142,6 @@ pagerSize = 10
 [params.footer]
     copyright = "© Verein zur Förderung der Waldorf Pädagogik e.V. seit 1989"
     links = "[Impressum und Datenschutz](/impressum/) | [Credits](/credits/)"
-
-[params.matomo]
-  trackedurl = "//waldorfkindergarten-konstanz.de/"
-  siteid     = "16"
 
 [taxonomies]
   category = "categories"

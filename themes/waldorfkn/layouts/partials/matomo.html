@@ -1,12 +1,12 @@
-{{- with .Site.Params.matomo }}
+{{- with .Site.Params.matomo_siteid }}
 <script type="text/javascript">
   var _paq = _paq || [];
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u={{ .trackedurl }};
+    var u={{ replaceRE "https?:" "" (absURL "") }};
     _paq.push(["setTrackerUrl", u+"piwik.php"]);
-    _paq.push(["setSiteId", "{{ .siteid }}"]);
+    _paq.push(["setSiteId", "{{ . }}"]);
     var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
     g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.php"; s.parentNode.insertBefore(g,s);
   })();
