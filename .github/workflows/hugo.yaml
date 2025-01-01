@@ -33,6 +33,13 @@ jobs:
           submodules: recursive # Get submdules
           fetch-depth: 1 # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Create configuration for Matomo
+        run: |
+          mv static/config.php.sample static/config.php
+          sed -i "s|__PIWIK_URL__|${{ secrets.MATOMO_PIWIK_URL }}|" static/config.php
+          sed -i "s|__PROXY_URL__|${{ secrets.MATOMO_PROXY_URL }}|" static/config.php
+          sed -i "s|__TOKEN_AUTH__|${{ secrets.MATOMO_TOKEN_AUTH }}|" static/config.php
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
