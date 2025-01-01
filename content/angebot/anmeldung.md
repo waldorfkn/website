@@ -8,6 +8,9 @@ menus:
 header_image:
   image: images/stock/handschlag.jpg
   fill: "1900x600"
+  filter:
+    - GaussianBlur: 2
+    - Brightness: 0
 ---
 
 **TODO: Absatz über die Inhalte auf dieser Seite**

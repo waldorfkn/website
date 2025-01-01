@@ -8,7 +8,7 @@ header_image:
   image: images/stock/kindergruppe.jpg
   fill: "1600x400"
   filter:
-    - GaussianBlur: 3
+    - GaussianBlur: 1
     - Brightness: 0
 ---
 
