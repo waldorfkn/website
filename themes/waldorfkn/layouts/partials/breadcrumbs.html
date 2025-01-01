@@ -8,17 +8,21 @@
         {{- $image = $image.Crop . }}
     {{- end }}
     {{- with .filter }}
+        {{- $filters := slice }}
         {{- range . }}
             {{- range $method, $args := . }}
                 {{- if eq $method "GaussianBlur" }}
-                    {{- $image = $image.Filter (images.GaussianBlur $args) }}
+                    {{- $filters = $filters | append (images.GaussianBlur $args) }}
                 {{- else if eq $method "Brightness" }}
-                    {{- $image = $image.Filter (images.Brightness $args) }}
+                    {{- $filters = $filters | append (images.Brightness $args) }}
+                {{- else if eq $method "Grayscale" }}
+                    {{- $filters = $filters | append images.Grayscale }}
                 {{- else }}
                     {{ warnf "Unsupported filter: %s" $method }}
                 {{- end }}
             {{- end }}
         {{- end }}
+        {{ $image = $image.Filter $filters }}
     {{- end }}
 {{- $image = $image.RelPermalink }}
 {{- end }}
