@@ -5,6 +5,10 @@ on:
     branches:
       - main # Deploy branch
 
+  # Schedule for automatic deployment, once a day
+  schedule:
+    - cron: "42 3 * * *"
+
   # Run on PRs, but only build
   pull_request:
   # Allows to run this workflow manually from the Actions tab
