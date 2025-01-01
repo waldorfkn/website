@@ -26,6 +26,11 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-22.04
+    # Set environment variables
+    env:
+      baseurl: neu.waldorfkindergarten-konstanz.de
+      virtualdir: /var/www/virtual/waldorfk/neu.waldorfkindergarten-konstanz.de
+      uberspace_user: waldorfk
     steps:
       - name: Checkout with submodules
         uses: actions/checkout@v4
@@ -37,7 +42,7 @@ jobs:
         run: |
           mv static/config.php.sample static/config.php
           sed -i "s|__PIWIK_URL__|${{ secrets.MATOMO_PIWIK_URL }}|" static/config.php
-          sed -i "s|__PROXY_URL__|${{ secrets.MATOMO_PROXY_URL }}|" static/config.php
+          sed -i "s|__PROXY_URL__|https://${{ env.baseurl }}|" static/config.php
           sed -i "s|__TOKEN_AUTH__|${{ secrets.MATOMO_TOKEN_AUTH }}|" static/config.php
 
       - name: Setup Hugo
@@ -47,19 +52,18 @@ jobs:
           extended: true
 
       - name: Build website with Hugo
-        run: hugo
+        run: hugo -b https://${{ env.baseurl }}
 
       - name: Copy website to host
         uses: appleboy/scp-action@v0.1.7
         with:
-          host: waldorfkindergarten-konstanz.de
-          username: waldorfk
+          host: ${{ env.baseurl }}
+          username: ${{ env.uberspace_user }}
           key: ${{ secrets.SSH_KEY }}
           port: 22
           timeout: 1m
           command_timeout: 2m
-          # TODO: change to prod once ready
-          target: "/var/www/virtual/waldorfk/neu.waldorfkindergarten-konstanz.de/"
+          target: ${{ env.virtualdir }}
           source: "public/*"
           rm: true
           strip_components: 1
