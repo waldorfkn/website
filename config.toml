@@ -53,7 +53,7 @@ pagerSize = 10
 [params]
     viewMorePostLink = "/blog/"
     author = "Waldorfkindergarten Konstanz"
-    defaultKeywords = []
+    defaultKeywords = ["konstanz", "kindergarten", "krippe", "waldorf", "steiner", "familie", "natur", "hort", "kita", "anthroposophisch"]
     mainSections = ["news"]
     eventSections = ["events"]
     defaultDescription = "Mit Herz und Verstand: Waldorfpädagogik von der Krippe bis zum Kindergarten – ganzheitlich, naturverbunden und familiär."
