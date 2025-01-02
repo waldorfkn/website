@@ -61,7 +61,7 @@ pagerSize = 10
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "images/sharing-default.png"
+    default_sharing_image = "images/logo-sharing-default.png"
 
     # Format dates with Go's time formatting
     date_format = "02 January 2006"
@@ -151,10 +151,10 @@ pagerSize = 10
 # Modules
 [module]
     [[module.mounts]]
-        source = "static/img"
+        source = "themes/waldorfkn/static/img"
         target = "assets/images"
     [[module.mounts]]
-        source = "themes/waldorfkn/static/img"
+        source = "static/img"
         target = "assets/images"
 
 [build]
