@@ -1,5 +1,5 @@
-{{ if isset .Site.Params "events" }}
-{{ if .Site.Params.events.enable }}
+{{- if isset .Site.Params "events" }}
+{{- if .Site.Params.events.enable }}
 <section class="bar background-white no-mb events">
     <div class="container">
 
@@ -9,7 +9,7 @@
             </div>
 
             <p class="lead">
-              {{ .Site.Params.events.subtitle | markdownify }}
+              {{- .Site.Params.events.subtitle | markdownify }}
             </p>
 
             <!-- *** BLOG HOMEPAGE *** -->
@@ -43,23 +43,23 @@
                             <div class="content">
                                 <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
                                 <p class="author-category">
-                                {{ if isset .Params "authors" }}
-                                    {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
-                                {{ end }}
-                                {{ if .Params.date }}
-                                    {{ $createdAt := .Date.Format .Site.Params.date_format }}
-                                    {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
-                                        {{ $createdAt = replace $createdAt $month (i18n $month) }}
-                                    {{ end }}
-                                    {{ i18n "publishedOn" }} {{ $createdAt }}
-                                {{ end }}
+                                {{- if isset .Params "authors" }}
+                                    {{- i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                                {{- end }}
+                                {{- if .Params.date }}
+                                    {{- $createdAt := .Date.Format .Site.Params.date_format }}
+                                    {{- range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                        {{- $createdAt = replace $createdAt $month (i18n $month) }}
+                                    {{- end }}
+                                    {{- i18n "publishedOn" }} {{ $createdAt }}
+                                {{- end }}
                                 </p>
-                                {{ if not .Site.Params.events.hide_summary }}
+                                {{- if not .Site.Params.events.hide_summary }}
                                 <p class="intro">{{ .Summary }}</p>
                                 <p class="read-more">
                                 <a href="{{ .RelPermalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                 </p>
-                                {{ end }}
+                                {{- end }}
                             </div>
                         </div>
                         <!-- /.box-image-text -->
@@ -78,5 +78,5 @@
     <!-- /.container -->
 </section>
 <!-- /.bar -->
-{{ end }}
-{{ end }}
+{{- end }}
+{{- end }}

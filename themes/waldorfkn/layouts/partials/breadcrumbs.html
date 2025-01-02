@@ -1,4 +1,4 @@
-{{ $image := "../img/texture-bw.png" }}
+{{- $image := "../img/texture-bw.png" }}
 {{- with .Params.header_image }}
     {{- $image = (resources.Get .image) }}
     {{- with .fill }}

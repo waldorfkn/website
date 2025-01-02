@@ -2,19 +2,19 @@
 <html lang="{{ .Site.LanguageCode }}">
 
   <head>
-    {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
+    {{- partial "headers.html" . }}
+    {{- partial "custom_headers.html" . }}
   </head>
 
   <body>
 
     <div id="all">
 
-        {{ partial "top.html" . }}
+        {{- partial "top.html" . }}
 
-        {{ partial "nav.html" . }}
+        {{- partial "nav.html" . }}
 
-        {{ partial "breadcrumbs.html" . }}
+        {{- partial "breadcrumbs.html" . }}
 
         <div id="content">
             <div class="container">
@@ -23,18 +23,18 @@
 
                     <div class="col-md-9" id="blog-listing-medium">
 
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
-                        {{ range $paginator.Pages }}
+                        {{- $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
+                        {{- range $paginator.Pages }}
                         <section class="post">
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">
                                       <a href="{{ .RelPermalink }}">
-                                          {{ if .Params.banner }}
+                                          {{- if .Params.banner }}
                                           <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" />
-                                          {{ else }}
+                                          {{- else }}
                                           <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="" />
-                                          {{ end }}
+                                          {{- end }}
                                       </a>
                                   </div>
                                 </div>
@@ -42,52 +42,52 @@
                                     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
-                                          {{ if isset .Params "authors" }}
-					  {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
-                                          {{ end }}
-                                          {{ if isset .Params "categories" }}
-                                          {{ if gt (len .Params.categories) 0 }}
+                                          {{- if isset .Params "authors" }}
+					  {{- i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                                          {{- end }}
+                                          {{- if isset .Params "categories" }}
+                                          {{- if gt (len .Params.categories) 0 }}
                                           in
-                                          {{ range $index, $category := .Params.categories }}{{ if $index }}, {{ end }}
+                                          {{- range $index, $category := .Params.categories }}{{ if $index }}, {{ end }}
                                               <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}">{{ $category }}</a>{{ end }}
-                                          {{ end }}
-                                          {{ end }}
+                                          {{- end }}
+                                          {{- end }}
 
                                         </p>
-                                        {{ if isset .Params "date" }}
+                                        {{- if isset .Params "date" }}
 
-                                        {{ $createdAt := .Date.Format .Site.Params.date_format }}
-                                        {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
-                                            {{ $createdAt = replace $createdAt $month (i18n $month) }}
-                                        {{ end }}
+                                        {{- $createdAt := .Date.Format .Site.Params.date_format }}
+                                        {{- range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                            {{- $createdAt = replace $createdAt $month (i18n $month) }}
+                                        {{- end }}
 
                                         <p class="date-comments">
                                             <a href="{{ .RelPermalink }}"><i class="far fa-calendar"></i> {{ $createdAt }}</a>
                                         </p>
-                                        {{ end }}
+                                        {{- end }}
                                     </div>
-                                    {{ if not .Site.Params.recent_posts.hide_summary }}
+                                    {{- if not .Site.Params.recent_posts.hide_summary }}
                                     <p class="intro">{{ .Summary }}</p>
                                     <p class="read-more"><a href="{{ .RelPermalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                     </p>
-                                    {{ end }}
+                                    {{- end }}
                                 </div>
                             </div>
                         </section>
-                        {{ end }}
+                        {{- end }}
 
                         <ul class="pager">
-                            {{ if .Paginator.HasPrev }}
+                            {{- if .Paginator.HasPrev }}
                             <li class="previous"><a href="{{ .Paginator.Prev.URL | relURL }}">&larr; {{ i18n "newer" }}</a></li>
-                            {{ else }}
+                            {{- else }}
                             <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
-                            {{ end }}
+                            {{- end }}
 
-                            {{ if .Paginator.HasNext }}
+                            {{- if .Paginator.HasNext }}
                             <li class="next"><a href="{{ .Paginator.Next.URL | relURL }}">{{ i18n "older" }} &rarr;</a></li>
-                            {{ else }}
+                            {{- else }}
                             <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
-                            {{ end }}
+                            {{- end }}
                         </ul>
                     </div>
                     <!-- /.col-md-9 -->
@@ -101,7 +101,7 @@
 
                         <!-- *** MENUS AND WIDGETS *** -->
 
-                        {{ partial "sidebar.html" . }}
+                        {{- partial "sidebar.html" . }}
 
                         <!-- *** MENUS AND FILTERS END *** -->
 
@@ -117,12 +117,12 @@
         </div>
         <!-- /#content -->
 
-        {{ partial "footer.html" . }}
+        {{- partial "footer.html" . }}
 
     </div>
     <!-- /#all -->
 
-    {{ partial "scripts.html" . }}
+    {{- partial "scripts.html" . }}
 
   </body>
 </html>

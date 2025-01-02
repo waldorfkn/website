@@ -1,4 +1,4 @@
-{{ if .enable }}
+{{- if .enable }}
 {{- $parallaximg := (resources.Get .background_image) }}
 {{- with .image_crop }}{{ $parallaximg = $parallaximg.Crop . }}{{ end }}
 <section class="bar background-image-fixed no-mb color-white text-center" style="--background-image: url('{{ $parallaximg.RelPermalink }}');">
@@ -12,4 +12,4 @@
         </div>
     </div>
 </section>
-{{ end }}
+{{- end }}

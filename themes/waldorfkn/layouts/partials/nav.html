@@ -3,9 +3,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="{{ "/" | relLangURL }}">
-                    {{ if default false .Site.Params.disabled_logo }}
+                    {{- if default false .Site.Params.disabled_logo }}
                       <h4>{{ .Site.Params.logo_text }}</h4>
-                    {{ else }}
+                    {{- else }}
                       {{- with (resources.Get .Site.Params.logo_xs).Resize "x100" }}
                       <img src="{{ .RelPermalink }}" alt="{{ $.Site.Title }} logo" class="visible-xs hidden-sm hidden-md hidden-lg" />
                       {{- end }}
@@ -18,7 +18,7 @@
                       {{- with (resources.Get .Site.Params.logo_lg).Resize "x100" }}
                       <img src="{{ .RelPermalink }}" alt="{{ $.Site.Title }} logo" class="hidden-xs hidden-sm hidden-md visible-lg" />
                       {{- end }}
-                    {{ end }}
+                    {{- end }}
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
                 </a>
                 <div class="navbar-buttons">
@@ -32,123 +32,123 @@
 
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
-                  {{ $current := . }}
+                  {{- $current := . }}
 
-                  {{ range .Site.Menus.main.ByWeight }}
-                  {{ $topLevel := replace .URL "/" "" }}
-                  {{ $active := "" }}
+                  {{- range .Site.Menus.main.ByWeight }}
+                  {{- $topLevel := replace .URL "/" "" }}
+                  {{- $active := "" }}
 
-                  {{ if eq $current.RelPermalink .URL }}
-                    {{ $active = "active" }}
-                  {{ end }}
+                  {{- if eq $current.RelPermalink .URL }}
+                    {{- $active = "active" }}
+                  {{- end }}
 
-                  {{ if eq $current.Type $topLevel }}
-                    {{ $active = "active" }}
-                  {{ end }}
+                  {{- if eq $current.Type $topLevel }}
+                    {{- $active = "active" }}
+                  {{- end }}
 
-                  {{ if and (or (eq $current.RelPermalink .URL) (eq "term" $current.Kind)) (in (slice "page" "term") $current.Kind) }}
-                    {{ range (split .URL "/") }}
-                      {{ if eq "blog" . }}
-                        {{ $active = "active" }}
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
+                  {{- if and (or (eq $current.RelPermalink .URL) (eq "term" $current.Kind)) (in (slice "page" "term") $current.Kind) }}
+                    {{- range (split .URL "/") }}
+                      {{- if eq "blog" . }}
+                        {{- $active = "active" }}
+                      {{- end }}
+                    {{- end }}
+                  {{- end }}
 
-                  {{ if .HasChildren }}
+                  {{- if .HasChildren }}
                     <!-- Check if the first child marks a menu section identifier -->
-                    {{ $hasSections := (hasPrefix (index .Children 0).Identifier "section.") }}
+                    {{- $hasSections := (hasPrefix (index .Children 0).Identifier "section.") }}
                     <li class="dropdown{{ if $hasSections }} use-yamm {{end}} {{ $active }}">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
-                        {{ if $hasSections }}
+                        {{- if $hasSections }}
                         <ul class="dropdown-menu">
                             <li>
                             <div class="yamm-content">
                             <div class="row">
-                                {{ if ne .URL "" }}
+                                {{- if ne .URL "" }}
                                 <div class="col-sm-6">
                                     <img src="{{ .URL }}" class="img-responsive hidden-xs"/>
                                 </div>
-                                {{ end }}
+                                {{- end }}
                                 <div class="col-sm-3">
-                                {{ range .Children.ByWeight }}
-                                    {{ $column := printf "%s" .Post }}
-                                    {{ if eq $column "1" }}
+                                {{- range .Children.ByWeight }}
+                                    {{- $column := printf "%s" .Post }}
+                                    {{- if eq $column "1" }}
                                     <h5>{{ .Name }}</h5>
-                                    {{ if .HasChildren }}
+                                    {{- if .HasChildren }}
                                     <ul>
-                                    {{ range .Children.ByWeight }}
+                                    {{- range .Children.ByWeight }}
                                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                                     {{- end }}
                                     </ul>
-                                    {{ end }}
-                                    {{ end }}
-                                {{ end }}
+                                    {{- end }}
+                                    {{- end }}
+                                {{- end }}
                                 </div>
                                 <div class="col-sm-3">
-                                {{ range .Children.ByWeight }}
-                                    {{ $column := printf "%s" .Post }}
-                                    {{ if eq $column "2" }}
+                                {{- range .Children.ByWeight }}
+                                    {{- $column := printf "%s" .Post }}
+                                    {{- if eq $column "2" }}
                                     <h5>{{ .Name }}</code></h5>
-                                    {{ if .HasChildren }}
+                                    {{- if .HasChildren }}
                                     <ul>
-                                    {{ range .Children.ByWeight }}
+                                    {{- range .Children.ByWeight }}
                                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                                    {{ end }}
+                                    {{- end }}
                                     </ul>
-                                    {{ end }}
-                                    {{ end }}
-                                {{ end }}
+                                    {{- end }}
+                                    {{- end }}
+                                {{- end }}
                                 </div>
-                                {{ if eq .URL "" }}
+                                {{- if eq .URL "" }}
                                 <div class="col-sm-3">
-                                {{ range .Children }}
-                                    {{ $column := printf "%s" .Post }}
-                                    {{ if eq $column "3" }}
+                                {{- range .Children }}
+                                    {{- $column := printf "%s" .Post }}
+                                    {{- if eq $column "3" }}
                                     <h5>{{ .Name }}</code></h5>
-                                    {{ if .HasChildren }}
+                                    {{- if .HasChildren }}
                                     <ul>
-                                    {{ range .Children.ByWeight }}
+                                    {{- range .Children.ByWeight }}
                                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                                    {{ end }}
+                                    {{- end }}
                                     </ul>
-                                    {{ end }}
-                                    {{ end }}
-                                {{ end }}
+                                    {{- end }}
+                                    {{- end }}
+                                {{- end }}
                                 </div>
                                 <div class="col-sm-3">
-                                {{ range .Children }}
-                                    {{ $column := printf "%s" .Post }}
-                                    {{ if eq $column "4" }}
+                                {{- range .Children }}
+                                    {{- $column := printf "%s" .Post }}
+                                    {{- if eq $column "4" }}
                                     <h5>{{ .Name }}</code></h5>
-                                    {{ if .HasChildren }}
+                                    {{- if .HasChildren }}
                                     <ul>
-                                    {{ range .Children.ByWeight }}
+                                    {{- range .Children.ByWeight }}
                                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                                    {{ end }}
+                                    {{- end }}
                                     </ul>
-                                    {{ end }}
-                                    {{ end }}
-                                {{ end }}
+                                    {{- end }}
+                                    {{- end }}
+                                {{- end }}
                                 </div>
-                                {{ end }}
+                                {{- end }}
                             </div>
                             </div>
                             </li>
                         </ul>
-                        {{ else }}
+                        {{- else }}
                         <ul class="dropdown-menu">
-                            {{ range .Children.ByWeight }}
+                            {{- range .Children.ByWeight }}
                             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                            {{ end }}
+                            {{- end }}
                         </ul>
-                        {{ end }}
+                        {{- end }}
                     </li>
-                  {{ else }}
+                  {{- else }}
                   <li class="dropdown {{ $active }}">
                     <a href="{{ .URL }}">{{ .Name }}</a>
                   </li>
-                  {{ end }}
-                  {{ end }}
+                  {{- end }}
+                  {{- end }}
                 </ul>
             </div>
             <!--/.nav-collapse -->

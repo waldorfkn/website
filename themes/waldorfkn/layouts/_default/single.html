@@ -2,19 +2,19 @@
 <html lang="{{ .Site.LanguageCode }}">
 
   <head>
-    {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
+    {{- partial "headers.html" . }}
+    {{- partial "custom_headers.html" . }}
   </head>
 
   <body>
 
     <div id="all">
 
-        {{ partial "top.html" . }}
+        {{- partial "top.html" . }}
 
-        {{ partial "nav.html" . }}
+        {{- partial "nav.html" . }}
 
-        {{ partial "breadcrumbs.html" . }}
+        {{- partial "breadcrumbs.html" . }}
 
         <div id="content">
             <div class="container">
@@ -25,28 +25,28 @@
 
                     <div class="col-md-9" id="blog-post">
 
-                        {{ if or .Params.author .Params.date }}
+                        {{- if or .Params.author .Params.date }}
                           <p class="text-muted text-uppercase mb-small text-right">
-                            {{ if isset .Params "authors" }}
-			      {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
-                            {{ end }}
-                            {{ if and .Params.author .Params.date }} | {{ end }}
-                            {{ if .Params.date }}
-                              {{ $createdAt := .Date.Format .Site.Params.date_format }}
-                              {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
-                                  {{ $createdAt = replace $createdAt $month (i18n $month) }}
-                              {{ end }}
-                              {{ $createdAt }}
-                            {{ end }}
+                            {{- if isset .Params "authors" }}
+			      {{- i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                            {{- end }}
+                            {{- if and .Params.author .Params.date }} | {{ end }}
+                            {{- if .Params.date }}
+                              {{- $createdAt := .Date.Format .Site.Params.date_format }}
+                              {{- range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                  {{- $createdAt = replace $createdAt $month (i18n $month) }}
+                              {{- end }}
+                              {{- $createdAt }}
+                            {{- end }}
                           </p>
-                        {{ end }}
+                        {{- end }}
 
                         <div id="post-content">
-                          {{ .Content }}
+                          {{- .Content }}
                         </div>
 
                         <div id="related-pages">
-                          {{ partial "related.html" . }}
+                          {{- partial "related.html" . }}
                         </div>
                         <!-- /#post-content -->
 
@@ -61,7 +61,7 @@
 
                         <!-- *** MENUS AND WIDGETS *** -->
 
-                        {{ partial "sidebar.html" . }}
+                        {{- partial "sidebar.html" . }}
 
                         <!-- *** MENUS AND FILTERS END *** -->
 
@@ -78,12 +78,12 @@
         </div>
         <!-- /#content -->
 
-        {{ partial "footer.html" . }}
+        {{- partial "footer.html" . }}
 
     </div>
     <!-- /#all -->
 
-    {{ partial "scripts.html" . }}
+    {{- partial "scripts.html" . }}
 
   </body>
 </html>

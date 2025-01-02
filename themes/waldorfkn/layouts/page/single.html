@@ -2,25 +2,25 @@
 <html lang="{{ .Site.LanguageCode }}">
 
   <head>
-    {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
+    {{- partial "headers.html" . }}
+    {{- partial "custom_headers.html" . }}
   </head>
 
   <body>
 
     <div id="all">
-        {{ partial "top.html" . }}
+        {{- partial "top.html" . }}
 
-        {{ partial "nav.html" . }}
+        {{- partial "nav.html" . }}
 
-        {{ partial "breadcrumbs.html" . }}
+        {{- partial "breadcrumbs.html" . }}
 
         <div id="content">
-            {{ if isset .Params "id" }}
+            {{- if isset .Params "id" }}
 
-              {{ partial .Params.id . }}
+              {{- partial .Params.id . }}
 
-            {{ else }}
+            {{- else }}
 
             <div class="container">
 
@@ -29,7 +29,7 @@
                     <div class="col-md-12">
 
                         <div>
-                          {{ .Content }}
+                          {{- .Content }}
                         </div>
 
                     </div>
@@ -40,16 +40,16 @@
             </div>
             <!-- /.container -->
 
-            {{ end }}
+            {{- end }}
         </div>
         <!-- /#content -->
 
-        {{ partial "footer.html" . }}
+        {{- partial "footer.html" . }}
 
     </div>
     <!-- /#all -->
 
-    {{ partial "scripts.html" . }}
+    {{- partial "scripts.html" . }}
 
   </body>
 </html>

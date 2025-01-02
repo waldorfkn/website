@@ -1,9 +1,9 @@
-{{ .context.Scratch.Set "height" .height }}
-{{ .context.Scratch.Set "unit" .unit }}
-{{ .context.Scratch.Set "items" .items }}
+{{- .context.Scratch.Set "height" .height }}
+{{- .context.Scratch.Set "unit" .unit }}
+{{- .context.Scratch.Set "items" .items }}
 <div id="carousel" class="carousel" duration="{{ .duration }}" items="{{ .items }}">
   <ul>
-    {{ range $index, $slide := .context.Site.Data.carousel.images }}
+    {{- range $index, $slide := .context.Site.Data.carousel.images }}
     <li id="c_slide{{ add $index 1}}" class="c-slide" style="min-width: calc(100%/{{ $.context.Scratch.Get "items" }});">
       <div class="c-mask"></div>
       {{- $carouselimg := (resources.Get $slide.image).Crop "1900x500 Top" }}
@@ -12,12 +12,12 @@
         <div>{{ $slide.content_html }}</div>
       </div>
     </li>
-    {{ end }}
+    {{- end }}
   </ul>
   <ol>
-    {{ range $index, $page := .context.Site.Data.carousel.images }}
+    {{- range $index, $page := .context.Site.Data.carousel.images }}
     <li><a href="#c_slide{{ add $index 1 }}"></a></li>
-    {{ end }}
+    {{- end }}
   </ol>
   <div class="prev">&lsaquo;</div>
   <div class="next">&rsaquo;</div>
