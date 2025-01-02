@@ -39,8 +39,12 @@
 <link rel="stylesheet" href="{{ ($style).RelPermalink }}?v={{ md5 hugo.BuildDate }}">
 
 <!-- Favicon and Apple touch icons-->
-<link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}" type="image/x-icon" />
-<link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}" />
+<link rel="icon" type="image/png" href="{{ "img/favicon-96x96.png" | relURL }}" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="{{ "img/favicon.svg" | relURL }}" />
+<link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "img/apple-touch-icon.png" | relURL }}" />
+<meta name="apple-mobile-web-app-title" content="Waldorfkindergarten Konstanz" />
+<link rel="manifest" href="/img/site.webmanifest" />
 
 <!-- RSS feed -->
 <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
