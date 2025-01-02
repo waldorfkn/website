@@ -12,7 +12,7 @@ summaryLength = 70
 # not pluralize title pages by default
 pluralizelisttitles = false
 
-disableKinds = ["taxonomy"]
+disableKinds = ["taxonomy", "rss"]
 
 # Define the number of posts per page
 [pagination]

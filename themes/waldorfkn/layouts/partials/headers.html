@@ -24,8 +24,7 @@
 {{- end }}
 {{- $description_plain := default .Site.Params.defaultDescription .Description | markdownify | plainify }}
 <meta name="description" content="{{ $description_plain }}">
-
-{{- hugo.Generator }}
+{{ hugo.Generator }}
 
 <!-- Bootstrap and Font Awesome CSS -->
 <link rel="stylesheet" href="{{ "css/fontawesome-all.min.css" | relURL }}?v={{ md5 hugo.BuildDate }}">
@@ -47,7 +46,9 @@
 <link rel="manifest" href="/img/site.webmanifest" />
 
 <!-- RSS feed -->
-<link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+{{- with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{- end }}
 
 <!-- Facebook OpenGraph tags -->
 {{- $is_blog := and (eq .Type "blog") (eq .Kind "page") }}
