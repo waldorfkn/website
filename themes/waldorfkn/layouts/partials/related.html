@@ -2,8 +2,8 @@
 {{- $section := .Section }}
 {{- $parent := $currentPage.Parent }}
 {{- $section_title := $parent.Title }}
-{{- if not .Params.hide_related_pages }}
-{{- if not $parent.Params.hide_related_pages_in_section }}
+{{- /* Only display if related pages are not disabled in the whole section and not disabled for this page */}}
+{{- if and (not .Params.related_pages.disable_on_page) (not $parent.Params.related_pages.disable_for_section) }}
 <div id="related-pages">
 {{- $pages_in_section := where .Site.Pages "Section" $section }}
 
@@ -12,11 +12,11 @@
 
 <ul class="angle-right">
   {{- range $pages_in_section.ByParam "menus.main.weight" }}
-  {{- if and (ne .Permalink $currentPage.Permalink) (.Content) }}
+  {{- /* Only display this page if it's not the same page, has content, and is not hidden from the related view */}}
+  {{- if and (ne .Permalink $currentPage.Permalink) (.Content) (not .Params.related_pages.hide_in_section) }}
   <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Summary | plainify | truncate 150 }}</li>
   {{- end }}
   {{- end }}
 </ul>
 </div>
-{{- end }}
 {{- end }}
