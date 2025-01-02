@@ -5,7 +5,7 @@ menus:
     parent: angebot
     weight: 2
   footer1:
-header_image:
+banner:
   image: images/stock/handschlag.jpg
   fill: "1900x600"
   filter:

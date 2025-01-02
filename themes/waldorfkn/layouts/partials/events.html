@@ -21,7 +21,7 @@
                 {{- range first $limit $events }}
                 {{- if ge (time .Params.event_date).Unix now.Unix }}
                     {{/* Get banner image if existing, placeholder as fallback, scale 4:3 */}}
-                    {{- $img := ""}}{{ with .Params.banner }}{{ $img = . }}{{ else }}{{ $img = "images/placeholder.png" }}{{ end }}
+                    {{- $img := ""}}{{ with .Params.banner.image }}{{ $img = . }}{{ else }}{{ $img = "images/placeholder.png" }}{{ end }}
                     {{- $img = (resources.Get $img).Fill "400x300 center" }}
                     <div class="col-md-3 col-sm-6 center-block event">
                         <div class="box-image-text blog">

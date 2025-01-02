@@ -5,7 +5,7 @@ menus:
     parent: pädagogik
     weight: 2
 #   footer1:
-# header_image:
+# banner:
 #   image: images/
 #   fill: "1900x600"
 # sitemap:

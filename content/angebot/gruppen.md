@@ -4,7 +4,7 @@ menus:
   main:
     parent: angebot
     weight: 1
-header_image:
+banner:
   image: images/stock/kindergruppe.jpg
   fill: "1600x400"
   filter:
