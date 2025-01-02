@@ -1,8 +1,10 @@
 {{- $currentPage := . }}
-{{- if not .Params.hide_related_pages }}
-
 {{- $section := .Section }}
-{{- $section_title := $currentPage.Parent.Title }}
+{{- $parent := $currentPage.Parent }}
+{{- $section_title := $parent.Title }}
+{{- if not .Params.hide_related_pages }}
+{{- if not $parent.Params.hide_related_pages_in_section }}
+<div id="related-pages">
 {{- $pages_in_section := where .Site.Pages "Section" $section }}
 
 <hr />
@@ -15,4 +17,6 @@
   {{- end }}
   {{- end }}
 </ul>
+</div>
+{{- end }}
 {{- end }}
