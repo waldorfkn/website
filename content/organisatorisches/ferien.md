@@ -5,9 +5,13 @@ menus:
     parent: organisatorisches
     weight: 1
 #   footer1:
-# banner:
-#   image: images/
-#   fill: "1900x600"
+banner:
+  image: images/stock/notepad.jpg
+  processes:
+    - "fill 1900x600 center"
+  filter:
+    - GaussianBlur: 1
+    - Brightness: -10
 # sitemap:
 #   disable: true # default is false
 ---

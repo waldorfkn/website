@@ -6,9 +6,12 @@ menus:
     parent: organisatorisches
     weight: 2
 #   footer1:
-# banner:
-#   image: images/
-#   fill: "1900x600"
+banner:
+  image: images/stock/krankheit-stethoskop.jpg
+  processes:
+    - "fill 1900x600 right"
+  filter:
+    - GaussianBlur: 1
 # sitemap:
 #   disable: true # default is false
 ---

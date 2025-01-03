@@ -5,9 +5,13 @@ menus:
     parent: organisatorisches
     weight: 5
 #   footer1:
-# banner:
-#   image: images/
-#   fill: "1900x600"
+banner:
+  image: images/stock/menschen-haende.jpg
+  processes:
+    - "fill 1900x600"
+  filter:
+    - GaussianBlur: 2
+    - Brightness: -10
 # sitemap:
 #   disable: true # default is false
 ---

@@ -8,7 +8,9 @@ menus:
 banner:
   image: images/stock/jahreszeiten-blaetter.jpg
   processes:
-    - "fill 1900x600"
+    - "fill 1900x600 center"
+  filter:
+    - GaussianBlur: 1
 # sitemap:
 #   disable: true # default is false
 ---

@@ -5,9 +5,13 @@ menus:
     parent: pädagogik
     weight: 2
 #   footer1:
-# banner:
-#   image: images/
-#   fill: "1900x600"
+banner:
+  image: images/stock/kinder-kreis.jpg
+  processes:
+    - "fill 1900x1000 center"
+  filter:
+    - GaussianBlur: 1
+    - Brightness: -10
 # sitemap:
 #   disable: true # default is false
 ---
