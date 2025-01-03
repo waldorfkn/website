@@ -7,7 +7,10 @@ menus:
 #   footer1:
 # banner:
 #   image: images/
-#   fill: "1900x600"
+#   processes:
+#     - "fill 1900x600"
+#   filter:
+#     - GaussianBlur: 1
 # sitemap:
 #   disable: true # default is false
 ---

@@ -7,6 +7,8 @@ menus:
 banner:
   image: images/stock/kindergruppe.jpg
   fill: "1600x400"
+  processes:
+    - "fill 1600x400"
   filter:
     - GaussianBlur: 1
     - Brightness: 0

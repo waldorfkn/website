@@ -7,7 +7,8 @@ menus:
   footer1:
 banner:
   image: images/stock/handschlag.jpg
-  fill: "1900x600"
+  processes:
+    - "fill 1900x600"
   filter:
     - GaussianBlur: 2
     - Brightness: 0

@@ -7,7 +7,8 @@ menus:
 #   footer1:
 banner:
   image: images/stock/jahreszeiten-blaetter.jpg
-  fill: "1900x600"
+  processes:
+    - "fill 1900x600"
 # sitemap:
 #   disable: true # default is false
 ---

@@ -1,11 +1,8 @@
 {{- $image := "../img/texture-bw.png" }}
 {{- with .Params.banner }}
     {{- $image = (resources.Get .image) }}
-    {{- with .fill }}
-        {{- $image = $image.Fill . }}
-    {{- end }}
-    {{- with .crop }}
-        {{- $image = $image.Crop . }}
+    {{- range .processes }}
+        {{- $image = $image.Process . }}
     {{- end }}
     {{- with .filter }}
         {{- $filters := slice }}
