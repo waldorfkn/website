@@ -6,7 +6,6 @@ menus:
     weight: 1
 banner:
   image: images/stock/kindergruppe.jpg
-  fill: "1600x400"
   processes:
     - "fill 1900x600"
   filter:

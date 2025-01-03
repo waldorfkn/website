@@ -1,5 +1,13 @@
 ---
 title: "Credits"
+banner:
+  image: images/stock/daumen-hoch.jpg
+  processes:
+    - resize 2000x
+    - crop 2000x800 top
+  filter:
+    - GaussianBlur: 2
+    - Brightness: -10
 sitemap:
   disable: true # default is false
 ---

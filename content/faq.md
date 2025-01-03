@@ -3,6 +3,13 @@ title: "Häufige Fragen"
 menus:
   main:
     weight: 5
+banner:
+  image: images/stock/fragezeichen-wald.jpg
+  processes:
+    - "fill 1900x600 center"
+  filter:
+    - GaussianBlur: 1
+    - Brightness: 0
 ---
 
 Uns erreichen oft dieselben Fragen per E-Mail und Telefon. Die meisten Antworten darauf finden sich auf dieser Webseite, doch hier sammeln wir die häufigsten Fragen und kurze Antworten darauf.

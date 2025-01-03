@@ -4,6 +4,13 @@ menus:
   main:
     name: Kontakt
     weight: 6
+banner:
+  image: images/stock/telefon-wiese.jpg
+  processes:
+    - "fill 1900x600 center"
+  filter:
+    - GaussianBlur: 1
+    - Brightness: -10
 ---
 
 Für Eltern, deren Kinder bereits im Kindergarten sind, sind die jeweiligen Erzieher:innen und die Elternbeiräte der jeweiligen Gruppen die besten Ansprechpersonen. Für alle anderen sowie administrative Fragen stehen die Kindergartenleitung sowie die Vorstände gerne zur Verfügung.
