@@ -6,10 +6,39 @@
     {{- range $index, $slide := .context.Site.Data.carousel.images }}
     <li id="c_slide{{ add $index 1}}" class="c-slide" style="min-width: calc(100%/{{ $.context.Scratch.Get "items" }});">
       <div class="c-mask"></div>
-      {{- $carouselimg := (resources.Get $slide.image).Crop "1900x500 Top" }}
-      <img src="{{ $carouselimg.RelPermalink }}" alt="" />
+      {{- $image := (resources.Get $slide.image) }}
+      {{- range .processes }}
+        {{- $image = $image.Process . }}
+      {{- end }}
+      {{- with .filter }}
+        {{- $filters := slice }}
+        {{- range . }}
+          {{- range $method, $args := . }}
+            {{/*  No, this cannot be generalised, as strings cannot be converted to functions...  */}}
+            {{- if eq $method "GaussianBlur" }}
+              {{- $filters = $filters | append (images.GaussianBlur $args) }}
+            {{- else if eq $method "Brightness" }}
+              {{- $filters = $filters | append (images.Brightness $args) }}
+            {{- else if eq $method "Opacity" }}
+              {{- $filters = $filters | append (images.Opacity $args) }}
+            {{- else if eq $method "Pixelate" }}
+              {{- $filters = $filters | append (images.Pixelate $args) }}
+            {{- else if eq $method "Saturation" }}
+              {{- $filters = $filters | append (images.Saturation $args) }}
+            {{- else if eq $method "Sepia" }}
+              {{- $filters = $filters | append (images.Sepia $args) }}
+            {{- else if eq $method "Grayscale" }}
+              {{- $filters = $filters | append images.Grayscale }}
+            {{- else }}
+              {{- warnf "Unsupported filter: %s" $method }}
+            {{- end }}
+          {{- end }}
+        {{- end }}
+        {{- $image = $image.Filter $filters }}
+      {{- end }}
+      <img src="{{ $image.RelPermalink }}" alt="" />
       <div class="c-text text-center">
-        <div>{{ $slide.content_html }}</div>
+        <div>{{ $slide.text }}</div>
       </div>
     </li>
     {{- end }}

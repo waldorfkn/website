@@ -1,4 +1,4 @@
-{{- $image := "../img/texture-bw.png" }}
+{{- $image := (resources.Get "images/texture-bw.png") }}
 {{- with .Params.banner }}
     {{- $image = (resources.Get .image) }}
     {{- range .processes }}
@@ -30,9 +30,8 @@
         {{- end }}
         {{- $image = $image.Filter $filters }}
     {{- end }}
-{{- $image = $image.RelPermalink }}
 {{- end }}
-<div id="banner-wrapper" style="--bg-image: url({{ $image }})">
+<div id="banner-wrapper" style="--bg-image: url({{ $image.RelPermalink }})">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
