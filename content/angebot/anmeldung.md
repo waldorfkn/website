@@ -5,6 +5,7 @@ menus:
     parent: angebot
     weight: 2
   footer1:
+    weight: 1
 banner:
   image: images/stock/handschlag.jpg
   processes:

@@ -4,7 +4,8 @@ menus:
   main:
     parent: pädagogik
     weight: 1
-#   footer1:
+  footer1:
+    weight: 3
 banner:
   image: images/stock/blumengiessen.jpg
   processes:

@@ -4,7 +4,8 @@ menus:
   main:
     parent: organisatorisches
     weight: 3
-#   footer1:
+  footer1:
+    weight: 5
 banner:
   image: images/stock/geldbeutel-schwarz.jpg
   processes:

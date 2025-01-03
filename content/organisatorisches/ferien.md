@@ -4,7 +4,8 @@ menus:
   main:
     parent: organisatorisches
     weight: 1
-#   footer1:
+  footer2:
+    weight: 1
 banner:
   image: images/stock/notepad.jpg
   processes:

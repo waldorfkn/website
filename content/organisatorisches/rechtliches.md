@@ -4,7 +4,8 @@ menus:
   main:
     parent: organisatorisches
     weight: 4
-#   footer1:
+  footer2:
+    weight: 4
 banner:
   image: images/stock/unterschrift.jpg
   processes:

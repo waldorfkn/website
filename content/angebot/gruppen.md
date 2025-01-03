@@ -4,6 +4,8 @@ menus:
   main:
     parent: angebot
     weight: 1
+  footer1:
+    weight: 2
 banner:
   image: images/stock/kindergruppe.jpg
   processes:

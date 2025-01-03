@@ -110,11 +110,11 @@ disableKinds = ["taxonomy", "rss"]
 
 [params.footer.menu1]
     enable = true
-    headline = "Service"
+    headline = "Für Interessierte"
 
 [params.footer.menu2]
     enable = true
-    headline = "Organisatorisches"
+    headline = "Im Kindergartenalltag"
 
 [params.footer.recent_posts]
     enable = false

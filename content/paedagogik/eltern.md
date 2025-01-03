@@ -4,7 +4,8 @@ menus:
   main:
     parent: pädagogik
     weight: 5
-#   footer1:
+  footer1:
+    weight: 4
 banner:
   image: images/stock/holzarbeit-zusammen.jpg
   processes:

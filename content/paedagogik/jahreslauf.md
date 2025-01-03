@@ -4,7 +4,8 @@ menus:
   main:
     parent: pädagogik
     weight: 3
-#   footer1:
+  footer2:
+    weight: 3
 banner:
   image: images/stock/jahreszeiten-blaetter.jpg
   processes:
