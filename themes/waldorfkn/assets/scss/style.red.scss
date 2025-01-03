@@ -1867,10 +1867,13 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 
-#heading-breadcrumbs {
-  background: var(--bg-image) center center repeat;
+#banner-wrapper {
+  background-image: var(--bg-image);
   background-size: cover;
-  padding: 100px 0;
+  background-position: center;
+  height: clamp(200px, 25vw, 400px);
+  display: flex;
+  align-items: center;
   margin-bottom: 40px;
 
   &.no-mb {
