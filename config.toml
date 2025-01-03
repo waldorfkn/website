@@ -16,7 +16,7 @@ disableKinds = ["taxonomy", "rss"]
 
 # Define the number of posts per page
 [pagination]
-pagerSize = 10
+    pagerSize = 10
 
 # German quotation marks
 [markup.goldmark.extensions.typographer]
@@ -24,14 +24,7 @@ pagerSize = 10
     rightDoubleQuote = '“'
 
 [menu]
-
 # Main menu
-# [[menu.main]]
-#     name       = "Start"
-#     identifier = "menu.home"
-#     url        = "/"
-#     weight     = 1
-
 [[menu.main]]
     name = "Angebot"
     identifier = "angebot"
@@ -97,22 +90,9 @@ pagerSize = 10
     tags = false
     search = false
 
-[params.carouselHomepage]
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more information take a look at the README.
-    enable = true
-    auto_play = true
-    slide_speed = 2000
-    pagination_speed = 1000
-    background_image = "images/stock/blaetter.jpg"
-
 [params.features]
     enable = true
     cols = 3 # Default: 3, Available values 2,3,4,6
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more information take a look at the README.
 
 [params.parallax1]
     enable = true
