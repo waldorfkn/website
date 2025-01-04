@@ -1868,13 +1868,33 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 #banner-wrapper {
-  background-image: var(--bg-image);
-  background-size: cover;
-  background-position: center;
   height: clamp(200px, 25vw, 400px);
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+  position: relative;
+
+  .dark-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-accent);
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    z-index: 2;
+  }
+
+  .banner-image {
+    display: inherit;
+    align-items: inherit;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
 
   &.no-mb {
     margin-bottom: 0;
@@ -1887,6 +1907,9 @@ fieldset[disabled] .btn-template-primary.active {
     font-size: 2.3em;
     font-weight: 600;
     letter-spacing: 0.08em;
+    // Place in the forefront of the banner
+    position: relative;
+    z-index: 3;
 
     @media (max-width: 991px) {
       text-align: center;

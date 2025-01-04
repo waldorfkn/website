@@ -2,15 +2,18 @@
 {{- with .Params.banner }}
     {{- $image = (partial "image-processing.html" .) }}
 {{- end }}
-<div id="banner-wrapper" style="--bg-image: url({{ $image.RelPermalink }})">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                {{- with .Params.title_hyphen }}
-                <h1>{{ . | safeHTML | markdownify }}</h1>
-                {{- else }}
-                <h1>{{ .Title }}</h1>
-                {{- end }}
+<div id="banner-wrapper">
+    <div class="dark-mask"></div>
+    <div class="banner-image" style="--bg-image: url({{ $image.RelPermalink }})">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    {{- with .Params.title_hyphen }}
+                    <h1>{{ . | safeHTML | markdownify }}</h1>
+                    {{- else }}
+                    <h1>{{ .Title }}</h1>
+                    {{- end }}
+                </div>
             </div>
         </div>
     </div>
