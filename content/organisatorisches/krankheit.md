@@ -1,5 +1,6 @@
 ---
 title: "Regelung in Krankheitsfällen"
+title_hyphen: "Regelung in Krankheits&shy;fällen"
 menus:
   main:
     name: Bei Krankheit

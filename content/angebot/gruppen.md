@@ -1,5 +1,6 @@
 ---
 title: "Gruppen und Öffnungszeiten"
+title_hyphen: "Gruppen und Öffnungs&shy;zeiten"
 menus:
   main:
     parent: angebot
