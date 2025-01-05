@@ -16,44 +16,60 @@ banner:
 
 Uns erreichen oft dieselben Fragen per E-Mail und Telefon. Die meisten Antworten darauf finden sich auf dieser Webseite, doch hier sammeln wir die häufigsten Fragen und kurze Antworten darauf.
 
-**TODO: put all answers in details shortcode for Hugo 0.140**
-
 ## Zum Angebot
 
-### Wie kann mein Kind einen Platz erhalten?
+{{< details summary="Wie kann mein Kind einen Platz erhalten?" >}}
+Hier steht die Antwort, siehe auch [Anmeldung]({{% relref "anmeldung" %}})
+{{< /details >}}
 
-### Wie viele Gruppen und Betreuungsplätze gibt es?
+{{< details summary="Wie viele Gruppen und Betreuungsplätze gibt es?" >}}
+Hier steht die Antwort, siehe auch [Gruppen und Öffnungszeiten]({{% relref "gruppen" %}})
+{{< /details >}}
 
-### Für welches Alter gibt es ein Angebot?
+{{< details summary="Für welches Alter gibt es ein Angebot?" >}}
+{{< /details >}}
 
-### Gibt es auch eine Krippe?
+{{< details summary="Gibt es auch eine Krippe?" >}}
+{{< /details >}}
 
-### Gibt es Ganztages-Plätze? Wenn ja, wie lange?
+{{< details summary="Gibt es Ganztages-Plätze? Wenn ja, wie lange?" >}}
+{{< /details >}}
 
 ## Zur Pädagogik und Waldorf
 
-### Was ist das Besondere an einem Waldorfkindergarten?
+{{< details summary="Was ist das Besondere an einem Waldorfkindergarten?" >}}
+{{< /details >}}
 
-### Müssen die Eltern sich einbringen?
+{{< details summary="Müssen die Eltern sich einbringen?" >}}
+{{< /details >}}
 
 ## Zu organisatorischen Fragen
 
-### Wann ist der Kindergarten für Ferien o.ä. geschlossen?
+{{< details summary="Wann ist der Kindergarten für Ferien o.ä. geschlossen?" >}}
+{{< /details >}}
 
-### Mein Kind ist krank. Was soll ich tun?
+{{< details summary="Mein Kind ist krank. Was soll ich tun?" >}}
+{{< /details >}}
 
-### Wie viel kostet der Kindergarten?
+{{< details summary="Wie viel kostet der Kindergarten?" >}}
+{{< /details >}}
 
-### Wie kann ich den Kindergartenplatz kündigen?
+{{< details summary="Wie kann ich den Kindergartenplatz kündigen?" >}}
+{{< /details >}}
 
-### Wer hat die Aufsicht über mein Kind?
+{{< details summary="Wer hat die Aufsicht über mein Kind?" >}}
+{{< /details >}}
 
-### Wer steckt hinter dem Kindergarten?
+{{< details summary="Wer steckt hinter dem Kindergarten?" >}}
+{{< /details >}}
 
-### Was hat es mit dem Träger-Verein auf sich?
+{{< details summary="Was hat es mit dem Träger-Verein auf sich?" >}}
+{{< /details >}}
 
-### Gibt es offene Stellen? Wo kann ich mich bewerben?
+{{< details summary="Gibt es offene Stellen? Wo kann ich mich bewerben?" >}}
+{{< /details >}}
 
 ## Zu sonstigen Themen
 
-### Wie kann ich den Kindergarten erreichen?
+{{< details summary="Wie kann ich den Kindergarten erreichen?" >}}
+{{< /details >}}

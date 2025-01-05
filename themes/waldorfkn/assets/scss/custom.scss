@@ -110,3 +110,42 @@ iframe#directions-map {
     margin-right: .4em;
   }
 }
+
+
+// Details
+details {
+  summary {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.5em 0;
+    list-style: none;
+    display: flex;
+    // justify-content: space-between;
+    transition: height 1s ease; // geht nicht
+    // TODO: arrow in front of question
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &:before {
+      content: "\002B";
+      margin-right: 10px;
+    }
+  }
+
+  &[open] {
+    summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: 0.5em;
+
+      &:before {
+        content: "\00D7";
+      }
+    }
+
+    div {
+      padding: 0.5em 1em;
+    }
+  }
+}
