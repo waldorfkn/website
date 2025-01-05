@@ -18,7 +18,7 @@ banner:
 #   disable: true # default is false
 ---
 
-Bei Erkältungskrankheiten, Hautausschlägen, Halsschmerzen, Erbrechen, Durchfall und Fieber müssen die Kinder unbedingt zu Hause bleiben. Dasselbe gilt natürlich bei Läuse- und Flohbefall. Das kommt auch der eigenen Familie zugute, da sonst auch die Pädagog:innen irgendwann aufgrund dieser Krankheiten ausfallen werden.
+Bei Erkältungskrankheiten, Hautausschlägen, Halsschmerzen, Erbrechen, Durchfall und Fieber müssen die Kinder unbedingt zu Hause bleiben. Dasselbe gilt natürlich bei Läuse- und Flohbefall. Das kommt auch der eigenen Familie zugute, da sonst auch die Pädagog:innen irgendwann aufgrund dieser Krankheiten ausfallen werden. Sie dürfen erst wieder den Kindergarten kommen, wenn sie seit 24 Stunden fieberfrei sind.
 
 ## Bei schweren und ansteckenden Krankheiten
 

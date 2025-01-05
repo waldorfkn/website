@@ -24,15 +24,15 @@ Das *Stübchen* ist für unsere Kleinsten. Der Name ist Programm, denn wir legen
 
 **Anzahl Kinder**: Maximal 10
 
-**Öffnungszeiten**: 07:30 Uhr bis 14:00, in Ganztagesbetreuung bis 16:30 Uhr.
+**Öffnungszeiten**: 07:15 Uhr bis 14:00, in Ganztagesbetreuung bis 16:45 Uhr.
 
 
 ## Kindergarten
 
-Die drei Kindergartengruppen -- *Sonnengruppe*, *Sternengruppe* und *Mondgruppe* -- bestehen aus je maximal 20 Kindern gemischten Alters. Eine jede verfügt über ihren eigenen Raum, der ganz individuell geschnitten und eingerichtet ist. Die Gruppen haben jeweils unterschiedliche Öffnungszeiten, damit zum einen auf die jeweiligen Bedürfnisse der Familien eingegangen werden kann, aber die Kinder innerhalb der Gruppe auch im Laufe des Tages beisammen bleiben.
+Die drei Kindergartengruppen -- *Sonnengruppe*, *Sternengruppe* und *Mondgruppe* -- bestehen aus je rund 20 Kindern gemischten Alters. Eine jede verfügt über ihren eigenen Raum, der ganz individuell geschnitten und eingerichtet ist. Die Gruppen haben jeweils unterschiedliche Öffnungszeiten, damit zum einen auf die jeweiligen Bedürfnisse der Familien eingegangen werden kann, aber die Kinder innerhalb der Gruppe auch im Laufe des Tages beisammen bleiben.
 
-Die Kindergartengruppen haben außerdem eine gemeinsame Spielzeit im großen Garten, der unter anderem mit Schaukel, Sandkasten, Klettergerüst, Rutsche, Brunnen und Wasserlauf ausgestattet ist.
+Die Kindergartengruppen haben außerdem eine gemeinsame Spielzeit im großen Garten, der unter anderem mit Schaukel, Sandkasten, Klettergerüst, Rutsche, Slackline, Brunnen und Wasserlauf ausgestattet ist.
 
-**Anzahl Kinder**: Maximal 20 je Gruppe
+**Anzahl Kinder**: Maximal 23 pro Gruppe
 
-**Öffnungszeiten**: 07:30 Uhr bis 13:30 Uhr, bei Mittagessen bis 14:00 Uhr, in Ganztagesbetreuung bis 16:30 Uhr.
+**Öffnungszeiten**: 07:15 Uhr bis 13:30 Uhr, bei Mittagessen bis 14:00 Uhr, in Ganztagesbetreuung bis 16:45 Uhr.

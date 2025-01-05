@@ -25,7 +25,7 @@ Alle finanziellen Themen rund um den Kindergarten werden in einem Finanzgespräc
 
 Unsere Kindertageseinrichtung erhebt feste Beiträge für die verschiedenen Betreuungszeiten. Zum Betreuungsbeitrag hinzu kommt monatlich ein Frühstücksgeld (nicht in der Krippengruppe) sowie ggf. ein Mittagessensbeitrag. Diese Beiträge werden von uns per Lastschriftverfahren am Anfang des jeweiligen Monats eingezogen.
 
-**TODO: Hier die aktuellen Beträge inkl. aller Sonderlocken**
+**TODO: Hier die aktuellen Beträge inkl. aller Sonderlocken -> Ronja fragen**
 
 Unter einer bestimmten Einkommensgrenze können die Betreuungsbeiträge und der Mittagessensbeitrag vom Jugendamt bezuschusst werden.
 
@@ -37,7 +37,7 @@ Die Höhe der Einlage richtet sich nach dem Bedarf des Kindergartens. Nach Beend
 
 Die Elterneinlage kann nach Austritt aus dem Kindergarten gespendet werden. Wird die Einlage nicht bis zum Ende eines Jahres nach Austritt des Kindes aus dem Kindergarten gekündigt, gehtsie automatisch an den Verein/ Kindergarten über.
 
-**TODO: Hier die aktuelle Höhe der Einlage**
+**TODO: Hier die aktuelle Höhe der Einlage -> Ronja**
 
 ## Jährliche Vereinsbeiträge
 
@@ -54,3 +54,5 @@ Das Konto für Elternbeitrag, Einlagen, Vereinbeiträge und Spenden lautet:
 IBAN: `DE63 6929 1000 0214 2557 23`\
 BIC: `GENODE61RAD`\
 Bank: Volksbank Konstanz
+
+**TODO: neue Konten? -> Ronja**

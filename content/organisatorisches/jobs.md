@@ -19,3 +19,6 @@ banner:
 **TODO: Einführung, dass wir immer Hilfe brauchen, unterschiedliche Zeiten, etc**
 
 **TODO: Wie sollen sich potenzielle Bewerber melden? Initiativbewerbung? Wo werden offene Stellen publiziert?**
+
+- Auch Praktikanten, Auszubildene (PIA), Berufsvorbereitung, Sozialpraktikum etc
+- E-Mail schreiben!

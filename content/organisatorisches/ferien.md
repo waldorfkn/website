@@ -19,6 +19,9 @@ banner:
 
 **TODO: ggf. Grundsätzliches zur Anzahl der Ferien und Schließtage**
 
+- etwa 30 Schließtage im Jahr (meistens Ferien, angelehnt an Schulferien)
+- Drei halbe Schließtage
+
 ## Aktuelle Ferien-Termine und Schließtage
 
 **TODO: Aktuelle Ferienzeiten, Schließtage usw. Besondere Events sind unter "Veranstaltungen"**

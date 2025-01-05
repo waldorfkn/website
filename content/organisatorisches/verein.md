@@ -18,6 +18,9 @@ banner:
 
 **TODO: Erklären, wie der Verein heißt, warum es ihn gibt und dass das toll ist**
 
+- Freiheit der Gestaltung -> Eltern haben viel Mitbestimmungsmöglichkeiten
+- Unabhängigkeit in der Wahl des Personals -> hohe Ansprüche
+
 **TODO: Mitgliedschaft anpreisen. Mögliche Dopplung auf /beitraege**
 
 ## Satzung

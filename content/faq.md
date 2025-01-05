@@ -51,6 +51,9 @@ Hier steht die Antwort, siehe auch [Gruppen und Öffnungszeiten]({{% relref "gru
 {{< details summary="Mein Kind ist krank. Was soll ich tun?" >}}
 {{< /details >}}
 
+{{< details summary="Gibt es oft Notbetreuung?" >}}
+{{< /details >}}
+
 {{< details summary="Wie viel kostet der Kindergarten?" >}}
 {{< /details >}}
 

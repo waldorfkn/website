@@ -26,3 +26,5 @@ Der Waldorfkindergarten arbeitet auf der Grundlage der allgemeinen Menschenkunde
 **TODO: Woher kommt das Konzept? Steiner? Ggf. auch Kritik aufgreifen**
 
 **TODO: Nicht doppeln, was auf den anderen Seiten in dieser Sektion steht, aber gerne anreißen und darauf verlinken.**
+
+**TODO: Warum ist es gerade in der heutigen Zeit so vorteilhaft?**

@@ -6,15 +6,19 @@ strong {
 h4, h5, h6 {
   margin-top: 15px;
 }
+
 h3 {
   font-size: 1.45em;
 }
+
 h4 {
   font-size: 1.3em;
 }
+
 h5 {
   font-size: 1.15em;
 }
+
 h6 {
   font-size: 1em;
 }
@@ -115,37 +119,50 @@ iframe#directions-map {
 // Details
 details {
   summary {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 600;
     padding: 0.5em 0;
-    list-style: none;
-    display: flex;
-    // justify-content: space-between;
-    transition: height 1s ease; // geht nicht
-    // TODO: arrow in front of question
 
-    &::-webkit-details-marker {
-      display: none;
-    }
-
+    // arrow right in closed
     &:before {
-      content: "\002B";
-      margin-right: 10px;
+      content: "\f105";
+      font-family: "FontAwesome";
+      display: inline-block;
+      width: 1.3em;
+
     }
   }
 
+  // content
+  div {
+    padding: 0.5em 1em;
+  }
+
+  // opened details
   &[open] {
     summary {
       border-bottom: 1px solid #aaa;
       margin-bottom: 0.5em;
+      max-height: 50em;
 
+      // arrow down in open
       &:before {
-        content: "\00D7";
+        content: "\f107";
       }
-    }
 
-    div {
-      padding: 0.5em 1em;
+      ~ * {
+        animation: sweep .3s ease-in-out;
+
+        @keyframes sweep {
+          0% {
+            opacity: 0;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+      }
     }
   }
 }
