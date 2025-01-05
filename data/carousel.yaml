@@ -3,16 +3,17 @@ images:
     text: "Kinder brauchen Raum für Phantasie"
     processes:
     - "fill 1900x600 Top"
-    # filter:
-    #   - GaussianBlur: 1
-    #   - Brightness: 0
+    filter:
+      - GaussianBlur: 1
+  - image: images/stock/kinder-schaukel.jpg
+    text: "Starkes Fundament durch Gemeinschaft"
+    processes:
+    - "fill 1900x600 center"
+    filter:
+      - GaussianBlur: 1
   - image: images/stock/trampolin-kleinkind.jpg
-    text: "Foo bar baz"
+    text: "Spielend die Welt entdecken"
     processes:
     - "fill 1900x600 Top"
-  # - image: /uploads/slider/image2.jpg
-  #   content_html: "2"
-  # - image: /uploads/slider/image3.jpg
-  #   content_html: "3"
-  # - image: /uploads/slider/image4.jpg
-  #   content_html: "4"
+    filter:
+      - GaussianBlur: 1
