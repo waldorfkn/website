@@ -15,11 +15,11 @@
             <!-- *** BLOG HOMEPAGE *** -->
 
             <div class="row">
-                {{/* Sort events by event date and limit the number of events to show on the homepage */}}
-                {{- $events := sort (where .Site.RegularPages "Type" "in" .Site.Params.eventSections) ".Params.event_date" }}
+                {{- /* Get future or today's events */}}
+                {{- $future_events := (partial "future-events.html" .) }}
+                {{- /* Range defined first events of this list */}}
                 {{- $limit := (.Site.Params.events.limit | default 3) }}
-                {{- range first $limit $events }}
-                {{- if ge (time .Params.event_date).Unix now.Unix }}
+                {{- range first $limit $future_events }}
                     {{/* Get banner image if existing, placeholder as fallback, scale 4:3 */}}
                     {{- $img := ""}}{{ with .Params.banner.image }}{{ $img = . }}{{ else }}{{ $img = "images/placeholder.png" }}{{ end }}
                     {{- $img = (resources.Get $img).Fill "400x300 center" }}
@@ -65,7 +65,6 @@
                         <!-- /.box-image-text -->
 
                     </div> <!-- /event -->
-                {{- end }}
                 {{- end }}
 
             </div>

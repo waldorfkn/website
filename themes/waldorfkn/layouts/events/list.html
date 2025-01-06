@@ -23,9 +23,9 @@
 
                     <div class="col-md-9" id="blog-listing-medium">
 
-                        {{- $event_pages := sort (where .Site.RegularPages "Type" "in" .Site.Params.eventSections) ".Params.event_date" }}
-                        {{- range $event_pages }}
-                        {{- if ge (time .Params.event_date).Unix now.Unix }}
+                        {{- /* Get future or today's events */}}
+                        {{- $future_events := (partial "future-events.html" .) }}
+                        {{- range $future_events }}
                         <section class="post">
                             <div class="row">
                                 <div class="col-md-4">
@@ -54,7 +54,6 @@
                             </div>
                         </section>
                         {{- end }} <!-- /range -->
-                        {{- end }} <!-- /if -->
 
                         <ul class="pager">
                             {{- if .Paginator.HasPrev }}
