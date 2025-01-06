@@ -30,7 +30,7 @@
                                     <img src="{{ $img.RelPermalink }}" class="img-responsive" alt="" />
                                 </div>
                                 <a href="{{ .RelPermalink }}" title="{{ i18n "readMore" }}">
-                                    <div class="date">{{ time.Format "2. January 2006" .Params.event_date }} </div>
+                                    <div class="date">{{ time.Format .Site.Params.date_format .Params.event_date }} </div>
                                     <div class="bg"></div>
                                 </a>
                                 {{/*  <div class="text">
