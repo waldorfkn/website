@@ -102,8 +102,6 @@ ul.angle-right {
 // Openstreetmap iframe
 iframe#directions-map {
   width: 100%;
-  max-width: 800px;
-  max-height: 500px;
   aspect-ratio: 16 / 10;
   border: 0;
 }
@@ -150,7 +148,7 @@ details {
         content: "\f107";
       }
 
-      ~ * {
+      ~* {
         animation: sweep .3s ease-in-out;
 
         @keyframes sweep {
