@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  <head>
+<head>
     {{- partial "headers.html" . }}
     {{- partial "custom_headers.html" . }}
-  </head>
+</head>
 
-  <body>
+<body>
 
     <div id="all">
 
@@ -28,37 +28,36 @@
                         <section class="post">
                             <div class="row">
                                 <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="{{ .RelPermalink }}">
-                                          {{- if .Params.banner }}
-                                          <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" />
-                                          {{- else }}
-                                          <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="" />
-                                          {{- end }}
-                                      </a>
-                                  </div>
+                                    <div class="image">
+                                        <a href="{{ .RelPermalink }}">
+                                            {{/* Get banner image if existing, placeholder as fallback, scale 4:3 */}}
+                                            {{- $img := ""}}{{ with .Params.banner.image }}{{ $img = . }}{{ else }}{{ $img = "images/placeholder.png" }}{{ end }}
+                                            {{- $img = (resources.Get $img).Fill "400x300 center" }}
+                                            <img src="{{ $img.RelPermalink }}" class="img-responsive" alt="" />
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="col-md-8">
                                     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
-                                          {{- if isset .Params "authors" }}
-					  {{- i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
-                                          {{- end }}
-                                          {{- if isset .Params "categories" }}
-                                          {{- if gt (len .Params.categories) 0 }}
-                                          in
-                                          {{- range $index, $category := .Params.categories }}{{ if $index }}, {{ end }}
-                                              <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}">{{ $category }}</a>{{ end }}
-                                          {{- end }}
-                                          {{- end }}
+                                            {{- if isset .Params "authors" }}
+                                            {{- i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf " %s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                                            {{- end }}
+                                            {{- if isset .Params "categories" }}
+                                            {{- if gt (len .Params.categories) 0 }}
+                                            in
+                                            {{- range $index, $category := .Params.categories }}{{ if $index }}, {{ end }}
+                                            <a href="{{ " categories/" | relLangURL }}{{ . | urlize | lower }}">{{ $category }}</a>{{ end }}
+                                            {{- end }}
+                                            {{- end }}
 
                                         </p>
                                         {{- if isset .Params "date" }}
 
                                         {{- $createdAt := .Date.Format .Site.Params.date_format }}
                                         {{- range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
-                                            {{- $createdAt = replace $createdAt $month (i18n $month) }}
+                                        {{- $createdAt = replace $createdAt $month (i18n $month) }}
                                         {{- end }}
 
                                         <p class="date-comments">
@@ -124,5 +123,6 @@
 
     {{- partial "scripts.html" . }}
 
-  </body>
+</body>
+
 </html>
