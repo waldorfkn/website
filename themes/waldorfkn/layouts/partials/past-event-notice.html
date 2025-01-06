@@ -1,0 +1,8 @@
+{{- /* Check if page has event_date and whether event is older than `now` */}}
+{{- if isset .Params "event_date" }}
+{{- $now := now }}
+{{- $date := time .Params.event_date }}
+{{- if lt $date.Unix $now.Unix }}
+<div class="alert alert-warning" role="alert">{{ i18n "pastEvents" (relURL "/#events") | markdownify }}</div>
+{{- end }} <!-- /if lt -->
+{{- end }} <!-- /if isset -->

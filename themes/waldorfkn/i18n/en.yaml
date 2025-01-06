@@ -117,3 +117,6 @@
 
 - id: relatedPages
   translation: "More Pages on \"{{ . }}\""
+
+- id: pastEvents
+  translation: "**Note:** This event is in the past. Current events can be found on the [homepage]({{ . }})."
