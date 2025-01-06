@@ -119,4 +119,4 @@
   translation: "Weitere Seiten zu \"{{ . }}\""
 
 - id: pastEvents
-  translation: "**Hinweis:** Diese Veranstaltung liegt in der Vergangenheit. Aktuelle Veranstaltungen sind auf der [Startseite]({{ . }}) zu finden."
+  translation: "**Hinweis:** Diese Veranstaltung liegt in der Vergangenheit. Kommende Veranstaltungen sind auf der [Veranstaltungsseite]({{ . }}) zu finden."
