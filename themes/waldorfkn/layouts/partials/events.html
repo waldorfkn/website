@@ -19,6 +19,7 @@
                 {{- $future_events := (partial "future-events.html" .) }}
                 {{- /* Range defined first events of this list */}}
                 {{- $limit := (.Site.Params.events.limit | default 3) }}
+                {{- $more_events := cond (gt (len $future_events) $limit) true false }}
                 {{- range first $limit $future_events }}
                     {{/* Get banner image if existing, placeholder as fallback, scale 4:3 */}}
                     {{- $img := ""}}{{ with .Params.banner.image }}{{ $img = . }}{{ else }}{{ $img = "images/placeholder.png" }}{{ end }}
@@ -65,10 +66,13 @@
                         <!-- /.box-image-text -->
 
                     </div> <!-- /event -->
-                {{- end }}
+                {{- end }} <!-- /range -->
 
             </div>
             <!-- /.row -->
+            {{- if $more_events }}
+                <p>{{ i18n "moreEvents" (relURL "/events/") | markdownify }}</p>
+            {{- end }}
 
             <!-- *** BLOG HOMEPAGE END *** -->
 

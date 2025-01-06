@@ -120,3 +120,6 @@
 
 - id: pastEvents
   translation: "**Note:** This event is in the past. Upcoming events can be found on the [event page]({{ . }})."
+
+- id: moreEvents
+  translation: "More upcoming events can be found on the [event page]({{ . }})."

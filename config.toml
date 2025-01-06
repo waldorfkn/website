@@ -106,7 +106,7 @@ disableKinds = ["taxonomy", "rss"]
     title = "Veranstaltungen"
     subtitle = "Große und kleine Veranstaltungen und Feste sind fester Bestandteil des Kindergartenjahres. Sie sind eine hervorragende Möglichkeit für Kinder, Eltern und Erzieher:innen, sich besser kennenzulernen und gemeinsam Zeit zu verbringen. Darüber hinaus verbinden sie uns mit der Nachbarschaft und bieten Interessierten einen tollen Einblick."
     hide_summary = true
-    limit = 5
+    limit = 4
 
 [params.footer.menu1]
     enable = true

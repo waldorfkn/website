@@ -120,3 +120,6 @@
 
 - id: pastEvents
   translation: "**Hinweis:** Diese Veranstaltung liegt in der Vergangenheit. Kommende Veranstaltungen sind auf der [Veranstaltungsseite]({{ . }}) zu finden."
+
+- id: moreEvents
+  translation: "Weitere anstehende Events finden sich auf der [Veranstaltungsseite]({{ . }})."

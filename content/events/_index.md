@@ -1,5 +1,5 @@
 ---
-title: Veranstaltungen
+title: Kommende Veranstaltungen
 sitemap:
   disable: true # default is false
 related_pages:
