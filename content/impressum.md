@@ -20,7 +20,7 @@ Mannheimer Straße 2\
 Eingetragen als "Verein zur Förderung der Waldorf Pädagogik e.V." mit Sitz in Konstanz beim Registergericht Freiburg, VR 380439
 
 Vorsitzende des Vereins: Ronja Berger\
-Kindergartenleitung: Sarah Ostergaard
+Kindergartenleitung: Annette Schünemann-Küttenbaum
 
 ### Kontakt
 

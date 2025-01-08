@@ -31,7 +31,7 @@ Für **Meldungen von Krankheit und Abwesenheit** sind wir von 07:30 bis 08:30 Uh
 
 ## Leitungspersonen
 
-Kindergartenleitung: Sarah Ostergaard\
+Kindergartenleitung: Annette Schünemann-Küttenbaum\
 Vorstandsvorsitzende: Ronja Berger
 
 ## Lage und Anfahrt
