@@ -201,7 +201,7 @@ Bei der Analyse mit Matomo setzen wir IP-Anonymisierung ein. Hierbei wird Ihre I
 Wir hosten Matomo bei folgendem Drittanbieter:
 
 Max Mehl IT-Dienstleistungen\
-Jakob-Stadler-Platz 11\
+Line-Eid-Straße 6\
 78467 Konstanz
 
 ### 6. Kartendienste
