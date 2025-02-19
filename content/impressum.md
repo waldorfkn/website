@@ -25,7 +25,7 @@ Kindergartenleitung: Annette Schünemann-Küttenbaum
 ### Kontakt
 
 Telefon: {{< cloakemail address="+49 7531 929796" protocol="tel" >}}\
-E-Mail: {{< cloakemail "nfo@waldorfkindergarten-konstanz.de" >}}
+E-Mail: {{< cloakemail "info@waldorfkindergarten-konstanz.de" >}}
 
 ## Datenschutz­erklärung
 
