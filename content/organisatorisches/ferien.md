@@ -17,11 +17,14 @@ banner:
 #   disable: true # default is false
 ---
 
-**TODO: ggf. Grundsätzliches zur Anzahl der Ferien und Schließtage**
-
 - etwa 30 Schließtage im Jahr (meistens Ferien, angelehnt an Schulferien)
 - Drei halbe Schließtage
 
 ## Aktuelle Ferien-Termine und Schließtage
 
-**TODO: Aktuelle Ferienzeiten, Schließtage usw. Besondere Events sind unter "Veranstaltungen"**
+2025:
+* Osterferien: 18. - 25. April
+* Pfingsten: 16. - 20. Juni
+* Sommer: 11. - 29. August
+
+* Besondere Events unter "Veranstaltungen" -> Link

@@ -28,4 +28,4 @@ Bevor das Kind nach Auftreten einer ansteckenden Krankheit -- auch in der Famili
 
 ## Bei Abwesenheit bitte Bescheid geben
 
-Wenn das Kind wegen Krankheit oder aus anderen Gründen zuhause bleibt, sollte das den Erzieher:innen möglichst am gleichen Tag mitgeteilt werden -- am besten per Telefon zwischen 07:30 und 08:30 Uhr.
+Wenn das Kind wegen Krankheit oder aus anderen Gründen zuhause bleibt, sollte das den Erzieher:innen möglichst am gleichen Tag mitgeteilt werden -- zwischen 07:30 und 08:30 Uhr und gerne per E-Mail.

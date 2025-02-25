@@ -28,3 +28,14 @@ banner:
 ## Besichtigung
 
 **TODO: Bieten wir das an? Wie?**
+
+* Anmeldung über KITA Dataweb (Stadt) -> Links auf Stadt
+* Uns als Prio angeben (am besten als erste)
+* Entscheidung nach Alter und/oder Punkte
+  * Kindergarten nach Alter
+  * Krippe nach Punkte
+  * Jeweils nach Regelungen der Stadt
+* Offen für Besichtigung bzw. erwünscht. E-Mail oder Anrufen für Termin -> Kurzes Kennenlernen
+
+* Weiterer Ablauf: Wir sagen, wenn sie einen Platz bei uns bekommen. Meistens Anfang bis Mitte Mai.
+  * Davor können wir keine Info geben, ist noch nicht fest

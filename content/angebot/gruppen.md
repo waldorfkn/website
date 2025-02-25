@@ -33,6 +33,6 @@ Die drei Kindergartengruppen -- *Sonnengruppe*, *Sternengruppe* und *Mondgruppe*
 
 Die Kindergartengruppen haben außerdem eine gemeinsame Spielzeit im großen Garten, der unter anderem mit Schaukel, Sandkasten, Klettergerüst, Rutsche, Slackline, Brunnen und Wasserlauf ausgestattet ist.
 
-**Anzahl Kinder**: Maximal 23 pro Gruppe
+**Anzahl Kinder**: Maximal 22 pro Gruppe
 
 **Öffnungszeiten**: 07:15 Uhr bis 13:30 Uhr, bei Mittagessen bis 14:00 Uhr, in Ganztagesbetreuung bis 16:45 Uhr.

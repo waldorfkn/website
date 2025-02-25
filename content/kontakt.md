@@ -26,13 +26,19 @@ Mannheimer Straße 2\
 **{{< rawhtml >}}<i class="fa-solid fa-phone" aria-hidden="true"></i>{{< /rawhtml >}} Telefon**: {{< cloakemail address="+49 7531 929796" protocol="tel" >}}\
 **{{< rawhtml >}}<i class="fa-solid fa-envelope" aria-hidden="true"></i>{{< /rawhtml >}} E-Mail**: {{< cloakemail "info@waldorfkindergarten-konstanz.de" >}}
 
-Da das Büro nicht durchgehend besetzt ist, bitte kurzfristige Anliegen mit uns persönlich besprechen.\
-Für **Meldungen von Krankheit und Abwesenheit** sind wir von 07:30 bis 08:30 Uhr telefonisch erreichbar.
+Da das Büro nicht durchgehend besetzt ist, bitte kurzfristige Anliegen mit uns persönlich besprechen.
 
-## Leitungspersonen
+Für **Meldungen von Krankheit und Abwesenheit** sind wir von 07:30 bis 08:30 Uhr per E-Mail und telefonisch erreichbar.
 
-Kindergartenleitung: Annette Schünemann-Küttenbaum\
-Vorstandsvorsitzende: Ronja Berger
+Kindergartenleitung: Annette Schünemann-Küttenbaum
+
+## Trägerverein
+
+**TODO**
+
+Vorstandsvorsitzende des [Träger-Vereins]({{% relref "verein" %}}): Ronja Berger
+
+**{{< rawhtml >}}<i class="fa-solid fa-envelope" aria-hidden="true"></i>{{< /rawhtml >}} E-Mail**: {{< cloakemail "vorstand@waldorfkindergarten-konstanz.de" >}}
 
 ## Lage und Anfahrt
 

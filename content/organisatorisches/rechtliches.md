@@ -41,5 +41,6 @@ Das Erzieherinnenkollegium und der Vorstand des Trägervereins können das Vertr
 * Die wiederholte Nichtbeachtung der in dieser Ordnung aufgeführten Elternpflichten nach Abmahnung.
 * Die ausbleibende Zahlung des Elternbeitrages für zwei aufeinanderfolgende Monate.
 * Nicht ausgeräumte, erhebliche Auffassungsunterschiede zwischen Eltern / Erziehungsberechtigten und Kindergarten.
+* Wir können nicht adäquat auf die physischen und emotionale Bedürfnisse eines Kindes eingehen.
 
 Das Recht zur Kündigung aus wichtigem Grund (außerordentliche Kündigung) bleibt davon unberührt.

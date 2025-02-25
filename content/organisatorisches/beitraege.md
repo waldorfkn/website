@@ -23,27 +23,34 @@ Alle finanziellen Themen rund um den Kindergarten werden in einem Finanzgespräc
 
 ## Monatlicher Elternbeitrag
 
-Unsere Kindertageseinrichtung erhebt feste Beiträge für die verschiedenen Betreuungszeiten. Zum Betreuungsbeitrag hinzu kommt monatlich ein Frühstücksgeld (nicht in der Krippengruppe) sowie ggf. ein Mittagessensbeitrag. Diese Beiträge werden von uns per Lastschriftverfahren am Anfang des jeweiligen Monats eingezogen.
+Unsere Kindertageseinrichtung erhebt feste Beiträge für die verschiedenen Betreuungszeiten. Zum Betreuungsbeitrag hinzu kommt monatlich ein Frühstücksgeld sowie ggf. ein Mittagessensbeitrag. Diese Beiträge werden von uns per Lastschriftverfahren am Anfang des jeweiligen Monats eingezogen.
 
-**TODO: Hier die aktuellen Beträge inkl. aller Sonderlocken -> Ronja fragen**
+* Kindergarten
+  * VÖ: 165 € + 20€ Frühstücksgeld
+  * GT: 230 € + 20€ Frühstück + 100€ Mittagessen
+* Krippe:
+  * VÖ: 230 € + 5€ Vespergeld + 100 € Mittagessen
+  * GT: 365€ + 5€ Vesper + 100€ Mittagessen
 
-Unter einer bestimmten Einkommensgrenze können die Betreuungsbeiträge und der Mittagessensbeitrag vom Jugendamt bezuschusst werden.
+Geschwisterrabatt: Ab dem zweiten Kind in unserer Einrichtung = -15€
+
+Unter einer bestimmten Einkommensgrenze können die Betreuungsbeiträge und der Mittagessensbeitrag vom Jugendamt bezuschusst bzw. ganz übernommen werden.
 
 ## Einmalige Einlage
 
 Weil der Träger des Kindergartens ein gemeinnütziger, nicht wirtschaftlicher Verein ist, ist die Bereitstellung von Einlagen zur Bestreitung der anfallenden Kosten notwendig. Bei Aufnahme des Kindes in den Kindergarten ist eine Einlage als zinsloses Darlehen bzw. als Kaution zu leisten. Sie dient auch zur Verrechnung eventueller Rückstände von Elternbeiträgen.
 
-Die Höhe der Einlage richtet sich nach dem Bedarf des Kindergartens. Nach Beendigung der Kindergartenzeit und nach Eingang einer schriftlichen Kündigung bzw. Inkrafttreten einer Kündigung wird die Einlage mit einer Kündigungsfrist von zwei Monaten zurückerstattet. Eine Kündigung der Einlage kann nur in Verbindung mit einer Kündigung des Kindergartenplatzes wirksam werden.
+Nach Beendigung der Kindergartenzeit und nach Eingang einer schriftlichen Kündigung bzw. Inkrafttreten einer Kündigung wird die Einlage mit einer Kündigungsfrist von zwei Monaten zurückerstattet. Eine Kündigung der Einlage kann nur in Verbindung mit einer Kündigung des Kindergartenplatzes wirksam werden.
 
-Die Elterneinlage kann nach Austritt aus dem Kindergarten gespendet werden. Wird die Einlage nicht bis zum Ende eines Jahres nach Austritt des Kindes aus dem Kindergarten gekündigt, gehtsie automatisch an den Verein/ Kindergarten über.
+Die Elterneinlage kann nach Austritt aus dem Kindergarten gespendet werden. Wird die Einlage nicht bis zum Ende eines Jahres nach Austritt des Kindes aus dem Kindergarten gekündigt, geht sie automatisch an den Verein über.
 
-**TODO: Hier die aktuelle Höhe der Einlage -> Ronja**
+Aktuell beträgt die Einlage 300€.
 
 ## Jährliche Vereinsbeiträge
 
 Träger des Kindergartens ist der "Verein zur Förderung der Waldorfpädagogik e.V.". Eine Mitgliedschaft der Eltern im Verein wichtig und wünschenswert, während ihre Kinder bei uns sind.
 
-Die Höhe des Mitgliedsbeitrags wird von den Eltern selbst festgelegt, sollte jedoch einen Betrag von 35 € pro Jahr nicht unterschreiten.
+Die Höhe des Mitgliedsbeitrags wird von den Eltern selbst festgelegt, sollte jedoch einen Betrag von 40 € pro Jahr nicht unterschreiten.
 
 In der jährlich stattfindenden Mitgliederversammlung wird unter anderem über die Einahmen und Ausgaben des Vereins berichtet. Die Mitglieder entscheiden über die Verwendung der Mitgliedsbeiträge. Sie haben an der Mitgliederversammlung Stimm- und Wahlrecht.
 
@@ -54,5 +61,3 @@ Das Konto für Elternbeitrag, Einlagen, Vereinbeiträge und Spenden lautet:
 IBAN: `DE63 6929 1000 0214 2557 23`\
 BIC: `GENODE61RAD`\
 Bank: Volksbank Konstanz
-
-**TODO: neue Konten? -> Ronja**

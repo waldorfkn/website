@@ -16,9 +16,9 @@ banner:
 #   disable: true # default is false
 ---
 
-**TODO: Einführung, dass wir immer Hilfe brauchen, unterschiedliche Zeiten, etc**
+- E-Mail schreiben: Anschreiben, Lebenslauf
+- Auch Praktikanten und Anerkennungspraktikum, Auszubildene (PIA), Berufsvorbereitung, Sozialpraktikum
 
-**TODO: Wie sollen sich potenzielle Bewerber melden? Initiativbewerbung? Wo werden offene Stellen publiziert?**
+- Wir schreiben hier akute offene Stellen aus, Initiativbewerbungen sind aber sehr willkommen.
 
-- Auch Praktikanten, Auszubildene (PIA), Berufsvorbereitung, Sozialpraktikum etc
-- E-Mail schreiben!
+* Lohn nach TVÖD wie alle Kindergärten
