@@ -59,7 +59,7 @@ Wenn ein Kind krank ist, muss es zu Hause bleiben. Dies gilt insbesondere für E
 {{< /details >}}
 
 {{< details summary="Gibt es oft Notbetreuung?" >}}
-Wir sind droh darüber, dass wir nur sehr selten Eltern darum beten müssen, ihre Kinder anderweitig zu betreuuen. Diese Notbetreuung findet meist nur gruppenweise statt und wird so früh wie möglich bekannt gegeben.
+Wir sind droh darüber, dass wir nur sehr selten Eltern darum bitten müssen, ihre Kinder anderweitig zu betreuuen. Diese Notbetreuung findet meist nur gruppenweise statt und wird so früh wie möglich bekannt gegeben.
 {{< /details >}}
 
 {{< details summary="Wie viel kostet der Kindergarten?" >}}

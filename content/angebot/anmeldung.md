@@ -19,7 +19,7 @@ Der Weg zu einem Platz im unserem Kindergarten oder der Krippe beginnt mit einer
 
 ## Wie erhalte ich einen Platz?
 
-Die Platzvergabe läuft über die gemeinsame Vormerkliste aller Kindertagestätten der Stadt Konstanz. Dazu müssen sich die Eltern dort registrieren und unseren Kindergarten als Priorität angeben – am besten direkt an erster Stelle.
+Die Platzvergabe läuft über die gemeinsame Vormerkliste aller Kindertagesstätten der Stadt Konstanz. Dazu müssen sich die Eltern dort registrieren und unseren Kindergarten als Priorität angeben – am besten direkt an erster Stelle.
 
 - **Kindergartenplätze** werden nach Alter vergeben.
 - **Krippenplätze** folgen einem Punktesystem, das von der Stadt festgelegt ist.
