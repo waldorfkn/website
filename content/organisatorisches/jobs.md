@@ -3,7 +3,7 @@ title: "Stellenangebote"
 menus:
   main:
     parent: organisatorisches
-    weight: 6
+    weight: 7
 #   footer1:
 banner:
   image: images/stock/daumen-hoch-rot.jpg

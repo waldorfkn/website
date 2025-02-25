@@ -86,6 +86,10 @@ Der Trägerverein ist für die Führung und Organisation des Kindergartens veran
 Ja, offene Stellen werden ausgeschrieben, sobald sie verfügbar sind. Auch wenn momentan keine passende Stelle ausgeschrieben ist, freuen wir uns sehr über Initiativbewerbungen. Wir sind dabei auch offen für Praktika, Anerkennungspraktika, Ausbildungsplätze (PIA) und weitere. Alles weitere dazu unter [Stellenangebote]({{% relref "jobs" %}}).
 {{< /details >}}
 
+{{< details summary="Kann ich an den Waldorfkindergarten spenden?" >}}
+Ja, sehr gerne! Wir sind auf Spenden angewiesen, um Kindergarten und Krippe zu einem noch schöneren Ort für unsere Kinder und Angestellten zu machen. Jede einzelne davon, egal wie groß oder klein, wird von uns sehr wertgeschätzt. Mehr dazu auf der Seite zu [Spenden]({{% relref "spenden" %}}).
+{{< /details >}}
+
 ## Zu sonstigen Themen
 
 {{< details summary="Wie kann ich den Kindergarten erreichen?" >}}
