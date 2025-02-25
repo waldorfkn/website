@@ -1,5 +1,5 @@
 ---
-title: "Anmeldung für Kinder"
+title: "Anmeldung und Platzvergabe"
 menus:
   main:
     parent: angebot
@@ -15,27 +15,23 @@ banner:
     - Brightness: 0
 ---
 
-**TODO: Absatz über die Inhalte auf dieser Seite**
+Der Weg zu einem Platz im unserem Kindergarten oder der Krippe beginnt mit einer Anmeldung über ein stadtweites zentrales Portal. Damit alles reibungslos klappt, sind hier die wichtigsten Schritte zusammengefasst.
 
 ## Wie erhalte ich einen Platz?
 
-**TODO: Vermutlich Stadtkram, Ablauf bei der Stadt etc**
+Die Platzvergabe läuft über die gemeinsame Vormerkliste aller Kindertagestätten der Stadt Konstanz. Dazu müssen sich die Eltern dort registrieren und unseren Kindergarten als Priorität angeben – am besten direkt an erster Stelle.
 
-## Informationsgespräch
+- **Kindergartenplätze** werden nach Alter vergeben.
+- **Krippenplätze** folgen einem Punktesystem, das von der Stadt festgelegt ist.
 
-**TODO: Findet das vorab statt?**
+Alle Formulare, Informationen und Ansprechpartner dazu sind auf der [Seite zur Kita-Vormerkung der Stadt Konstanz](https://www.konstanz.de/leben+in+konstanz/bildung/tageseinrichtungen+fuer+kinder/kita-vormerkung) hinterlegt. Es ist uns nicht möglich, einen Betreuungsplatz abseits dieser offiziellen Prozedur zu vergeben.
+
+Bis Mitte Mai steht fest, welchen Kindern wir einen Platz bei uns bieten können. Wir informieren die entsprechenden Eltern dann darüber. Vorher stehen leider keine sicheren Informationen fest.
 
 ## Besichtigung
 
-**TODO: Bieten wir das an? Wie?**
+Ein Kindergarten ist mehr als nur ein Ort – er soll sich auch richtig anfühlen. Deshalb gibt es die Möglichkeit, die Räumlichkeiten kennenzulernen und Fragen zu stellen.
 
-* Anmeldung über KITA Dataweb (Stadt) -> Links auf Stadt
-* Uns als Prio angeben (am besten als erste)
-* Entscheidung nach Alter und/oder Punkte
-  * Kindergarten nach Alter
-  * Krippe nach Punkte
-  * Jeweils nach Regelungen der Stadt
-* Offen für Besichtigung bzw. erwünscht. E-Mail oder Anrufen für Termin -> Kurzes Kennenlernen
+Es gibt keine festen Termine dafür. Interessierte schrieben einfach eine [kurze E-Mail oder rufen an]({{% relref "kontakt" %}}), um einen Besichtigungstermin zu vereinbaren. So lässt sich der Kindergarten in Ruhe und mit Zeit für alle Fragen anschauen.
 
-* Weiterer Ablauf: Wir sagen, wenn sie einen Platz bei uns bekommen. Meistens Anfang bis Mitte Mai.
-  * Davor können wir keine Info geben, ist noch nicht fest
+Wir freuen uns darauf, alle Interessierten kennenzulernen!

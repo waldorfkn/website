@@ -23,8 +23,13 @@ banner:
 ## Aktuelle Ferien-Termine und Schließtage
 
 2025:
-* Osterferien: 18. - 25. April
+* Osterferien: 22. - 25. April
 * Pfingsten: 16. - 20. Juni
 * Sommer: 11. - 29. August
+* Herbst: 27.10. - 31.10.
+* Weihnachsferien: 22.12. 5.1.
 
 * Besondere Events unter "Veranstaltungen" -> Link
+  * 21.5. Eltern-Kind-Nachmittag, 15-17 Uhr
+  * 25.5. Berchenfest Stadtteilfest
+  * 28.7. Abchied der Vorschulkinder 12 Uhr

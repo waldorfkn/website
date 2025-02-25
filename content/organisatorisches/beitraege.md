@@ -25,14 +25,17 @@ Alle finanziellen Themen rund um den Kindergarten werden in einem Finanzgespräc
 
 Unsere Kindertageseinrichtung erhebt feste Beiträge für die verschiedenen Betreuungszeiten. Zum Betreuungsbeitrag hinzu kommt monatlich ein Frühstücksgeld sowie ggf. ein Mittagessensbeitrag. Diese Beiträge werden von uns per Lastschriftverfahren am Anfang des jeweiligen Monats eingezogen.
 
-* Kindergarten
-  * VÖ: 165 € + 20€ Frühstücksgeld
-  * GT: 230 € + 20€ Frühstück + 100€ Mittagessen
-* Krippe:
-  * VÖ: 230 € + 5€ Vespergeld + 100 € Mittagessen
-  * GT: 365€ + 5€ Vesper + 100€ Mittagessen
+Für den Kindergarten sind die Beiträge wie folgt festgelegt:
 
-Geschwisterrabatt: Ab dem zweiten Kind in unserer Einrichtung = -15€
+* Verlängerte Öffnungszeiten: **185 €** (165€ + 20€ Frühstück)
+* Ganztagsplatz: **350 €** (230€ + 20€ Frühstück + 100€ Mittagessen)
+
+Für die Krippe gelten die folgenden Beiträge:
+
+* Verlängerte Öffnungszeiten: **335 €** (230€ + 5€ Vesper + 100€ Mittagessen)
+* Ganztagsplatz: **470 €** (365€ + 5€ Vesper + 100€ Mittagessen)
+
+Für jedes weitere Kind aus derselben Familie in unserer Einrichtung gibt es eine monatliche Ermäßigung von 15&nbsp;€.
 
 Unter einer bestimmten Einkommensgrenze können die Betreuungsbeiträge und der Mittagessensbeitrag vom Jugendamt bezuschusst bzw. ganz übernommen werden.
 
@@ -44,13 +47,13 @@ Nach Beendigung der Kindergartenzeit und nach Eingang einer schriftlichen Kündi
 
 Die Elterneinlage kann nach Austritt aus dem Kindergarten gespendet werden. Wird die Einlage nicht bis zum Ende eines Jahres nach Austritt des Kindes aus dem Kindergarten gekündigt, geht sie automatisch an den Verein über.
 
-Aktuell beträgt die Einlage 300€.
+Aktuell beträgt die einmalige Einlage **300 €**.
 
 ## Jährliche Vereinsbeiträge
 
 Träger des Kindergartens ist der "Verein zur Förderung der Waldorfpädagogik e.V.". Eine Mitgliedschaft der Eltern im Verein wichtig und wünschenswert, während ihre Kinder bei uns sind.
 
-Die Höhe des Mitgliedsbeitrags wird von den Eltern selbst festgelegt, sollte jedoch einen Betrag von 40 € pro Jahr nicht unterschreiten.
+Die Höhe des Mitgliedsbeitrags wird von den Eltern selbst festgelegt, sollte jedoch einen Betrag von **40 €** pro Jahr nicht unterschreiten.
 
 In der jährlich stattfindenden Mitgliederversammlung wird unter anderem über die Einahmen und Ausgaben des Vereins berichtet. Die Mitglieder entscheiden über die Verwendung der Mitgliedsbeiträge. Sie haben an der Mitgliederversammlung Stimm- und Wahlrecht.
 

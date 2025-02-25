@@ -16,33 +16,43 @@ banner:
 #   disable: true # default is false
 ---
 
-**TODO: Erklären, wie der Verein heißt, warum es ihn gibt und dass das toll ist**
+Hinter dem Kindergarten steht der **Verein zur Förderung der Waldorf-Pädagogik e.V.**. Als Träger übernimmt der Verein nicht nur organisatorische Aufgaben, sondern bietet eine besondere Möglichkeit für Eltern, sich aktiv an der Entwicklung des Kindergartens zu beteiligen.
 
-* Verein ist der Träger
-* Ernennt die pädagogische Kindergartenleitung und Geschäftsführung
-* wert der Waldorfpädagogik: Einmalige Möglichkeiten, Einfluss und Verantwortung auf die geschickte des Kindergartens zu übernehmen
+## Was macht der Trägerverein?
 
-* Eltern können Mitglied werden
-* Mitglieder (auch Eltern) können auch Vorstand wählen lassen
-* Super Möglichkeit, den Kindergarten weiterzuentwickeln und mitzugestalten. Einblicke zu erhalten etc
+Der Verein trägt die Verantwortung für den Kindergarten und stellt sicher, dass der Waldorfgedanke lebendig bleibt. Dazu gehören unter anderem:
 
-* Nimmt auch Beschwerden an
+- Die Ernennung der pädagogischen Leitung und der Geschäftsführung
+- Die Einhaltung rechtlicher Vorgaben, z. B. in den Bereichen Sicherheit und Hygiene
+- Die Verwaltung finanzieller Mittel und Förderungen
 
-* Verhältnis Stadt (bzw. KVJS) -> Setzt Rahmen
-  * Sicherheitsbestimmungen, Hygiene etc von der Stadt halten wir ein
-  * Platzvergabe läuft über die Stadt
-  * Bestimmt Gruppengröße und Erzieherschlüssel
-  * Finanzielle Förderungen durch die Stadt
-  * Personal ist gemäß den Mindeststandards der Stadt qualifiziert
-  * Stadt gibt Rahmen vor, wir machen teilweise deutlich mehr
-  * Pädagogik, Gestaltung der Räumlichkeiten aber komplett unabhängig -> Link auf Konzept
+Gleichzeitig bietet der Trägerverein eine einmalige Chance, das Geschehen im Kindergarten aktiv mitzugestalten. Eltern und Mitglieder können Einfluss nehmen, Ideen einbringen und Verantwortung übernehmen – eine wertvolle Möglichkeit, die Waldorfpädagogik nicht nur zu erleben, sondern auch aktiv zu fördern.
 
-**TODO: Mitgliedschaft anpreisen. Mögliche Dopplung auf /beitraege**
+## Mitglied werden
+
+Eltern und Interessierte haben die Möglichkeit, dem Trägerverein beizutreten. Eine Mitgliedschaft bedeutet mehr als nur eine formale Unterstützung -- sie eröffnet Einblicke hinter die Kulissen, ermöglicht Mitbestimmung und trägt aktiv zur Weiterentwicklung des Kindergartens bei.
+
+- Mitglieder können den Vorstand wählen oder sich selbst zur Wahl stellen
+- Die Mitarbeit im Verein bietet eine direkte Möglichkeit, Ideen einzubringen
+- Auch Beschwerden oder Anliegen können hier sehr direkt besprochen werden
+
+Eine Mitgliedschaft ist eine wertvolle Gelegenheit, sich für eine lebendige und zukunftsorientierte Waldorfpädagogik in Konstanz einzusetzen.
 
 ## Satzung
 
 Die aktuelle Satzung des Vereins zur Förderung der Waldorf-Pädagogik e.V. [befindet sich hier]({{< relurl "docs/Satzung-Trägerverein-Waldorf-Konstanz.pdf" >}}).
 
+## Zusammenarbeit mit der Stadt
+
+Der Kindergarten arbeitet eng mit der Stadt Konstanz sowie dem Kommunalverband für Jugend und Soziales (KVJS) zusammen. Dabei gibt die Stadt gewisse Rahmenbedingungen vor:
+
+- Die Platzvergabe erfolgt über das zentrale Anmeldeportal der Stadt
+- Gruppengrößen und Betreuungsschlüssel richten sich nach den städtischen Vorgaben
+- Die Stadt unterstützt den Kindergarten finanziell
+- Sicherheits- und Hygienestandards, die wir selbstverständlich einhalten
+
+Innerhalb dieses Rahmens bleibt der Kindergarten jedoch frei in seiner pädagogischen Gestaltung. Die Waldorfpädagogik, die Atmosphäre der Räume und der tägliche Ablauf sind unabhängig organisiert. Mehr dazu gibt es im [pädagogischen Konzept]({{% relref "konzept" %}}).
+
 ## Kontakt
 
-**{{< rawhtml >}}<i class="fa-solid fa-envelope" aria-hidden="true"></i>{{< /rawhtml >}} E-Mail**: {{< cloakemail "vorstand@waldorfkindergarten-konstanz.de" >}}
+Der Vorstand des Trägervereins ist am besten [schriftlich zu erreichen]({{% relref "kontakt#träger" %}}).

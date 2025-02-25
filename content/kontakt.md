@@ -17,7 +17,8 @@ Für Eltern, deren Kinder bereits im Kindergarten sind, sind die jeweiligen Erzi
 
 Bitte auch in die [Häufigen Fragen]({{% relref "faq" %}}) schauen. Das bringt oft eine schnelle Antwort und spart auch uns viel Zeit. Danke!
 
-## Kontaktdaten
+
+## Kontakt zum Kindergarten
 
 Freier Waldorfkindergarten Konstanz\
 Mannheimer Straße 2\
@@ -32,13 +33,15 @@ Für **Meldungen von Krankheit und Abwesenheit** sind wir von 07:30 bis 08:30 Uh
 
 Kindergartenleitung: Annette Schünemann-Küttenbaum
 
-## Trägerverein
 
-**TODO**
+## Kontakt zum Trägerverein und Vorstand {#träger}
 
-Vorstandsvorsitzende des [Träger-Vereins]({{% relref "verein" %}}): Ronja Berger
+Der [Träger-Verein]({{% relref "verein" %}}) übernimmt die Verantwortung für den Kindergarten als Ganzes und steht als vertrauensvoller Ansprechpartner bereit, wenn die oben genannten Wege nicht geeignet scheinen.
 
 **{{< rawhtml >}}<i class="fa-solid fa-envelope" aria-hidden="true"></i>{{< /rawhtml >}} E-Mail**: {{< cloakemail "vorstand@waldorfkindergarten-konstanz.de" >}}
+
+Vorstandsvorsitzende: Ronja Berger
+
 
 ## Lage und Anfahrt
 
