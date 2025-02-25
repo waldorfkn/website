@@ -1,8 +1,8 @@
 ---
 title: Berchenfest 2025
-event_date: 2025-03-15
+event_date: 2025-05-25
 ---
 
-Wie jedes Jahr feiern wir dieses tolle Fest.
+Als Teil des vielfältigen Stadtteils Berchen sind wir selbstverständlich auch beim Straßenfest mit dabei.
 
-Lorem ipsum Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Wir informieren Euch, sobald die Planungen abgeschlossen sind. Haltet Euch den Termin aber bitte schon im Kalender frei!

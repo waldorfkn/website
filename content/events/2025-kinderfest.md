@@ -1,6 +1,6 @@
 ---
 title: Kinderfest 2025
-event_date: 2025-06-03
+event_date: 2025-09-13
 banner:
   image: images/events/kinderfest.jpg
   filter:
@@ -8,6 +8,6 @@ banner:
     - Brightness: 0
 ---
 
-Wie jedes Jahr feiern wir dieses tolle Fest.
+Wir seit vielen Jahren Tradition werden wir wieder Teil des [grenzüberschreitenden Kinderfests in Konstanz/Kreuzlingen](https://www.konstanz-info.com/planen-buchen/top-events/kinderfest) sein.
 
-Lorem ipsum Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Weitere Informationen zu unserem Stand folgen, sobald die Planungen abgeschlossen sind.
