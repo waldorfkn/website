@@ -32,8 +32,8 @@ jobs:
     runs-on: ubuntu-22.04
     # Set environment variables
     env:
-      baseurl: neu.waldorfkindergarten-konstanz.de
-      virtualdir: /var/www/virtual/waldorfk/neu.waldorfkindergarten-konstanz.de
+      baseurl: waldorfkindergarten-konstanz.de
+      virtualdir: /var/www/virtual/waldorfk/html
       uberspace_user: waldorfk
     steps:
       - name: Checkout with submodules
