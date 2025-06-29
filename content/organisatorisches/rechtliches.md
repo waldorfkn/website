@@ -3,9 +3,9 @@ title: "Rechtliches"
 menus:
   main:
     parent: organisatorisches
-    weight: 4
+    weight: 40
   footer2:
-    weight: 4
+    weight: 40
 banner:
   image: images/stock/unterschrift.jpg
   processes:

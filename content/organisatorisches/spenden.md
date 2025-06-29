@@ -3,7 +3,7 @@ title: "Spenden"
 menus:
   main:
     parent: organisatorisches
-    weight: 6
+    weight: 70
 banner:
   image: images/stock/geldbeutel-schwarz.jpg
   processes:

@@ -4,9 +4,9 @@ title_hyphen: "Gruppen und Öffnungs&shy;zeiten"
 menus:
   main:
     parent: angebot
-    weight: 1
+    weight: 10
   footer1:
-    weight: 2
+    weight: 20
 banner:
   image: images/stock/kindergruppe.jpg
   processes:

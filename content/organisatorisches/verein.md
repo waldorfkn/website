@@ -3,7 +3,7 @@ title: "Träger-Verein"
 menus:
   main:
     parent: organisatorisches
-    weight: 5
+    weight: 50
 #   footer1:
 banner:
   image: images/stock/menschen-haende.jpg

@@ -3,7 +3,7 @@ title: "Tageslauf"
 menus:
   main:
     parent: pädagogik
-    weight: 2
+    weight: 20
 #   footer1:
 banner:
   image: images/stock/kinder-kreis.jpg

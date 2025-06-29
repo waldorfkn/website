@@ -3,9 +3,9 @@ title: "Jahreslauf"
 menus:
   main:
     parent: pädagogik
-    weight: 3
+    weight: 30
   footer2:
-    weight: 3
+    weight: 30
 banner:
   image: images/stock/jahreszeiten-blaetter.jpg
   processes:

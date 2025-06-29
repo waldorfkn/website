@@ -3,7 +3,7 @@ title: "Freispiel"
 menus:
   main:
     parent: pädagogik
-    weight: 4
+    weight: 40
 #   footer1:
 banner:
   image: images/stock/kinder-schaukel.jpg

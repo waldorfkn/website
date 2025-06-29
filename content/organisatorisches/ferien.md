@@ -3,9 +3,9 @@ title: Ferien und Schließtage
 menus:
   main:
     parent: organisatorisches
-    weight: 1
+    weight: 10
   footer2:
-    weight: 1
+    weight: 10
 banner:
   image: images/stock/notepad.jpg
   processes:

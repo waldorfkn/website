@@ -3,9 +3,9 @@ title: "Anmeldung und Platzvergabe"
 menus:
   main:
     parent: angebot
-    weight: 2
+    weight: 20
   footer1:
-    weight: 1
+    weight: 10
 banner:
   image: images/stock/handschlag.jpg
   processes:

@@ -3,9 +3,9 @@ title: "Engagement der Eltern"
 menus:
   main:
     parent: pädagogik
-    weight: 5
+    weight: 50
   footer1:
-    weight: 4
+    weight: 40
 banner:
   image: images/stock/holzarbeit-zusammen.jpg
   processes:

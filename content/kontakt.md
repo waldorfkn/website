@@ -3,7 +3,7 @@ title: Kontakt und Anfahrt
 menus:
   main:
     name: Kontakt
-    weight: 6
+    weight: 60
 banner:
   image: images/stock/telefon-wiese.jpg
   processes:

@@ -3,9 +3,9 @@ title: "Konzept"
 menus:
   main:
     parent: pädagogik
-    weight: 1
+    weight: 10
   footer1:
-    weight: 3
+    weight: 30
 banner:
   image: images/stock/blumengiessen.jpg
   processes:

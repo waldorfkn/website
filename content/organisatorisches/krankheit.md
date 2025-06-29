@@ -5,9 +5,9 @@ menus:
   main:
     name: Bei Krankheit
     parent: organisatorisches
-    weight: 2
+    weight: 20
   footer2:
-    weight: 2
+    weight: 20
 banner:
   image: images/stock/krankheit-stethoskop.jpg
   processes:

@@ -2,9 +2,9 @@
 title: "Häufige Fragen"
 menus:
   main:
-    weight: 5
+    weight: 50
   footer2:
-    weight: 5
+    weight: 50
 banner:
   image: images/stock/fragezeichen-wald.jpg
   processes:

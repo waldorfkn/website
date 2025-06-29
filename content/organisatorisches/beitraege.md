@@ -3,9 +3,9 @@ title: "Beiträge und Finanzielles"
 menus:
   main:
     parent: organisatorisches
-    weight: 3
+    weight: 30
   footer1:
-    weight: 5
+    weight: 50
 banner:
   image: images/stock/geldbeutel-schwarz.jpg
   processes:
