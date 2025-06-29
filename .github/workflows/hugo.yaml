@@ -29,7 +29,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     # Set environment variables
     env:
       baseurl: waldorfkindergarten-konstanz.de
@@ -59,7 +59,7 @@ jobs:
         run: hugo -b https://${{ env.baseurl }}
 
       - name: Copy website to host
-        uses: appleboy/scp-action@v0.1.7
+        uses: appleboy/scp-action@v1.0.0
         with:
           host: ${{ env.baseurl }}
           username: ${{ env.uberspace_user }}
