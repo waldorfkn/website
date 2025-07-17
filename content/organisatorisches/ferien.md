@@ -24,7 +24,7 @@ Unser Kindergarten ist im Laufe des Jahres an etwa 30 Tagen geschlossen. Die Fer
 * Osterferien: 22. - 25. April 2025
 * Pfingstferien: 16. - 20. Juni 2025
 * Sommerferien: 11. - 29. August 2025
-* Herbstferien: 27. - 31. Oktober 2025
+* Herbstferien: 30. - 31. Oktober 2025
 * Weihnachtsferien: 22. Dezember 2025 - 5. Januar 2026
 
 ## Veranstaltungen und Feste
