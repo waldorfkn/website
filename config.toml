@@ -77,7 +77,7 @@ disableKinds = ["taxonomy", "rss"]
     matomo_siteid = 16
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:year/:month/:day/:contentbasename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
