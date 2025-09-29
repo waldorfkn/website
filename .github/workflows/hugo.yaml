@@ -15,6 +15,7 @@ on:
 # Set permissions
 permissions:
   pull-requests: write
+  deployments: write
   contents: read
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
@@ -89,3 +90,8 @@ jobs:
           ssh_host: ${{ env.domain_production}}
           ssh_user: waldorfk
           ssh_key: ${{ secrets.SSH_KEY }}
+          # Info options
+          sticky_comment_enabled: false
+          step_summary_enabled: false
+          gh_deployment: preview
+          linkchecker_exclude: www.pexels.com
