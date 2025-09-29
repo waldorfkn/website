@@ -34,7 +34,7 @@ Für **Meldungen von Krankheit und Abwesenheit** sind wir von 07:30 bis 08:30 Uh
 Kindergartenleitung: Annette Schünemann-Küttenbaum
 
 
-## Kontakt zum Trägerverein und Vorstand {#träger}
+## Kontakt zum Trägerverein und Vorstand {#traeger}
 
 Der [Träger-Verein]({{% relref "verein" %}}) übernimmt die Verantwortung für den Kindergarten als Ganzes und steht als vertrauensvoller Ansprechpartner bereit, wenn die oben genannten Wege nicht geeignet scheinen.
 

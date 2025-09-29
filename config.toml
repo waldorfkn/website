@@ -68,7 +68,7 @@ disableKinds = ["taxonomy", "rss"]
     logo_sm = "images/logo-long.png"
     logo_md = "images/logo.png"
     logo_lg = "images/logo-long.png"
-    contact_url = "/kontakt/"
+    contact_relurl = "kontakt"
     contact_address = """Freier Waldorfkindergarten Konstanz\\
     Mannheimer Straße 2, 78467 Konstanz"""
     contact_phone = "+49 7531 929796"
@@ -121,7 +121,12 @@ disableKinds = ["taxonomy", "rss"]
 
 [params.footer]
     copyright = "© Verein zur Förderung der Waldorf Pädagogik e.V. seit 1989"
-    links = "[Impressum und Datenschutz](/impressum/) | [Credits](/credits/)"
+    [[params.footer.links]]
+        name = "Impressum und Datenschutz"
+        relurl = "impressum"
+    [[params.footer.links]]
+        name = "Credits"
+        relurl = "credits"
 
 [taxonomies]
   category = "categories"
