@@ -55,4 +55,4 @@ Innerhalb dieses Rahmens bleibt der Kindergarten jedoch frei in seiner pädagogi
 
 ## Kontakt
 
-Der Vorstand des Trägervereins ist am besten [schriftlich zu erreichen]({{% relref "kontakt#träger" %}}).
+Der Vorstand des Trägervereins ist am besten [schriftlich zu erreichen]({{% relref "kontakt#traeger" %}}).
