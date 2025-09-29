@@ -123,3 +123,9 @@
 
 - id: moreEvents
   translation: "All upcoming events can be found on the [event page]({{ . }})."
+
+- id: previewHeadline
+  translation: "Preview version of the website"
+
+- id: previewText
+  translation: "The official website is always available [here]({{ . }})."

@@ -172,3 +172,16 @@ details {
     margin-left: 1rem;
   }
 }
+
+// Staging warning
+#staging-warning {
+  color: #fff !important;
+  background-color: #e05200;
+  padding: 10px;
+  margin-bottom: 0;
+
+  a {
+    color: #ffffff !important;
+    text-decoration: underline;
+  }
+}

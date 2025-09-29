@@ -123,3 +123,9 @@
 
 - id: moreEvents
   translation: "Auf der [Veranstaltungsseite]({{ . }}) sind alle kommenden Feste und Veranstaltungen gesammelt."
+
+- id: previewHeadline
+  translation: "Vorschauversion der Website"
+
+- id: previewText
+  translation: "Die offizielle Website ist immer [hier]({{ . }}) erreichbar."
