@@ -120,14 +120,14 @@ details {
     font-size: 1.1em;
     font-weight: 600;
     padding: 0.5em 0;
+    cursor: pointer;
 
     // arrow right in closed
     &:before {
       content: "\f105";
       font-family: "FontAwesome";
       display: inline-block;
-      width: 1.3em;
-
+      width: 2.5rem;
     }
   }
 
@@ -138,12 +138,10 @@ details {
 
   // opened details
   &[open] {
-    border-bottom: 1px solid #aaa;
     margin-bottom: 0.5em;
 
+    // Summary styles when opened
     summary {
-      border-bottom: 1px solid #aaa;
-      margin-bottom: 0.5em;
       max-height: 50em;
 
       // arrow down in open
@@ -151,6 +149,7 @@ details {
         content: "\f107";
       }
 
+      // Animation for all children when opening
       ~* {
         animation: sweep .3s ease-in-out;
 
@@ -165,11 +164,14 @@ details {
         }
       }
     }
-  }
 
-  // Margin left for opened text
-  &>*:not(summary) {
-    margin-left: 1rem;
+    // Styles for opened content
+    &::details-content {
+      border-top: 1px solid #aaa;
+      border-bottom: 1px solid #aaa;
+      padding-top: 0.5em;
+      margin-left: 2.5rem;
+    }
   }
 }
 
