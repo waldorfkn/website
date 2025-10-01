@@ -138,6 +138,9 @@ details {
 
   // opened details
   &[open] {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+
     summary {
       border-bottom: 1px solid #aaa;
       margin-bottom: 0.5em;
@@ -162,5 +165,23 @@ details {
         }
       }
     }
+  }
+
+  // Margin left for opened text
+  &>*:not(summary) {
+    margin-left: 1rem;
+  }
+}
+
+// Staging warning
+#staging-warning {
+  color: #fff !important;
+  background-color: #e05200;
+  padding: 10px;
+  margin-bottom: 0;
+
+  a {
+    color: #ffffff !important;
+    text-decoration: underline;
   }
 }
