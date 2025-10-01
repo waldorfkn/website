@@ -24,7 +24,7 @@ Wer Freude daran hat, Kinder auf ihrem Weg zu begleiten, ihnen eine warme und ge
 
 Offene Stellen werden hier ausgeschrieben, sobald sie verfügbar sind.
 
-{{< details summary="Erzieher:in (m/w/d) im Stübchen" >}}
+{{< details summary="Erzieher:in (m/w/d) in unserer Krippe" >}}
 **Wir bieten zum nächstmöglichen Zeitpunkt eine Stelle in unserem Waldorfkindergarten als pädagogische Fachkraft/Erzieher:in/Waldorf-Erzieher:in an.**
 
 ### Die wichtigsten Fakten
@@ -44,11 +44,11 @@ Die drei Kindergartengruppen – *Sonnengruppe, Sternengruppe und Mondgruppe* �
 
 Die Kindergartengruppen haben außerdem eine gemeinsame Spielzeit im großen Garten, der unter anderem mit Schaukel, Sandkasten, Klettergerüst, Rutsche, Slackline, Brunnen und Wasserlauf ausgestattet ist.
 
-Im *Stübchen* werden die Kleinen betreut (10 Kinder). Das Stübchen verfügt über einen eigenen kleinen Garten, so sind die Kleinsten unter sich.
+Im unserer Krippengruppe - *Stübchen* - werden die Kleinen betreut (10 Kinder). Die Krippe verfügt über einen eigenen kleinen Garten, so sind die Kleinsten unter sich.
 
 ### Über die ausgeschriebene Stelle
 
-Die Stelle ist ab Okt./Nov. bei den Kleinen im *Stübchen* frei. Die Tätigkeiten umfassen die ganzheitliche Förderung von Kindern mit kreativen Angeboten, Ritualen und die Schaffung einer vertrauensvollen Atmosphäre.
+Die Stelle ist ab Okt./Nov. bei den Kleinen in der Krippengruppe frei. Die Tätigkeiten umfassen die ganzheitliche Förderung von Kindern mit kreativen Angeboten, Ritualen und die Schaffung einer vertrauensvollen Atmosphäre.
 
 Zentrale Aufgaben sind die Beobachtung und Dokumentation der kindlichen Entwicklung, die Zusammenarbeit mit den Eltern sowie die Pflege und Gestaltung der kindlichen Umgebung, beispielsweise durch das gemeinsame Zubereiten von Mahlzeiten.
 
