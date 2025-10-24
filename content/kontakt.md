@@ -40,7 +40,7 @@ Der [Träger-Verein]({{% relref "verein" %}}) übernimmt die Verantwortung für 
 
 **{{< rawhtml >}}<i class="fa-solid fa-envelope" aria-hidden="true"></i>{{< /rawhtml >}} E-Mail**: {{< cloakemail "vorstand@waldorfkindergarten-konstanz.de" >}}
 
-Vorstandsvorsitzende: Ronja Berger
+Vorstandsvorsitzende: Julia Stiegeler
 
 
 ## Lage und Anfahrt
