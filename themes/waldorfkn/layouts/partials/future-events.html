@@ -1,8 +1,9 @@
-{{- /* Sort all events by event date and throw out past events */}}
+{{- /* Sort all events by event date and throw out all events older than the day before today */}}
 {{- $all_events := sort (where .Site.RegularPages "Type" "in" .Site.Params.eventSections) ".Params.event_date" }}
 {{- $future_events := slice }}
+{{- $one_day_before := time.Now.AddDate 0 0 -1 }}
 {{- range $all_events }}
-  {{- if ge (time.AsTime .Params.event_date) now }}
+  {{- if ge (time.AsTime .Params.event_date) $one_day_before }}
     {{- $future_events = $future_events | append . }}
   {{- end }}
 {{- end }}
