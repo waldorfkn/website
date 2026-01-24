@@ -20,7 +20,7 @@ Mannheimer Straße 2\
 Eingetragen als "Verein zur Förderung der Waldorf Pädagogik e.V." mit Sitz in Konstanz beim Registergericht Freiburg, VR 380439
 
 Vorsitzende des Vereins: Julia Stiegeler\
-Kindergartenleitung: Annette Schünemann-Küttenbaum
+Kindergartenleitung: Annette Schünemann-Küttenbaum und Tabea Liebaug
 
 ### Kontakt
 

@@ -31,7 +31,7 @@ Da das Büro nicht durchgehend besetzt ist, bitte kurzfristige Anliegen mit uns 
 
 Für **Meldungen von Krankheit und Abwesenheit** sind wir von 07:30 bis 08:30 Uhr per E-Mail und telefonisch erreichbar.
 
-Kindergartenleitung: Annette Schünemann-Küttenbaum
+Kindergartenleitung: Annette Schünemann-Küttenbaum und Tabea Liebaug
 
 
 ## Kontakt zum Trägerverein und Vorstand {#traeger}
