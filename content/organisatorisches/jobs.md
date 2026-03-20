@@ -92,7 +92,7 @@ Die Bezahlung erfolgt TVöD-orientiert
 Für eine Bewerbung reicht eine [E-Mail]({{% relurl "kontakt" %}}) mit einem Anschreiben und Lebenslauf.
 {{< /details >}}
 
-Gerade keine passende Ausschreibung dabei? Eine Bewerbung bei uns lohnt sich trotzdem immer und geht nie verloren.
+<!-- Aktuell keine offenen Stellen. Eine Initiativbewerbung bei uns lohnt sich trotzdem immer und geht nie verloren. -->
 
 ## Initiativbewerbungen
 
