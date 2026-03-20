@@ -43,18 +43,15 @@ jobs:
           submodules: recursive # Get submdules
           fetch-depth: 1 # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Setup required build tools with mise
+        uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db # v3.6.3
+
       - name: Create configuration for Matomo
         run: |
           mv static/config.php.sample static/config.php
           sed -i "s|__PIWIK_URL__|${{ secrets.MATOMO_PIWIK_URL }}|" static/config.php
           sed -i "s|__PROXY_URL__|https://${{ env.domain_production }}|" static/config.php
           sed -i "s|__TOKEN_AUTH__|${{ secrets.MATOMO_TOKEN_AUTH }}|" static/config.php
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "latest"
-          extended: true
 
       - name: Build website with Hugo (production)
         run: hugo -b https://${{ env.domain_production }}
