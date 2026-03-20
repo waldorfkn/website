@@ -30,7 +30,7 @@ Offene Stellen werden hier ausgeschrieben, sobald sie verfügbar sind.
 ### Die wichtigsten Fakten
 
 Zeitraum: ab sofort\
-Umfang: 40% Teilzeit\
+Umfang: 30% Teilzeit\
 Vergütung: orientiert an TVöD\
 Kontakt: [Annette Küttenbaum und Tabea Liebaug (Leitungsteam)]({{% relurl "kontakt" %}})
 
