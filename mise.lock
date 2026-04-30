@@ -33,29 +33,33 @@ checksum = "sha256:f5e342de1c9b22dc03318c14689cbc81ac9afec0c6f2080e0cf5a3aa03edb
 url = "https://github.com/gohugoio/hugo/releases/download/v0.160.1/hugo_extended_0.160.1_windows-amd64.zip"
 
 [[tools.lychee]]
-version = "0.23.0"
+version = "0.24.1"
 backend = "aqua:lycheeverse/lychee"
 
 [tools.lychee."platforms.linux-arm64"]
-checksum = "sha256:97eb93b02a7d78a752fc33e5b0983439ccaadbf3db952b68a0a4401acd92e6e0"
-url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.23.0/lychee-aarch64-unknown-linux-gnu.tar.gz"
+checksum = "sha256:b93d5b1744ec443574bcd6d55f2268da9f4628a1990213019b2b2289cf894907"
+url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.1/lychee-aarch64-unknown-linux-musl.tar.gz"
 
 [tools.lychee."platforms.linux-arm64-musl"]
-checksum = "sha256:4eb6ff3ccd40dbb71843c41429683d3c60fe3b33b2042ffbbff9bb21cedacb39"
-url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.23.0/lychee-aarch64-unknown-linux-musl.tar.gz"
+checksum = "sha256:b93d5b1744ec443574bcd6d55f2268da9f4628a1990213019b2b2289cf894907"
+url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.1/lychee-aarch64-unknown-linux-musl.tar.gz"
 
 [tools.lychee."platforms.linux-x64"]
-checksum = "sha256:5538440d2c69a45a0a09983271e5dee0c2fe7137d8035d25b2632e10a66a090a"
-url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.23.0/lychee-x86_64-unknown-linux-musl.tar.gz"
+checksum = "sha256:5f5e8301bcc3edc0fd5470f1c22fb039a6cc487bf5b788af5e30b6dfbcc5b388"
+url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.1/lychee-x86_64-unknown-linux-musl.tar.gz"
 
 [tools.lychee."platforms.linux-x64-musl"]
-checksum = "sha256:5538440d2c69a45a0a09983271e5dee0c2fe7137d8035d25b2632e10a66a090a"
-url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.23.0/lychee-x86_64-unknown-linux-musl.tar.gz"
+checksum = "sha256:5f5e8301bcc3edc0fd5470f1c22fb039a6cc487bf5b788af5e30b6dfbcc5b388"
+url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.1/lychee-x86_64-unknown-linux-musl.tar.gz"
 
 [tools.lychee."platforms.macos-arm64"]
-checksum = "sha256:1953bb425486e1b887757201e54e8fdf866c9cada6c270d8f6ed21ffbed4145a"
-url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.23.0/lychee-arm64-macos.tar.gz"
+checksum = "sha256:7485ac758fcaf9f8bd660a2d585a1baba9c2a0d48055fd3259e9284ed659a815"
+url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.1/lychee-aarch64-apple-darwin.tar.gz"
+
+[tools.lychee."platforms.macos-x64"]
+checksum = "sha256:59ef444bfbf9f54ca7d045937b15c609e856848b9e39cddb4267fa2ab5cf793d"
+url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.1/lychee-x86_64-apple-darwin.tar.gz"
 
 [tools.lychee."platforms.windows-x64"]
-checksum = "sha256:0fda7ff0a60c0250939fc25361c2d4e6e7853c31c996733fdd5a1dd760bcb824"
-url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.23.0/lychee-x86_64-windows.exe"
+checksum = "sha256:34a12a7da946e4db1babe8cb3f7549e036129d524b36f2baf3068acdef66d0c3"
+url = "https://github.com/lycheeverse/lychee/releases/download/lychee-v0.24.1/lychee-x86_64-pc-windows-msvc.zip"
