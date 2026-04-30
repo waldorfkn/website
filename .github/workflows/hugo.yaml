@@ -14,8 +14,6 @@ on:
 
 # Set permissions
 permissions:
-  pull-requests: write
-  deployments: write
   contents: read
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
@@ -42,6 +40,7 @@ jobs:
         with:
           submodules: recursive # Get submdules
           fetch-depth: 1 # Fetch all history for .GitInfo and .Lastmod
+          persist-credentials: false
 
       - name: Setup required build tools with mise
         uses: jdx/mise-action@5228313ee0372e111a38da051671ca30fc5a96db # v3.6.3
@@ -58,7 +57,7 @@ jobs:
         if: env.condition_production == 'true'
 
       - name: Build website with Hugo (preview)
-        run: hugo -b https://${{ env.domain_preview }}/${{ env.dir_preview_subdir }} -e staging --buildFuture --buildDrafts
+        run: hugo -b https://${{ env.domain_preview }}/${dir_preview_subdir} -e staging --buildFuture --buildDrafts
         if: github.event.pull_request
 
       - name: Upload website artifact
@@ -73,6 +72,10 @@ jobs:
     name: Deploy website
     needs: build
     runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      # pull-requests: write # required unless you explicitly set sticky_comment_enabled: false
+      deployments: write # required if gh_deployment is set
     steps:
       - uses: OpenRailAssociation/web-deployment-action@v1 # v1
         with:
