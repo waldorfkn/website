@@ -1,5 +1,5 @@
 [tools]
-hugo-extended = "v0.160.1"
+hugo-extended = "v0.161.0"
 lychee = "0.24.1"
 
 [vars]
