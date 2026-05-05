@@ -6,7 +6,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "managerFilePatterns": ["/static/admin/index\\.html"],
+      "managerFilePatterns": ["static/admin/index.html"],
       "matchStrings": [
         "unpkg\\.com/@sveltia/cms@(?<currentValue>[^/]+)/dist/sveltia-cms\\.js"
       ],
