@@ -25,8 +25,8 @@ Für all dies sind selbst kleine Spenden ein großer Gewinn, den wir sehr wertsc
 
 Das Konto für Spenden lautet:
 
-IBAN: `DE63 6929 1000 0214 2557 23`\
-BIC: `GENODE61RAD`\
+IBAN: `DE63 6929 1000 0214 2557 23`
+BIC: `GENODE61RAD`
 Bank: Volksbank Konstanz
 
 ## Spendenbescheinigungen

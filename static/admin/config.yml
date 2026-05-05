@@ -154,6 +154,7 @@ collections:
     label_singular: Stelle
     folder: /content/organisatorisches/jobs
     format: yaml-frontmatter
+    slug: "{{year}}-{{month}}-{{slug}}"
     create: true
     index_file:
       label: Übersicht

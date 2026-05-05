@@ -9,10 +9,10 @@ build:
 
 ### Die wichtigsten Fakten
 
-Qualifikation: Pädagogische Fachkraft/Erzieher:in/Waldorf-Erzieher:in\
-Zeitraum: ab sofort\
-Umfang: 30% Teilzeit\
-Vergütung: orientiert an TVöD\
+Qualifikation: Pädagogische Fachkraft/Erzieher:in/Waldorf-Erzieher:in
+Zeitraum: ab sofort
+Umfang: 30% Teilzeit
+Vergütung: orientiert an TVöD
 Kontakt: [Annette Küttenbaum und Tabea Liebaug (Leitungsteam)]({{% relurl "kontakt" %}})
 
 ### Über den Waldorfkindergarten

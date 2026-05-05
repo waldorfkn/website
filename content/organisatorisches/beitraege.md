@@ -61,6 +61,6 @@ In der jährlich stattfindenden Mitgliederversammlung wird unter anderem über d
 
 Das Konto für Elternbeitrag, Einlagen, Vereinbeiträge und Spenden lautet:
 
-IBAN: `DE63 6929 1000 0214 2557 23`\
-BIC: `GENODE61RAD`\
+IBAN: `DE63 6929 1000 0214 2557 23`
+BIC: `GENODE61RAD`
 Bank: Volksbank Konstanz

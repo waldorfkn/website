@@ -20,11 +20,11 @@ Bitte auch in die [Häufigen Fragen]({{% relref "faq" %}}) schauen. Das bringt o
 
 ## Kontakt zum Kindergarten
 
-Freier Waldorfkindergarten Konstanz\
-Mannheimer Straße 2\
+Freier Waldorfkindergarten Konstanz
+Mannheimer Straße 2
 78467 Konstanz
 
-**{{< rawhtml >}}<i class="fa-solid fa-phone" aria-hidden="true"></i>{{< /rawhtml >}} Telefon**: {{< cloakemail address="+49 7531 929796" protocol="tel" >}}\
+**{{< rawhtml >}}<i class="fa-solid fa-phone" aria-hidden="true"></i>{{< /rawhtml >}} Telefon**: {{< cloakemail address="+49 7531 929796" protocol="tel" >}}
 **{{< rawhtml >}}<i class="fa-solid fa-envelope" aria-hidden="true"></i>{{< /rawhtml >}} E-Mail**: {{< cloakemail "info@waldorfkindergarten-konstanz.de" >}}
 
 Da das Büro nicht durchgehend besetzt ist, bitte kurzfristige Anliegen mit uns persönlich besprechen.
