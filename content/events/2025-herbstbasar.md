@@ -2,7 +2,7 @@
 title: Herbstbasar
 event_date: 2025-11-15
 banner:
-  image: images/stock/herbst.jpg
+  image: /images/stock/herbst.jpg
   filter:
     - GaussianBlur: 2
     - Brightness: 0

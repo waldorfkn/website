@@ -1,0 +1,12 @@
+{{- $vacancies := sort .Page.Pages "Params.weight" }}
+{{- if not (len $vacancies) }}
+{{- i18n "noVacancies" | markdownify }}
+{{- else }}
+{{- range $vacancies }}
+<details>
+<summary>{{ .Title }}</summary>
+
+{{ .Content }}
+</details>
+{{- end }}
+{{- end }}

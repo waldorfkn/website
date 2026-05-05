@@ -3,4 +3,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>OpenRailAssociation/renovate-config"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["/static/admin/index\\.html"],
+      "matchStrings": [
+        "unpkg\\.com/@sveltia/cms@(?<currentValue>[^/]+)/dist/sveltia-cms\\.js"
+      ],
+      "depNameTemplate": "@sveltia/cms",
+      "datasourceTemplate": "npm"
+    }
+  ],
 }

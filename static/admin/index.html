@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Sveltia CMS</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/@sveltia/cms@0.159.1/dist/sveltia-cms.js"></script>
+    <script>
+      CMS.registerEditorComponent({
+        id: 'details',
+        label: 'Details / Aufklappbar',
+        icon: 'expand_circle_down',
+        fields: [
+          { name: 'summary', label: 'Überschrift (sichtbar)', widget: 'string' },
+          { name: 'content', label: 'Inhalt (aufgeklappt)', widget: 'richtext' },
+        ],
+        pattern: /{{< details summary="(?<summary>[^"]*)" >}}\s*(?<content>[\s\S]*?)\s*{{< \/details >}}/m,
+        toBlock: ({ summary, content }) =>
+          `{{< details summary="${summary}" >}}\n${content}\n{{< /details >}}`,
+        toPreview: ({ summary, content }) =>
+          `<details><summary><strong>${summary}</strong></summary><p>${content}</p></details>`,
+      });
+    </script>
+  </body>
+</html>

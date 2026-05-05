@@ -6,7 +6,7 @@ menus:
     weight: 40
 #   footer1:
 banner:
-  image: images/stock/kinder-schaukel.jpg
+  image: /images/stock/kinder-schaukel.jpg
   processes:
     - "fill 1900x600 left"
   filter:

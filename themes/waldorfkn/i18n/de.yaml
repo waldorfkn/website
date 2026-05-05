@@ -129,3 +129,6 @@
 
 - id: previewText
   translation: "Die offizielle Website ist immer [hier]({{ . }}) erreichbar."
+
+- id: noVacancies
+  translation: "Aktuell haben wir keine offenen Stellen. Eine Initiativbewerbung bei uns lohnt sich trotzdem immer und geht nie verloren."

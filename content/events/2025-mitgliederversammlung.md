@@ -2,7 +2,7 @@
 title: Mitglieder-versammlung
 event_date: 2025-10-23
 banner:
-  image: images/events/mitgliederversammlung.jpg
+  image: /images/events/mitgliederversammlung.jpg
   filter:
     - GaussianBlur: 2
     - Brightness: 0

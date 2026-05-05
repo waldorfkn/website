@@ -2,7 +2,7 @@
 title: Abschied der Vorschulkinder
 event_date: 2026-07-28
 banner:
-  image: images/events/vorschulkinder.jpg
+  image: /images/events/vorschulkinder.jpg
   filter:
     - GaussianBlur: 2
     - Brightness: 0

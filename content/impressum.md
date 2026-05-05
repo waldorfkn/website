@@ -1,7 +1,7 @@
 ---
 title: Impressum und Datenschutz
 banner:
-  image: images/stock/unterschrift.jpg
+  image: /images/stock/unterschrift.jpg
   processes:
     - "fill 1900x600 center"
   filter:
@@ -13,18 +13,18 @@ sitemap:
 
 ## Angaben gemäß § 5 TMG
 
-Freier Waldorfkindergarten Konstanz\
-Mannheimer Straße 2\
+Freier Waldorfkindergarten Konstanz
+Mannheimer Straße 2
 78467 Konstanz
 
 Eingetragen als "Verein zur Förderung der Waldorf Pädagogik e.V." mit Sitz in Konstanz beim Registergericht Freiburg, VR 380439
 
-Vorsitzende des Vereins: Julia Stiegeler\
+Vorsitzende des Vereins: Julia Stiegeler
 Kindergartenleitung: Annette Schünemann-Küttenbaum und Tabea Liebaug
 
 ### Kontakt
 
-Telefon: {{< cloakemail address="+49 7531 929796" protocol="tel" >}}\
+Telefon: {{< cloakemail address="+49 7531 929796" protocol="tel" >}}
 E-Mail: {{< cloakemail "info@waldorfkindergarten-konstanz.de" >}}
 
 ## Datenschutz­erklärung
@@ -77,9 +77,9 @@ Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies z
 
 Wir setzen folgende(n) Hoster ein:
 
-Uberspace\
-Jonas Pasche\
-Kaiserstr. 15\
+Uberspace
+Jonas Pasche
+Kaiserstr. 15
 55116 Mainz
 
 ##### Auftragsverarbeitung
@@ -200,8 +200,8 @@ Bei der Analyse mit Matomo setzen wir IP-Anonymisierung ein. Hierbei wird Ihre I
 
 Wir hosten Matomo bei folgendem Drittanbieter:
 
-Max Mehl IT-Dienstleistungen\
-Line-Eid-Straße 6\
+Max Mehl IT-Dienstleistungen
+Line-Eid-Straße 6
 78467 Konstanz
 
 ### 6. Kartendienste

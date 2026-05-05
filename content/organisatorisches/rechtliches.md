@@ -7,7 +7,7 @@ menus:
   footer2:
     weight: 40
 banner:
-  image: images/stock/unterschrift.jpg
+  image: /images/stock/unterschrift.jpg
   processes:
     - "fill 1900x600 center"
   filter:

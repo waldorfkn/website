@@ -1,17 +1,17 @@
 images:
-  - image: images/stock/blaetter.jpg
+  - image: /images/stock/blaetter.jpg
     text: "Kinder brauchen Raum für Phantasie"
     processes:
     - "fill 1900x600 Top"
     filter:
       - GaussianBlur: 1
-  - image: images/stock/kinder-schaukel.jpg
+  - image: /images/stock/kinder-schaukel.jpg
     text: "Starkes Fundament durch Gemeinschaft"
     processes:
     - "fill 1900x600 center"
     filter:
       - GaussianBlur: 1
-  - image: images/stock/trampolin-kleinkind.jpg
+  - image: /images/stock/trampolin-kleinkind.jpg
     text: "Spielend die Welt entdecken"
     processes:
     - "fill 1900x600 Top"

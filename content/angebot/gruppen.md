@@ -8,7 +8,7 @@ menus:
   footer1:
     weight: 20
 banner:
-  image: images/stock/kindergruppe.jpg
+  image: /images/stock/kindergruppe.jpg
   processes:
     - "fill 1900x600"
   filter:

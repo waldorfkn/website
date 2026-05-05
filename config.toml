@@ -23,6 +23,14 @@ disableKinds = ["taxonomy", "rss"]
     leftDoubleQuote = '„'
     rightDoubleQuote = '“'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.link]
+        useEmbedded = "fallback"
+
 [menu]
 # Main menu
 [[menu.main]]

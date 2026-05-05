@@ -7,7 +7,7 @@ menus:
   footer1:
     weight: 30
 banner:
-  image: images/stock/blumengiessen.jpg
+  image: /images/stock/blumengiessen.jpg
   processes:
     - "fill 1900x600 center"
   filter:

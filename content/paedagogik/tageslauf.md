@@ -6,7 +6,7 @@ menus:
     weight: 20
 #   footer1:
 banner:
-  image: images/stock/kinder-kreis.jpg
+  image: /images/stock/kinder-kreis.jpg
   processes:
     - "fill 1900x1000 center"
   filter:

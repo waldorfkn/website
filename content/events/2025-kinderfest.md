@@ -2,7 +2,7 @@
 title: Kinderfest 2025
 event_date: 2025-09-13
 banner:
-  image: images/events/kinderfest.jpg
+  image: /images/events/kinderfest.jpg
   filter:
     - GaussianBlur: 2
     - Brightness: 0

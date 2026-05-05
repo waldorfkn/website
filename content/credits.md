@@ -1,7 +1,7 @@
 ---
 title: "Credits"
 banner:
-  image: images/stock/daumen-hoch.jpg
+  image: /images/stock/daumen-hoch.jpg
   processes:
     - resize 2000x
     - crop 2000x800 top

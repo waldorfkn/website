@@ -7,7 +7,7 @@ menus:
   footer2:
     weight: 10
 banner:
-  image: images/stock/notepad.jpg
+  image: /images/stock/notepad.jpg
   processes:
     - "fill 1900x600 center"
   filter:
