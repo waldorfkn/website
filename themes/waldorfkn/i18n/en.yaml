@@ -129,3 +129,6 @@
 
 - id: previewText
   translation: "The official website is always available [here]({{ . }})."
+
+- id: noVacancies
+  translation: "Currently we have no open positions. However, an unsolicited application is always worthwhile and never gets lost."
