@@ -3,6 +3,11 @@
 backend:
   name: github
   repo: waldorfkn/website
+  squash_merges: true
+  branch: test
+
+app_title: "Admin | Waldorfkindergarten Konstanz"
+publish_mode: editorial_workflow
 
 media_folder: /static/img/
 public_folder: /images/
