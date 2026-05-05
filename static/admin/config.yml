@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: waldorfkn/website
+
+media_folder: /static/img/
+public_folder: /images/
+
+collections:
+  - name: events
+    label: Events
+    label_singular: Event
+    folder: /content/events
+    slug: "{{event_date | date('YYYY')}}-{{slug}}"
+    format: yaml-frontmatter
+    media_folder: /static/img/events/
+    public_folder: /images/events/
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Event Date, name: event_date, widget: datetime, type: date }
+      - label: Banner
+        name: banner
+        widget: object
+        required: false
+        fields:
+          - { label: Image, name: image, widget: image }
+          - name: filter
+            widget: hidden
+            default:
+              - GaussianBlur: 2
+              - Brightness: 0
+      - { label: Body, name: body, widget: richtext }
