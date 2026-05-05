@@ -7,7 +7,7 @@ menus:
   footer1:
     weight: 10
 banner:
-  image: images/stock/handschlag.jpg
+  image: /images/stock/handschlag.jpg
   processes:
     - "fill 1900x600"
   filter:

@@ -7,7 +7,7 @@ menus:
   footer1:
     weight: 40
 banner:
-  image: images/stock/holzarbeit-zusammen.jpg
+  image: /images/stock/holzarbeit-zusammen.jpg
   processes:
     - "fill 1900x600 left"
   filter:

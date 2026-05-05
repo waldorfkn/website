@@ -7,7 +7,7 @@ menus:
     weight: 60
 #   footer1:
 banner:
-  image: images/stock/regenschirm-regenbogen.jpg
+  image: /images/stock/regenschirm-regenbogen.jpg
   processes:
     - "fill 1900x600"
   filter:

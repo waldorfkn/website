@@ -7,7 +7,7 @@ menus:
   footer1:
     weight: 50
 banner:
-  image: images/stock/geldbeutel-schwarz.jpg
+  image: /images/stock/geldbeutel-schwarz.jpg
   processes:
     - "fill 1900x600"
   filter:

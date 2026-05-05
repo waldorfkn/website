@@ -6,7 +6,7 @@ menus:
     weight: 50
 #   footer1:
 banner:
-  image: images/stock/menschen-haende.jpg
+  image: /images/stock/menschen-haende.jpg
   processes:
     - "fill 1900x600"
   filter:

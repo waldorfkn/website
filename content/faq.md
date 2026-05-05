@@ -6,7 +6,7 @@ menus:
   footer2:
     weight: 50
 banner:
-  image: images/stock/fragezeichen-wald.jpg
+  image: /images/stock/fragezeichen-wald.jpg
   processes:
     - "fill 1900x600 center"
   filter:

@@ -7,7 +7,7 @@ menus:
   footer2:
     weight: 30
 banner:
-  image: images/stock/jahreszeiten-blaetter.jpg
+  image: /images/stock/jahreszeiten-blaetter.jpg
   processes:
     - "fill 1900x600 center"
   filter:

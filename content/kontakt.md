@@ -5,7 +5,7 @@ menus:
     name: Kontakt
     weight: 60
 banner:
-  image: images/stock/telefon-wiese.jpg
+  image: /images/stock/telefon-wiese.jpg
   processes:
     - "fill 1900x600 center"
   filter:

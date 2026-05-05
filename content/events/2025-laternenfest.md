@@ -2,7 +2,7 @@
 title: Laternenfest
 event_date: 2025-11-11
 banner:
-  image: images/events/laternenfest.jpg
+  image: /images/events/laternenfest.jpg
   filter:
     - GaussianBlur: 2
     - Brightness: 0

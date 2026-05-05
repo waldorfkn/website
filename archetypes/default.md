@@ -6,7 +6,7 @@ menus:
 #     weight:
 #   footer1:
 # banner:
-#   image: images/
+#   image: /images/
 #   processes:
 #     - "fill 1900x600"
 #   filter:

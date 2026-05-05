@@ -2,7 +2,7 @@
 title: Frühlingsfest
 event_date: 2026-05-20
 banner:
-  image: images/events/fruehlingsfest.jpg
+  image: /images/events/fruehlingsfest.jpg
   filter:
     - GaussianBlur: 2
     - Brightness: 0

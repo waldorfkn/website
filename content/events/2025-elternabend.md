@@ -2,7 +2,7 @@
 title: Elternabend Kindergarten
 event_date: 2025-10-15
 banner:
-  image: images/events/elternabend.jpg
+  image: /images/events/elternabend.jpg
   filter:
     - GaussianBlur: 2
     - Brightness: 0

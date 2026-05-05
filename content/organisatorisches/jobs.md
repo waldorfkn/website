@@ -6,7 +6,7 @@ menus:
     weight: 80
 #   footer1:
 banner:
-  image: images/stock/daumen-hoch-rot.jpg
+  image: /images/stock/daumen-hoch-rot.jpg
   processes:
     - "fill 1900x600 center"
   filter:

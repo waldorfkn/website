@@ -9,7 +9,7 @@ menus:
   footer2:
     weight: 20
 banner:
-  image: images/stock/krankheit-stethoskop.jpg
+  image: /images/stock/krankheit-stethoskop.jpg
   processes:
     - "fill 1900x600 right"
   filter:
