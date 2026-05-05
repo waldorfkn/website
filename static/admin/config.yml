@@ -8,6 +8,9 @@ media_folder: /static/img/
 public_folder: /images/
 
 collections:
+  # -----------------------------------------------------------------------
+  # Events
+  # -----------------------------------------------------------------------
   - name: events
     label: Events
     label_singular: Event
@@ -16,6 +19,22 @@ collections:
     format: yaml-frontmatter
     media_folder: /static/img/events/
     public_folder: /images/events/
+    index_file:
+      fields:
+        - { label: Title, name: title, widget: string }
+        - { name: title_hyphen, widget: hidden }
+        - { name: related_pages, widget: hidden }
+        - name: banner
+          label: Banner
+          widget: object
+          required: false
+          fields:
+            - { label: Image, name: image, widget: image }
+            - name: filter
+              widget: hidden
+              default:
+                - GaussianBlur: 2
+                - Brightness: -20
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Event Date, name: event_date, widget: datetime, type: date }
@@ -31,3 +50,230 @@ collections:
               - GaussianBlur: 2
               - Brightness: 0
       - { label: Body, name: body, widget: richtext }
+
+  # -----------------------------------------------------------------------
+  # Angebot
+  # -----------------------------------------------------------------------
+  - name: angebot
+    label: Angebot
+    format: yaml-frontmatter
+    files:
+      - name: gruppen
+        label: Gruppen und Öffnungszeiten
+        file: /content/angebot/gruppen.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Title (Hyphen), name: title_hyphen, widget: string, required: false }
+          - { name: menus, widget: hidden }
+          - &banner_field
+            name: banner
+            label: Banner
+            widget: object
+            required: false
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { name: filter, widget: hidden }
+          - { label: Body, name: body, widget: richtext }
+      - name: anmeldung
+        label: Anmeldung und Platzvergabe
+        file: /content/angebot/anmeldung.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+
+  # -----------------------------------------------------------------------
+  # Organisatorisches
+  # -----------------------------------------------------------------------
+  - name: organisatorisches
+    label: Organisatorisches
+    format: yaml-frontmatter
+    files:
+      - name: ferien
+        label: Ferien und Schließtage
+        file: /content/organisatorisches/ferien.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: beitraege
+        label: Beiträge und Finanzielles
+        file: /content/organisatorisches/beitraege.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: krankheit
+        label: Krankheit
+        file: /content/organisatorisches/krankheit.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: rechtliches
+        label: Rechtliches
+        file: /content/organisatorisches/rechtliches.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: schutzkonzept
+        label: Institutionelles Schutzkonzept
+        file: /content/organisatorisches/schutzkonzept.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: spenden
+        label: Spenden
+        file: /content/organisatorisches/spenden.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: verein
+        label: Verein
+        file: /content/organisatorisches/verein.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: jobs
+        label: Stellenangebote
+        file: /content/organisatorisches/jobs.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+
+  # -----------------------------------------------------------------------
+  # Pädagogik
+  # -----------------------------------------------------------------------
+  - name: paedagogik
+    label: Pädagogik
+    format: yaml-frontmatter
+    files:
+      - name: konzept
+        label: Konzept
+        file: /content/paedagogik/konzept.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: tageslauf
+        label: Tageslauf
+        file: /content/paedagogik/tageslauf.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: jahreslauf
+        label: Jahreslauf
+        file: /content/paedagogik/jahreslauf.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: freispiel
+        label: Freispiel
+        file: /content/paedagogik/freispiel.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: eltern
+        label: Eltern
+        file: /content/paedagogik/eltern.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+
+  # -----------------------------------------------------------------------
+  # Weitere Seiten
+  # -----------------------------------------------------------------------
+  - name: pages
+    label: Weitere Seiten
+    format: yaml-frontmatter
+    files:
+      - name: faq
+        label: Häufige Fragen
+        file: /content/faq.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: kontakt
+        label: Kontakt und Anfahrt
+        file: /content/kontakt.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: menus, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: impressum
+        label: Impressum und Datenschutz
+        file: /content/impressum.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: sitemap, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+      - name: credits
+        label: Credits
+        file: /content/credits.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { name: sitemap, widget: hidden }
+          - *banner_field
+          - { label: Body, name: body, widget: richtext }
+
+  # -----------------------------------------------------------------------
+  # Startseite: Karussell
+  # -----------------------------------------------------------------------
+  - name: carousel
+    label: Karussell (Startseite)
+    files:
+      - name: carousel
+        label: Karussell-Bilder
+        file: /data/carousel.yaml
+        format: yaml
+        fields:
+          - name: images
+            label: Images
+            widget: list
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Text, name: text, widget: string }
+              - { name: filter, widget: hidden }
+
+  # -----------------------------------------------------------------------
+  # Startseite: Merkmale
+  # -----------------------------------------------------------------------
+  - name: features
+    label: Merkmale (Startseite)
+    label_singular: Merkmal
+    folder: /data/features
+    format: yaml
+    extension: yaml
+    fields:
+      - { label: Weight, name: weight, widget: number }
+      - { label: Name, name: name, widget: string }
+      - { label: Icon (Font Awesome), name: icon, widget: string }
+      - { label: URL, name: url, widget: string, required: false }
+      - { label: Description, name: description, widget: text }
