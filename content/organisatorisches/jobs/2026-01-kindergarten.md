@@ -1,11 +1,10 @@
 ---
-title: "Erzieher:in (m/w/d) in Kindergarten-Gruppe"
+title: Erzieher:in (m/w/d) in Kindergarten-Gruppe
 weight: 2
 build:
-  render: never
   list: local
+  render: never
 ---
-**Wir bieten zum nächstmöglichen Zeitpunkt eine Stelle in unserem Waldorfkindergarten als pädagogische Fachkraft/Erzieher:in/Waldorf-Erzieher:in an.**
 
 ### Die wichtigsten Fakten
 
@@ -21,11 +20,11 @@ In einem Waldorfkindergarten zu arbeiten, bedeutet mehr als nur Betreuung – es
 
 Wer Freude daran hat, Kinder auf ihrem Weg zu begleiten, ihnen eine warme und geborgene Atmosphäre zu bieten und gemeinsam mit einem engagierten Team zu arbeiten, ist hier genau richtig.
 
-Die drei Kindergartengruppen – *Sonnengruppe, Sternengruppe und Mondgruppe* – bestehen aus je rund 20 bis 22 Kindern gemischten Alters. Eine jede verfügt über ihren eigenen Raum, der ganz individuell geschnitten und eingerichtet ist. Die Gruppen haben jeweils unterschiedliche Öffnungszeiten, damit zum einen auf die jeweiligen Bedürfnisse der Familien eingegangen werden kann, aber die Kinder innerhalb der Gruppe auch im Laufe des Tages beisammenbleiben.
+Die drei Kindergartengruppen – _Sonnengruppe, Sternengruppe und Mondgruppe_ – bestehen aus je rund 20 bis 22 Kindern gemischten Alters. Eine jede verfügt über ihren eigenen Raum, der ganz individuell geschnitten und eingerichtet ist. Die Gruppen haben jeweils unterschiedliche Öffnungszeiten, damit zum einen auf die jeweiligen Bedürfnisse der Familien eingegangen werden kann, aber die Kinder innerhalb der Gruppe auch im Laufe des Tages beisammenbleiben.
 
 Die Kindergartengruppen haben außerdem eine gemeinsame Spielzeit im großen Garten, der unter anderem mit Schaukel, Sandkasten, Klettergerüst, Rutsche, Slackline, Brunnen und Wasserlauf ausgestattet ist.
 
-Im unserer Krippengruppe - *Stübchen* - werden die Kleinen betreut (10 Kinder). Die Krippe verfügt über einen eigenen kleinen Garten, so sind die Kleinsten unter sich.
+Im unserer Krippengruppe - _Stübchen_ - werden die Kleinen betreut (10 Kinder). Die Krippe verfügt über einen eigenen kleinen Garten, so sind die Kleinsten unter sich.
 
 ### Über die ausgeschriebene Stelle
 
