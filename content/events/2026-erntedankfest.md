@@ -2,7 +2,7 @@
 title: Erntedankfest
 event_date: 2026-10-05
 banner:
-  image: /images/events/gemuese.jpg
+  image: /images/stock/gemuese.jpg
   filter:
     - GaussianBlur: 2
     - Brightness: 0
