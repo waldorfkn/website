@@ -21,13 +21,13 @@ Unser Kindergarten ist im Laufe des Jahres an etwa 30 Tagen geschlossen. Die Fer
 
 ## Aktuelle Ferien-Termine und Schließtage
 
-* Herbstferien: 30. - 31. Oktober 2025
-* 14\. November 2025: nur bis 12:00 Uhr geöffnet wegen Aufbau des Herbstbasars
-* 28\. November 2025: nur bis 12:00 Uhr geöffnet wegen Adventsplanung
-* Weihnachtsferien: 22. Dezember 2025 - 5. Januar 2026
-* 12\. Februar 2026: nur bis 12:00 Uhr geöffnet wegen Schmotzigem
-* Osterferien: 7. - 10. April 2026
-* Pfingstferien: 1. - 5. Juni 2026
+* Herbstferien: 30. Oktober 2026
+* 13\. November 2026: nur bis 12:00 Uhr geöffnet wegen Planung des Herbstbasars
+* 27\. November 2026: nur bis 12:00 Uhr geöffnet wegen Adventsplanung
+* Weihnachtsferien: 23. Dezember 2026 - 6. Januar 2027
+* 08\. Februar 2027: nur zwischen 08:00 - 12:00 Uhr geöffnet wegen Schmotzigem
+* Osterferien: 30. März - 4. April 2027
+* Pfingstferien: 24. - 28. Mai 2027
 * Sommerferien: 10. - 31. August 2026
 
 ## Veranstaltungen und Feste
