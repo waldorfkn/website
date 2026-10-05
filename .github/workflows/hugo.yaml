@@ -105,6 +105,7 @@ jobs:
   deploy:
     name: Deploy website
     needs: build
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-26.04
     permissions:
       contents: read
