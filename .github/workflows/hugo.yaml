@@ -31,8 +31,42 @@ env:
   artifact_name: website
 
 jobs:
+  # On scheduled (cron) runs, only continue if some event's upcoming/past
+  # status actually changed since the last successful scheduled build. This
+  # avoids burning artifact storage on nights where nothing would change.
+  # Push, PR, and manual dispatch runs always proceed.
+  check-schedule:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-26.04
+    permissions:
+      actions: read
+      contents: read
+    outputs:
+      events_uptodate: ${{ steps.check.outputs.events_uptodate }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup required tools with mise
+        uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
+
+      - name: Check whether events are up to date
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if mise run events-uptodate; then
+            echo "events_uptodate=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "events_uptodate=false" >> "$GITHUB_OUTPUT"
+          fi
+
   # Build job
   build:
+    needs: check-schedule
+    if: always() && needs.check-schedule.outputs.events_uptodate != 'true'
     runs-on: ubuntu-26.04
     steps:
       - name: Checkout with submodules
@@ -71,6 +105,7 @@ jobs:
   deploy:
     name: Deploy website
     needs: build
+    if: always() && needs.build.result == 'success'
     runs-on: ubuntu-26.04
     permissions:
       contents: read

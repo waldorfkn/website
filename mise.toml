@@ -1,9 +1,12 @@
 [tools]
 hugo-extended = "v0.167.0"
 lychee = "0.24.2"
+python = "3.14"
 
 [vars]
 build_dir = "public"
+github_repository = "waldorfkn/website"
+github_workflow_file = "hugo.yaml"
 
 [tasks.cleanup]
 description = "Clean up the build destination directory"
@@ -36,3 +39,9 @@ lychee \
   -u 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Apple WebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' \
   {{vars.build_dir}}/
 '''
+
+[tasks.events-uptodate]
+description = "Exit 0 if all events' upcoming/past status is already reflected by the last successful scheduled build, exit 1 if a rebuild is needed (used to skip unnecessary nightly rebuilds)"
+env.GITHUB_REPOSITORY = "{{vars.github_repository}}"
+env.GITHUB_WORKFLOW_FILE = "{{vars.github_workflow_file}}"
+run = "python3 scripts/events_uptodate.py"
