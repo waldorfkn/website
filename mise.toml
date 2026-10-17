@@ -1,5 +1,5 @@
 [tools]
-hugo-extended = "v0.167.0"
+hugo-extended = "v0.168.0"
 lychee = "0.24.2"
 python = "3.14"
 
